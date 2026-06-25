@@ -1,0 +1,30 @@
+name: Apply Channel Meta (Title + Bio)
+
+# One-off / on-demand: pushes the v2 Title + Description (Bio) to every channel via the Bot API.
+# Manual trigger only. The bot must be an admin WITH "Change channel info" in each channel.
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Preview only (no API calls)'
+        type: boolean
+        default: false
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # Zero-dep (native fetch). Just run.
+      - name: Apply channel meta
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          DRY_RUN: ${{ inputs.dry_run && '1' || '' }}
+        run: node src/apply-meta.js
