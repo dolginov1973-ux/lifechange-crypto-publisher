@@ -1,4 +1,6 @@
 name: Scheduled Publisher
+# (re-registered 2026-06-25: trivial touch to force GitHub Actions to index this
+#  schedule+dispatch-only workflow on the now-public repo.)
 
 on:
   schedule:
