@@ -1,0 +1,30 @@
+name: Bitunix Partner Probe
+
+# One-off diagnostics: tests whether the Bitunix partner dashboard backend
+# (GET /partner/user/info/{uid}, auth header `token`) is callable server-side
+# (WAF check) and whether the token + verification fields work. Manual trigger only.
+on:
+  workflow_dispatch:
+    inputs:
+      uid:
+        description: 'Bitunix UID to check (a known referral)'
+        type: string
+        default: '525949154'
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Probe Bitunix partner endpoint
+        env:
+          BITUNIX_PARTNER_TOKEN: ${{ secrets.BITUNIX_PARTNER_TOKEN }}
+          TEST_UID: ${{ inputs.uid }}
+        run: node src/bitunix-probe.js
