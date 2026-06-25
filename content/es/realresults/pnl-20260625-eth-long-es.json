@@ -1,0 +1,12 @@
+{
+  "id": "pnl-20260625-eth-long-es",
+  "channel": "es",
+  "rubric": "pnl",
+  "slot": null,
+  "lang": "es",
+  "ready": true,
+  "cta": false,
+  "title": "ETH Long 100x −8.05% (ES)",
+  "image": "assets/pnl/pnl-20260625-eth-long.png",
+  "body": "📊 P&L verificado — ETH/USDT Long · 100x · −8.05% (4h24m)\n\nLa idea: entramos long en ETH esperando un empujón de continuación.\n\nQué pasó: el precio se estancó y se movió de lado durante horas — la continuación nunca llegó, y el entry apenas se movió.\n\nTambién publicamos los trades perdedores. La lección honesta: el precio casi no se movió, pero a 100x los costos — fees y funding sobre ese tamaño — desangraron un trade plano hasta −8%. El leverage no solo amplifica el movimiento, también amplifica tus costos. Lo cerramos en vez de seguir pagando por sostener una tesis que no se estaba dando.\n\nLos trades perdedores no son el problema. Sostener uno muerto sí lo es.\n\n⚠️ Resultado pasado, no una predicción. Alto leverage = alto riesgo de pérdida total. Solo con fines educativos, no es asesoría financiera.\n\n#ResultadosReales"
+}
