@@ -9,6 +9,10 @@ on:
         description: 'Preview only (no API calls)'
         type: boolean
         default: false
+      probe:
+        description: 'Read-only diagnostics (getChat/getChatMember per channel)'
+        type: boolean
+        default: false
 
 jobs:
   apply:
@@ -27,4 +31,5 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           DRY_RUN: ${{ inputs.dry_run && '1' || '' }}
+          PROBE: ${{ inputs.probe && '1' || '' }}
         run: node src/apply-meta.js

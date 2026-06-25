@@ -39,6 +39,37 @@ async function call(method, params) {
   return { httpOk: res.ok, status: res.status, ...data };
 }
 
+// PROBE mode (PROBE=1): read-only diagnostics. For each channel, can the bot resolve it
+// (getChat works for PUBLIC usernames even without membership) and is the bot an admin with
+// the rights we need? Distinguishes "channel doesn't exist" from "bot not admin / lacks right".
+async function probe() {
+  const me = await call('getMe', {});
+  const botId = me.result?.id;
+  console.log(`\nPROBE — bot @${me.result?.username || '?'} (id ${botId ?? '?'}) · token ok: ${!!me.ok}\n`);
+  for (const [key, ch] of Object.entries(CHANNELS)) {
+    const c = await call('getChat', { chat_id: ch.chatId });
+    if (!c.ok) {
+      console.log(`  ${key.padEnd(3)} ${String(ch.chatId).padEnd(26)} NOT-FOUND   (${c.description || c.status})`);
+      continue;
+    }
+    const chat = c.result;
+    let bot = 'bot-member: ?';
+    if (botId) {
+      const m = await call('getChatMember', { chat_id: ch.chatId, user_id: botId });
+      bot = m.ok
+        ? `bot=${m.result.status} change_info=${m.result.can_change_info ?? '-'} post=${m.result.can_post_messages ?? '-'} invite=${m.result.can_invite_users ?? '-'}`
+        : `bot-member: ${m.description || m.status}`;
+    }
+    console.log(`  ${key.padEnd(3)} ${String(ch.chatId).padEnd(26)} EXISTS id=${chat.id} type=${chat.type} title="${chat.title || ''}" | ${bot}`);
+  }
+  console.log('');
+}
+
+if (process.env.PROBE) {
+  await probe();
+  process.exit(0);
+}
+
 function classify(desc = '') {
   const d = desc.toLowerCase();
   if (d.includes('not modified')) return 'UNCHANGED';
