@@ -70,6 +70,41 @@ if (process.env.PROBE) {
   process.exit(0);
 }
 
+// CLEAN mode (CLEAN=1): remove the leftover "channel name changed" service messages that
+// apply-meta's setChatTitle generated. Strategy per channel: send a marker message (this also
+// proves the sendMessage path end-to-end), learn its message_id N, then delete the marker (N)
+// and the immediately-preceding message (N-1 = the service notice, since no content was posted
+// after the title change). Channels in CLEAN_SKIP (default: id, whose title we never changed)
+// are skipped so we never touch a message we didn't create.
+async function clean() {
+  const me = await call('getMe', {});
+  const skip = new Set((process.env.CLEAN_SKIP ?? 'id').split(',').map((s) => s.trim()).filter(Boolean));
+  console.log(`\nCLEAN — bot @${me.result?.username || '?'} · token ok: ${!!me.ok} · skip=[${[...skip].join(',')}]\n`);
+  for (const [key, ch] of Object.entries(CHANNELS)) {
+    if (skip.has(key)) {
+      console.log(`  ${key.padEnd(3)} ${String(ch.chatId).padEnd(26)} SKIPPED`);
+      continue;
+    }
+    const m = await call('sendMessage', { chat_id: ch.chatId, text: '🧹', disable_notification: true });
+    if (!m.ok) {
+      console.log(`  ${key.padEnd(3)} ${String(ch.chatId).padEnd(26)} SEND-FAIL (${m.description || m.status})`);
+      continue;
+    }
+    const markerId = m.result.message_id;
+    const delMarker = await call('deleteMessage', { chat_id: ch.chatId, message_id: markerId });
+    const delService = await call('deleteMessage', { chat_id: ch.chatId, message_id: markerId - 1 });
+    const mStat = delMarker.ok ? 'marker✓' : `marker✗(${delMarker.description || delMarker.status})`;
+    const sStat = delService.ok ? 'service✓' : `service✗(${delService.description || delService.status})`;
+    console.log(`  ${key.padEnd(3)} ${String(ch.chatId).padEnd(26)} sent=${markerId} | ${mStat} | ${sStat}`);
+  }
+  console.log('');
+}
+
+if (process.env.CLEAN) {
+  await clean();
+  process.exit(0);
+}
+
 function classify(desc = '') {
   const d = desc.toLowerCase();
   if (d.includes('not modified')) return 'UNCHANGED';
