@@ -1,0 +1,12 @@
+{
+  "id": "en-macro-001",
+  "channel": "en",
+  "rubric": "macro",
+  "slot": "A",
+  "lang": "en",
+  "ready": false,
+  "cta": false,
+  "title": "Weekly Macro Brief",
+  "_note": "DRAFT — market-dependent. Fill every [..] with real values on publish day, then set ready=true. Never invent prices.",
+  "body": "📅 Weekly Macro Brief\n\nThis week the market is reacting to [dominant macro theme — e.g. rate decision / CPI print], and that's setting the tone for risk assets.\n\nWhat moved:\n• BTC held around [BTC price on publish day] after [recent move] — momentum is [neutral/cooling/building].\n• ETH tracked BTC closely; the [ETH/BTC ratio on publish day] tells us where rotation is leaning.\n• Sentiment: [funding/positioning read] — crowds are leaning [long/short], which is worth noting, not chasing.\n\nWhat we're watching this week:\n• [support level] and [resistance level] on BTC as the lines that matter.\n• [macro event + date] — volatility tends to cluster around it.\n• Whether [BTC dominance / altseason signal] keeps trending.\n\nWe don't predict the week. We map it, then react to what actually prints.\n\n#MacroBrief"
+}

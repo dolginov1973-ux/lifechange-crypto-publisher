@@ -1,0 +1,63 @@
+name: Scheduled Publisher
+
+on:
+  schedule:
+    # Every 30 minutes. The script decides per-channel (local tz) whether a post is due.
+    # Cron is UTC; quiet-hours / slots / caps are evaluated in each channel's timezone.
+    - cron: '*/30 * * * *'
+  workflow_dispatch: # manual trigger (e.g. to push a just-filled market post immediately)
+    inputs:
+      dry_run:
+        description: 'Run without sending (gate + decisions only)'
+        type: boolean
+        default: false
+
+# Needed to commit the updated state/posted-log.json back to the repo.
+permissions:
+  contents: write
+
+concurrency:
+  group: publisher
+  cancel-in-progress: false # never interrupt a run mid-send
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # No dependencies to install (zero-dep, native fetch). Just run.
+      #
+      # LIVE GATE: the script only sends for real when env LIVE is truthy. We source it
+      # from the repo *variable* `LIVE` (Settings → Secrets and variables → Actions →
+      # Variables). It is UNSET by default → the publisher runs in DRY mode (logs only,
+      # no sends, no state writes) even though the cron is enabled. Flip to live with:
+      #   gh variable set LIVE --repo dolginov1973-ux/lifechange-crypto-publisher --body true
+      # and revert with --body false (or delete the variable).
+      - name: Publish due posts
+        id: pub
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          COMMUNITY_LINK: ${{ secrets.COMMUNITY_LINK }}
+          LIVE: ${{ vars.LIVE }}
+          DRY_RUN: ${{ inputs.dry_run && '1' || '' }}
+        run: node src/publish.js
+
+      - name: Commit state if changed
+        if: ${{ steps.pub.outputs.sent != '0' && steps.pub.outputs.sent != '' }}
+        run: |
+          if git diff --quiet -- state/posted-log.json; then
+            echo "No state change to commit."
+          else
+            git config user.name "lc-publisher-bot"
+            git config user.email "lc-publisher-bot@users.noreply.github.com"
+            git add state/posted-log.json
+            git commit -m "chore(state): record ${{ steps.pub.outputs.sent }} published post(s) [skip ci]"
+            git push
+          fi

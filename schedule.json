@@ -1,0 +1,45 @@
+{
+  "_comment": "Weekly grid from content_foundation_pack §1.2. Both channels follow the SAME rubric grid but each fires on its OWN timezone (en=Asia/Manila reference for India/Philippines evening overlap, hi=Asia/Kolkata IST). day = local weekday in the channel tz. slot A=morning 09:00-10:00, B=evening 18:00-19:30. cta=true marks the natural CTA carrier for the day (P&L, Education). Sunday is intentionally light.",
+  "timezones": {
+    "en": "Asia/Manila",
+    "hi": "Asia/Kolkata"
+  },
+  "_seedPnlComment": "FIRST-WEEK P&L SEED DRIP (reversible). The 5 seed P&L screenshots should go out ~1/day for the first week instead of 1/week on the normal Friday slot. Mechanism: the normal Friday grid pnl-B slot fires the FIRST P&L (2026-06-26). For each channel-local date in `dates` (the next 4 days, Sat–Tue), the publisher injects an extra pnl post in the DEDICATED seed slot `S` (19:30–20:30 local) — a separate slot id from the grid's A/B so it never collides with or is suppressed by a normal evening grid post (Mon psychology-B, Tue education-B). Each day picks the next un-posted ready pnl. Net: 5 P&L over Fri–Tue, ~1/day. Once all `dates` are in the past this block is inert and P&L reverts to the weekly Friday B slot automatically. To DISABLE early: set `enabled` to false (or delete this block).",
+  "seedPnl": {
+    "enabled": true,
+    "slot": "S",
+    "dates": [
+      "2026-06-27",
+      "2026-06-28",
+      "2026-06-29",
+      "2026-06-30"
+    ]
+  },
+  "grid": {
+    "Mon": [
+      { "slot": "A", "rubric": "macro", "cta": false },
+      { "slot": "B", "rubric": "psychology", "cta": false }
+    ],
+    "Tue": [
+      { "slot": "A", "rubric": "btc-setup", "cta": false },
+      { "slot": "B", "rubric": "education", "cta": true }
+    ],
+    "Wed": [
+      { "slot": "A", "rubric": "checklist", "cta": false }
+    ],
+    "Thu": [
+      { "slot": "A", "rubric": "btc-setup", "cta": false },
+      { "slot": "B", "rubric": "teardown", "cta": false }
+    ],
+    "Fri": [
+      { "slot": "A", "rubric": "education", "cta": false },
+      { "slot": "B", "rubric": "pnl", "cta": true }
+    ],
+    "Sat": [
+      { "slot": "A", "rubric": "psychology", "cta": false }
+    ],
+    "Sun": [
+      { "slot": "A", "rubric": "macro", "cta": false }
+    ]
+  }
+}

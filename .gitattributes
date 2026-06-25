@@ -1,0 +1,13 @@
+# Normalize line endings; keep shell scripts LF so they run on Linux CI.
+* text=auto eol=lf
+*.json text eol=lf
+*.js text eol=lf
+*.sh text eol=lf
+*.yml text eol=lf
+
+# Binary assets — never apply text/EOL normalization (P&L screenshots for sendPhoto).
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary

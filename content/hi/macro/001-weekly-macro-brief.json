@@ -1,0 +1,12 @@
+{
+  "id": "hi-macro-001",
+  "channel": "hi",
+  "rubric": "macro",
+  "slot": "A",
+  "lang": "hi",
+  "ready": false,
+  "cta": false,
+  "title": "साप्ताहिक मार्केट ओवरव्यू",
+  "_note": "DRAFT — market-dependent. Fill every [..] on publish day, then set ready=true.",
+  "body": "📅 साप्ताहिक मार्केट ओवरव्यू\n\nइस हफ्ते मार्केट [dominant macro theme] पर रिएक्ट कर रहा है, और यही पूरे हफ्ते का माहौल तय कर रहा है।\n\nक्या हिला:\n• BTC [BTC price on publish day] के आसपास टिका रहा — momentum अभी [neutral/धीमा/बनता हुआ] है।\n• ETH ने BTC को करीब से फॉलो किया; [ETH/BTC ratio on publish day] बताता है कि rotation किस तरफ झुक रहा है।\n• Sentiment: [funding/positioning read] — भीड़ [long/short] की तरफ झुकी है। इसे नोट करना है, पीछे भागना नहीं।\n\nइस हफ्ते हम क्या देख रहे हैं:\n• BTC पर [support level] और [resistance level] — यही असली लाइनें हैं।\n• [macro event + date] — इसके आसपास volatility अक्सर बढ़ती है।\n• [BTC dominance / altseason signal] का ट्रेंड बना रहता है या नहीं।\n\nहम हफ्ते की भविष्यवाणी नहीं करते। हम उसका नक्शा बनाते हैं, फिर जो असल में होता है उस पर रिएक्ट करते हैं।\n\n#MacroBrief"
+}

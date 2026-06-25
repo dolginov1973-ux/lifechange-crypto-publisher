@@ -1,0 +1,12 @@
+{
+  "id": "en-education-001",
+  "channel": "en",
+  "rubric": "education",
+  "slot": null,
+  "lang": "en",
+  "ready": true,
+  "cta": true,
+  "title": "What is the funding rate?",
+  "_note": "EVERGREEN — example placeholders replaced with neutral wording (no invented numbers). CTA via {{COMMUNITY}} marker (dropped if COMMUNITY_LINK empty).",
+  "body": "🎓 What is the funding rate?\n\nWhat is it?\nOn perpetual futures, funding is a small periodic payment exchanged directly between long and short traders. It's the mechanism that keeps the perp price tethered to the spot price.\n\nWhy it matters\nFunding tells you which side is crowded. When it's strongly positive, longs are paying shorts — the crowd is leaning long, and you're paying to hold that position. Strongly negative flips it. It's both a cost and a sentiment read.\n\nA concrete example\nWhen funding is positive and you hold a long, you pay a small amount to the shorts at each funding interval. It's tiny per interval — but it compounds the longer you sit in the position, and leverage makes that drag bigger. The exact figure depends on the live funding rate and your position size, so always check it on the exchange before you commit.\n\nTakeaway\nFunding isn't a buy or sell signal. It's a clue about positioning and a cost you must price in before you ever open a leveraged position.\n\nQuestions about funding rates? Ask in the community — that's exactly what it's for. Educational, not advice. 👉 {{COMMUNITY}}\n\n#CryptoSchool"
+}

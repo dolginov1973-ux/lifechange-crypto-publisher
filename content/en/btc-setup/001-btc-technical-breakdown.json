@@ -1,0 +1,12 @@
+{
+  "id": "en-btc-setup-001",
+  "channel": "en",
+  "rubric": "btc-setup",
+  "slot": "A",
+  "lang": "en",
+  "ready": false,
+  "cta": false,
+  "title": "BTC Technical Breakdown",
+  "_note": "DRAFT — market-dependent. Fill every [..] (price, levels, invalidation) on publish day, then set ready=true. Never invent prices.",
+  "body": "🔍 BTC Technical Breakdown\n\nThese are scenarios to study — not an entry signal.\n\n1️⃣ Context\nBTC is trading near [BTC price on publish day], inside a [trend regime — e.g. range / uptrend pullback]. Structure is [holding/weakening] for now.\n\n2️⃣ Key levels\n• Support: [support level]\n• Resistance: [resistance level]\nThese are the zones where the next move likely decides itself.\n\n3️⃣ Scenario A — bullish path\nIF price reclaims and holds above [resistance level], THEN watch for continuation toward [higher level]. Confirmation matters more than the first touch.\n\n4️⃣ Scenario B — bearish path\nIF price loses [support level] and accepts below it, THEN watch [lower level] as the next area of interest.\n\n5️⃣ Invalidation + risk\nThis whole read is invalidated if [invalidation condition — e.g. a clean break back through a reclaimed level]. No setup here is a recommendation to trade — it's a framework to think with. Define your own invalidation before you ever consider a position.\n\n#BTCSetup"
+}

@@ -1,0 +1,27 @@
+name: Lint Posts (compliance)
+
+on:
+  push:
+    paths:
+      - 'content/**'
+      - 'src/**'
+      - 'schedule.json'
+  pull_request:
+    paths:
+      - 'content/**'
+      - 'src/**'
+  workflow_dispatch:
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Syntax check
+        run: |
+          for f in src/*.js; do node --check "$f"; done
+      - name: Compliance lint (ready posts must pass)
+        run: node src/check.js

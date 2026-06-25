@@ -1,0 +1,12 @@
+{
+  "id": "hi-education-001",
+  "channel": "hi",
+  "rubric": "education",
+  "slot": null,
+  "lang": "hi",
+  "ready": true,
+  "cta": true,
+  "title": "Funding rate क्या होता है?",
+  "_note": "EVERGREEN — example placeholders replaced with neutral wording (no invented numbers). CTA via {{COMMUNITY}}.",
+  "body": "🎓 Funding rate क्या होता है?\n\nयह है क्या?\nPerpetual futures में funding एक छोटा, समय-समय पर होने वाला payment है जो सीधे long और short traders के बीच होता है। यही वो mechanism है जो perp price को spot price के करीब बांधे रखता है।\n\nयह क्यों मायने रखता है\nFunding बताता है कि भीड़ किस तरफ है। जब यह काफ़ी positive होता है, तो longs shorts को pay कर रहे होते हैं — यानी भीड़ long की तरफ झुकी है, और उस position को होल्ड करने की आपको कीमत चुकानी पड़ रही है। Strongly negative होने पर उल्टा। यह एक cost भी है और sentiment का संकेत भी।\n\nएक ठोस उदाहरण\nजब funding positive होता है और आपके पास long है, तो हर funding interval पर आप shorts को थोड़ा-सा pay करते हैं। हर interval पर यह बहुत छोटा होता है — लेकिन जितनी देर position में बैठे रहेंगे उतना जुड़ता जाएगा, और leverage इस बोझ को और बढ़ा देता है। असली आँकड़ा live funding rate और आपके position size पर निर्भर करता है, इसलिए commit करने से पहले हमेशा exchange पर देख लें।\n\nमुख्य बात\nFunding कोई buy या sell signal नहीं है। यह positioning का एक संकेत है, और एक cost है जिसे leveraged position खोलने से पहले हिसाब में लेना ज़रूरी है।\n\nFunding rate को लेकर सवाल हैं? कम्युनिटी में पूछें — यह इसी के लिए है। शैक्षिक उद्देश्य से, सलाह नहीं। 👉 {{COMMUNITY}}\n\n#CryptoSchool"
+}

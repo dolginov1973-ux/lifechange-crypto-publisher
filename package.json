@@ -1,0 +1,16 @@
+{
+  "name": "lifechange-crypto-publisher",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Lightweight git-based scheduled publisher for Lifechange Crypto Telegram channels (EN + Hindi) with a hard compliance gate.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "publish-due": "node src/publish.js",
+    "check": "node src/check.js",
+    "dry-run": "node src/publish.js --dry-run",
+    "lint:posts": "node src/check.js --all"
+  }
+}
