@@ -1,0 +1,12 @@
+{
+  "id": "id-macro-001",
+  "channel": "id",
+  "rubric": "macro",
+  "slot": "A",
+  "lang": "id",
+  "ready": false,
+  "cta": false,
+  "title": "Analisa Pagi (anchor harian)",
+  "_note": "DRAFT v2 (#AnalisaPagi). Anchor pagi harian. Isi semua [..] di hari publish, lalu ready=true. Jangan mengarang harga.",
+  "body": "☀️ #AnalisaPagi — [date]\n\nDi mana posisi pasar dan ke mana kami berburu hari ini.\n\nKondisi tape:\n• BTC ada di sekitar [BTC price] setelah [recent move] — momentum terbaca [building / cooling / neutral].\n• ETH sedang [tracking / leading / lagging] BTC; [ETH/BTC read] memberi tahu ke mana arah rotasi.\n• Funding & positioning: [funding read] — crowd condong ke [long/short]. Ekstrem yang ramai justru kami fade, bukan kami kejar.\n\nDi radar:\n• [support level] dan [resistance level] di BTC — garis yang menentukan pergerakan hari ini.\n• [coin/event placeholder] — menunggu setup yang bersih, bukan memaksakannya.\n• [macro/liq-heatmap note] — di mana stop-stop bertumpuk.\n\nKalau sebuah setup lolos cek data kami hari ini, ia dikirim ke VIP sebagai sinyal — SL diset sebelum entry, Signal ID terlampir. Versi demo-nya mendarat di sini dengan delay.\n\nKami tidak memprediksi hari. Kami memetakannya, mengecek datanya, dan menarik pelatuk hanya saat ≥2 hal sejalan.\n\n#AnalisaPagi"
+}

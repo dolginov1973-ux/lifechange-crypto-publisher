@@ -22,6 +22,44 @@ export const CHANNELS = {
     riskDisclaimer:
       'सिर्फ़ शैक्षिक उद्देश्य से — यह कोई निवेश सलाह नहीं है। क्रिप्टो फ्यूचर्स में नुकसान का जोखिम बहुत ज़्यादा होता है।',
   },
+  // --- v2 launch locales (added 2026-06-25). Same rubric grid, each on its own tz.
+  // Localization = cultural adaptation, not translation; exchange terms stay EN; the
+  // risk disclaimer is FULLY localized (injected per-channel so it can never be forgotten).
+  pt: {
+    key: 'pt',
+    chatId: '@LifeChange_crypto_pt',
+    tz: 'America/Sao_Paulo', // BRT (Brazil)
+    riskDisclaimer:
+      'Apenas educacional — não é consultoria financeira. Futuros de cripto carregam alto risco de perda total.',
+  },
+  vi: {
+    key: 'vi',
+    chatId: '@LifeChange_crypto_vi',
+    tz: 'Asia/Ho_Chi_Minh', // ICT (Vietnam)
+    riskDisclaimer:
+      'Chỉ mang tính giáo dục — không phải tư vấn tài chính. Crypto futures có rủi ro mất vốn toàn bộ.',
+  },
+  es: {
+    key: 'es',
+    chatId: '@LifeChange_crypto_es',
+    tz: 'America/Mexico_City', // CST (LatAm reference)
+    riskDisclaimer:
+      'Solo con fines educativos — no es asesoría financiera. Los futuros de criptomonedas conllevan un alto riesgo de pérdida total.',
+  },
+  tr: {
+    key: 'tr',
+    chatId: '@LifeChange_crypto_tr',
+    tz: 'Europe/Istanbul', // TRT (Turkey)
+    riskDisclaimer:
+      'Yalnızca eğitim amaçlıdır — finansal tavsiye değildir. Kripto futures yüksek kayıp riski taşır.',
+  },
+  id: {
+    key: 'id',
+    chatId: '@LifeChange_crypto_id',
+    tz: 'Asia/Jakarta', // WIB (Indonesia)
+    riskDisclaimer:
+      'Hanya untuk edukasi — bukan nasihat keuangan. Crypto futures membawa risiko kerugian total yang tinggi.',
+  },
 };
 
 // ---------------------------------------------------------------------------
@@ -120,6 +158,97 @@ export const BANNED_TERMS = {
     'आसान पैसा', // easy money
     'वादा.{0,12}(दोहरा|दोगुना|मुनाफ़|मुनाफ|कमाई|रिटर्न)', // "वादा дохода"-style: promise + income word
     'दोहरा करो', // double it
+  ],
+  // --- v2 launch locales. Income-promise (group B) + licensed/regulated (group C) per
+  // content pack v2 §6.5. EN list always runs too (see compliance.js), so these only need
+  // the language-specific fabricated-income / guarantee phrasings. Kept conservative to
+  // avoid false positives on normal trading copy.
+  pt: [
+    'lucro garantido', // guaranteed profit
+    'lucros? garantidos?',
+    'ganhos? garantidos?',
+    'ganho garantido',
+    'fique rico', // get rich
+    'dinheiro fácil', // easy money
+    'renda passiva', // passive income
+    'sem risco', // risk-free
+    'dobre (o seu|seu) (dinheiro|capital|conta)', // double your money
+    // Fake advertised win/hit-rate: only block when paired with a fabricated % figure
+    // (bare "taxa de acerto" can appear in the negated "NOT a fixed win-rate" guidance).
+    '\\d{2,3}\\s?%\\s?(de )?(acerto|acertos|ganho|sucesso)', // 92% win/accuracy
+    '(taxa|índice) de (acerto|acertos|vit[óo]rias)\\s?(de\\s?)?\\d{2,3}\\s?%', // hit-rate 92%
+    'licenciad[ao]', // licensed
+    'regulamentad[ao]', // regulated
+  ],
+  vi: [
+    'lợi nhuận đảm bảo', // guaranteed profit
+    'cam kết lợi nhuận', // committed profit
+    'đảm bảo thắng', // guaranteed win
+    'chắc chắn thắng', // sure win
+    'làm giàu', // get rich
+    'tiền dễ', // easy money
+    'thu nhập thụ động', // passive income
+    'không rủi ro', // risk-free
+    'nhân đôi (tài khoản|tiền)', // double your account/money
+    // Fake win-rate: block only with a fabricated % (bare "tỷ lệ thắng" appears in the
+    // negated "NOT a fixed win-rate %" template guidance, which is allowed).
+    '\\d{2,3}\\s?%\\s?(thắng|chính xác|thành công)', // 92% win/accuracy/success
+    't[ỷỉ] lệ thắng\\s?(là\\s?)?\\d{2,3}\\s?%', // win rate is 92%
+    'được cấp phép', // licensed
+    'được quản lý', // regulated (as a claim)
+  ],
+  es: [
+    'ganancia garantizada', // guaranteed profit
+    'ganancias garantizadas',
+    'beneficio garantizado',
+    'hazte rico', // get rich
+    'dinero fácil', // easy money
+    'ingreso pasivo', // passive income
+    'ingresos pasivos',
+    'sin riesgo', // risk-free
+    'duplica tu (dinero|cuenta|capital)', // double your money
+    // Fake hit-rate: block only with a fabricated % (bare "tasa de aciertos" can appear
+    // in the negated "NO un porcentaje de éxito fijo" template guidance, which is allowed).
+    '\\d{2,3}\\s?%\\s?(de )?(acierto|aciertos|ganancia|éxito|exito)', // 92% win/accuracy
+    'tasa de (acierto|aciertos|éxito|exito)\\s?(del?\\s?)?\\d{2,3}\\s?%', // hit-rate of 92%
+    'con licencia', // licensed (as a claim)
+    'regulad[ao]', // regulated
+  ],
+  tr: [
+    'garantili kazanç', // guaranteed profit/earnings
+    'garantili kâr',
+    'garantili kar',
+    'kesin kazanç', // sure win
+    'zengin ol', // get rich
+    'kolay para', // easy money
+    'pasif gelir', // passive income
+    'risksiz', // risk-free
+    'paranı (ikiye katla|katla)', // double your money
+    'hesabını ikiye katla',
+    // Fake success/win-rate: block only with a fabricated % (bare "kazanç oranı" appears
+    // in the negated "sabit kazanç oranı % VERİLMEZ" template guidance, which is allowed).
+    '%\\s?\\d{2,3}\\s?(kazanç|başarı|isabet|doğruluk)', // %92 win/success/accuracy
+    '(kazanç|başarı|isabet) oranı\\s?%?\\s?\\d{2,3}', // win/success rate 92
+    'lisanslı', // licensed
+    'denetimli', // regulated/supervised
+  ],
+  id: [
+    'profit (dijamin|terjamin)', // guaranteed profit
+    'keuntungan (dijamin|terjamin)',
+    'dijamin (untung|profit|cuan)', // guaranteed win
+    'pasti (untung|profit|menang)', // sure profit/win
+    'cepat kaya', // get rich quick
+    'uang mudah', // easy money
+    'penghasilan pasif', // passive income
+    'tanpa risiko', // risk-free
+    'gandakan (uang|modal|akun)', // double your money
+    // Fake advertised win-rate: block only with a fabricated % (bare "win rate" /
+    // "tingkat kemenangan" can appear in the negated "NOT a fixed win-rate %" guidance).
+    '\\d{2,3}\\s?%\\s?(win ?rate|akurasi|menang|profit)', // 92% win-rate/accuracy
+    '(win ?rate|tingkat (kemenangan|akurasi))\\s?\\d{2,3}\\s?%', // win rate 92%
+    'berlisensi', // licensed
+    'teregulasi', // regulated
+    'diatur (pemerintah|regulator)', // government regulated
   ],
 };
 

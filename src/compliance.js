@@ -6,9 +6,16 @@
 
 import { BANNED_TERMS, BITUNIX_FORBIDDEN } from './config.js';
 
-// Compile banned-term regexes once.
-const EN_BANNED = BANNED_TERMS.en.map((src) => new RegExp(src, 'gi'));
-const HI_BANNED = BANNED_TERMS.hi.map((src) => new RegExp(src, 'gi'));
+// Compile banned-term regexes once, per language. EN always runs; the post's own
+// language lexicon (if any) is merged on top so each locale gets its fabricated-income /
+// guarantee / licensed phrasings checked too (config.BANNED_TERMS.{hi,pt,vi,es,tr,id}).
+const COMPILED = Object.fromEntries(
+  Object.entries(BANNED_TERMS).map(([lang, list]) => [
+    lang,
+    list.map((src) => new RegExp(src, 'gi')),
+  ]),
+);
+const EN_BANNED = COMPILED.en;
 const BITUNIX = BITUNIX_FORBIDDEN.map((src) => new RegExp(src, 'gi'));
 
 // Unfilled placeholder = a [...] block. We treat ANY [ ... ] containing a letter as a
@@ -29,8 +36,9 @@ export function checkText(text, { lang = 'en' } = {}) {
     });
   }
 
-  // Item 1 — banned profit/return/guarantee language (EN always + lang lexicon).
-  const banks = lang === 'hi' ? [...EN_BANNED, ...HI_BANNED] : EN_BANNED;
+  // Item 1 — banned profit/return/guarantee language (EN always + this lang's lexicon).
+  const langBank = lang && lang !== 'en' && COMPILED[lang] ? COMPILED[lang] : [];
+  const banks = [...EN_BANNED, ...langBank];
   const hits = new Set();
   for (const re of banks) {
     re.lastIndex = 0;

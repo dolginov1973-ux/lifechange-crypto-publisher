@@ -1,0 +1,12 @@
+{
+  "id": "pt-teardown-001",
+  "channel": "pt",
+  "rubric": "teardown",
+  "slot": "B",
+  "lang": "pt",
+  "ready": false,
+  "cta": false,
+  "title": "Resultado Mensal (placar verificado · template)",
+  "_note": "DRAFT v2 (#ResultadoMensal). Apenas contagens GANHOS/PERDAS, NUNCA win-rate fixo %. Preencher [..] do log no fim do mês, depois ready=true. Nunca inventar números.",
+  "body": "📊 #ResultadoMensal — [Mês]\n\nSinais postados: [N]\nPor tipo:\n• Scalp → GANHOS [w] / PERDAS [l]\n• Swing → GANHOS [w] / PERDAS [l]\n• [tipo] → GANHOS [w] / PERDAS [l]\n\nMelhor: LC-[####] [+R]R   ·   Pior: LC-[####] [−R]R\n\nLeitura geral: [linha qualitativa honesta — SEM % de win-rate fixo]\n\nTodo trade acima está no nosso log público com prints da exchange. Confira você mesmo.\n\n#ResultadoMensal"
+}

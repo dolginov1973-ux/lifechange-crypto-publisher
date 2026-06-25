@@ -1,0 +1,12 @@
+{
+  "id": "id-btc-setup-001",
+  "channel": "id",
+  "rubric": "btc-setup",
+  "slot": "A",
+  "lang": "id",
+  "ready": false,
+  "cta": true,
+  "title": "Sinyal (demo delay · standar lengkap)",
+  "_note": "DRAFT v2 (#Sinyal). Standar sinyal lengkap, demo delay di free. SL wajib. Isi semua [..] di hari publish, lalu ready=true. Jangan mengarang angka. [bot link] diresolve editor.",
+  "body": "🔺 #Sinyal  ·  SIGNAL ID: LC-[####]\n\n[COIN]/USDT  |  LONG\nLeverage: [50–100]x\nEntry zone: [entry low] – [entry high]\nTP1: [tp1]   TP2: [tp2]   TP3: [tp3]\nSL: [sl]   ← hard stop, diset SEBELUM entry\n\n📏 Sizing: risiko ≤ [X]% dari akun di trade ini. Leverage-nya agresif — sizing-nya tidak. Itu inti permainannya.\n🧭 Basis: [≥2 confirming sources / data — e.g. funding + liq-heatmap + level confluence]. SL ditaruh menjauh dari liquidation magnet secara sengaja.\n\n🕒 Demo signal — ini sudah dikirim ke VIP [N] jam lalu dan diposting di sini sebagai contoh. Live signals masuk ke VIP secara real time 👉 [bot link]\n\n#Sinyal"
+}

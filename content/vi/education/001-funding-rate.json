@@ -1,0 +1,12 @@
+{
+  "id": "vi-education-001",
+  "channel": "vi",
+  "rubric": "education",
+  "slot": null,
+  "lang": "vi",
+  "ready": true,
+  "cta": true,
+  "title": "Funding rate — vì sao chúng tôi đọc trước mỗi tín hiệu",
+  "_note": "EVERGREEN v2 (#HọcCrypto). Adaptasi Variant B. Ví dụ số thay bằng câu chữ trung tính; CTA via {{COMMUNITY}}. Không placeholder → ready.",
+  "body": "🎓 Funding rate — và tại sao chúng tôi đọc nó trước mỗi tín hiệu\n\nFunding rate là gì\nTrên perpetual futures, funding là khoản thanh toán định kỳ nhỏ được chuyển trực tiếp giữa bên long và bên short. Đây là cơ chế giữ giá perp bám sát giá spot.\n\nTại sao chúng tôi quan tâm (và bạn cũng nên vậy)\nFunding cho bạn biết bên nào đang đông người. Funding dương mạnh = bên long đang trả cho bên short — mọi người đều đang nghiêng về long, và bạn đang trả tiền để ngồi đó. Funding âm mạnh = ngược lại. Ở các cực, bên đông người chính xác là bên bị thanh lý trước.\n\nChúng tôi dùng nó như thế nào\nTrước khi tín hiệu nào được gửi đi, chúng tôi kéo funding thẳng từ Bitunix (các aggregator không cover được) và chồng lên liq-heatmap. Hai điều rút ra từ đó:\n• Funding cực đoan → đám đông đang lệch bên → chúng tôi nghiêng về fade, không phải theo đà.\n• Chúng tôi đặt SL TRÁNH XA vùng thanh lý, không phải trên đó — để wick stop-hunt không hạ chúng tôi trước khi ý tưởng phát huy tác dụng.\n\nVí dụ nhanh\nKhi funding dương và bạn giữ một lệnh long, bạn trả một khoản nhỏ cho bên short ở mỗi lần funding. Mỗi lần nhỏ thôi — nhưng ở 50-100x thì cộng dồn nhanh lắm, và con số chính xác tùy thuộc vào funding rate live và size vị thế của bạn. Hãy kiểm tra trên sàn và tính vào trước khi vào lệnh.\n\nĐây là loại kiểm tra dữ liệu đằng sau mỗi #TínHiệu chúng tôi đăng. Có thắc mắc về funding? Hỏi trong cộng đồng — cộng đồng sinh ra là để vậy. 👉 {{COMMUNITY}}\n\n#HọcCrypto"
+}

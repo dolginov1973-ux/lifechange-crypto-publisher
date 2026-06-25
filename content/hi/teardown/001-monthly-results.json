@@ -1,0 +1,12 @@
+{
+  "id": "hi-teardown-001",
+  "channel": "hi",
+  "rubric": "teardown",
+  "slot": "B",
+  "lang": "hi",
+  "ready": false,
+  "cta": false,
+  "title": "Monthly Results (verified scoreboard template)",
+  "_note": "DRAFT v2 (#MonthlyResults). Bare WIN/LOSS counts only, NEVER a fixed win-rate %. Fill every [..] from public log on month-end, then ready=true. Never invent numbers.",
+  "body": "📊 #MonthlyResults — [Month]\n\nSignals posted: [N]\nType के हिसाब से:\n• Scalp → WINS [w] / LOSSES [l]\n• Swing → WINS [w] / LOSSES [l]\n• [type] → WINS [w] / LOSSES [l]\n\nBest: LC-[####] [+R]R   ·   Worst: LC-[####] [−R]R\n\nकुल मिलाकर: [honest qualitative line — कोई fixed win-rate % नहीं]\n\nऊपर का हर trade exchange screenshots के साथ हमारे public log में है। खुद चेक करें।\n\n#MonthlyResults"
+}

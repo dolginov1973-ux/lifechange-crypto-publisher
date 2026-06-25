@@ -1,0 +1,12 @@
+{
+  "id": "vi-macro-001",
+  "channel": "vi",
+  "rubric": "macro",
+  "slot": "A",
+  "lang": "vi",
+  "ready": false,
+  "cta": false,
+  "title": "Phân Tích Sáng (anchor hàng ngày)",
+  "_note": "DRAFT v2 (#PhânTíchSáng). Anchor buổi sáng hàng ngày. Điền mọi [..] trong ngày, rồi ready=true. Không bịa giá.",
+  "body": "☀️ #PhânTíchSáng — [ngày]\n\nThị trường đang ở đâu và chúng tôi đang săn gì hôm nay.\n\nBức tranh chung:\n• BTC đang ở [giá BTC] sau [diễn biến gần đây] — động lực đọc là [đang xây / đang hạ / trung tính].\n• ETH đang [theo / dẫn / tụt hậu] BTC; đọc ETH/BTC nói lên xu hướng rotation đang nghiêng về đâu.\n• Funding & positioning: [đọc funding] — đám đông đang nghiêng về [long/short]. Các cực quá đà là thứ chúng tôi fade, không phải chạy theo.\n\nTrên radar:\n• [vùng hỗ trợ] và [vùng kháng cự] trên BTC — những mức quyết định diễn biến hôm nay.\n• [coin/sự kiện placeholder] — theo dõi để tìm setup sạch, không ép lệnh.\n• [ghi chú macro/liq-heatmap] — nơi stop của đám đông đang chồng chất.\n\nNếu một setup vượt qua bước kiểm tra dữ liệu hôm nay, nó sẽ vào VIP dưới dạng tín hiệu — SL đặt trước khi vào, Signal ID đính kèm. Phiên bản demo sẽ lên đây sau.\n\nChúng tôi không đoán ngày. Chúng tôi lập bản đồ, kiểm tra dữ liệu, và chỉ bóp cò khi ≥2 yếu tố khớp nhau.\n\n#PhânTíchSáng"
+}

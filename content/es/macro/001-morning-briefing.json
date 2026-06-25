@@ -1,0 +1,12 @@
+{
+  "id": "es-macro-001",
+  "channel": "es",
+  "rubric": "macro",
+  "slot": "A",
+  "lang": "es",
+  "ready": false,
+  "cta": false,
+  "title": "Análisis Diario (ancla diaria)",
+  "_note": "DRAFT v2 (#AnalisisDiario). Ancla matinal diaria. Rellenar todos los [..] el día, luego ready=true. Nunca inventar precios.",
+  "body": "☀️ #AnalisisDiario — [fecha]\n\nDónde está el mercado y qué estamos buscando hoy.\n\nEl panorama:\n• BTC está cerca de [precio BTC] tras [movimiento reciente] — el momentum indica [acumulación / enfriamiento / neutro].\n• ETH [sigue / lidera / se queda atrás] a BTC; la lectura de ETH/BTC dice hacia dónde apunta la rotación.\n• Funding y posicionamiento: [lectura de funding] — el mercado se inclina hacia [long/short]. Los extremos saturados son para ir en contra, no para seguirlos.\n\nEn el radar:\n• [nivel de soporte] y [nivel de resistencia] en BTC — las zonas que definen el movimiento de hoy.\n• [moneda/evento placeholder] — esperando un setup limpio, sin forzar.\n• [nota macro/liq-heatmap] — donde se acumulan los stops.\n\nSi hoy aparece un setup que pasa nuestro análisis previo, va al VIP como señal — SL fijado antes de entrar, Signal ID adjunto. La versión demo llega aquí con retraso.\n\nNo predecimos el día. Lo mapeamos, revisamos los datos y disparamos solo cuando ≥2 cosas coinciden.\n\n#AnalisisDiario"
+}

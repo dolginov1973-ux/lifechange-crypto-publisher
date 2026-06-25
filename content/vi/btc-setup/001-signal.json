@@ -1,0 +1,12 @@
+{
+  "id": "vi-btc-setup-001",
+  "channel": "vi",
+  "rubric": "btc-setup",
+  "slot": "A",
+  "lang": "vi",
+  "ready": false,
+  "cta": true,
+  "title": "Tín hiệu (demo delay · chuẩn đầy đủ)",
+  "_note": "DRAFT v2 (#TínHiệu). Chuẩn tín hiệu đầy đủ, demo delay ở kênh free. SL bắt buộc. Điền mọi [..] trong ngày, rồi ready=true. Không bịa số. [bot link] do editor thay.",
+  "body": "🔺 #TínHiệu  ·  SIGNAL ID: LC-[####]\n\n[COIN]/USDT  |  LONG\nLeverage: [50–100]x\nEntry zone: [entry low] – [entry high]\nTP1: [tp1]   TP2: [tp2]   TP3: [tp3]\nSL: [sl]   ← hard stop, đặt TRƯỚC khi vào lệnh\n\n📏 Sizing: rủi ro ≤ [X]% tài khoản cho lệnh này. Đòn bẩy cao — sizing thì không. Đó là toàn bộ nguyên tắc.\n🧭 Cơ sở: [≥2 nguồn xác nhận / dữ liệu — ví dụ: funding + liq-heatmap + confluence mức giá]. SL đặt tránh xa vùng thanh lý có chủ đích.\n\n🕒 Tín hiệu demo — lệnh này đã vào VIP [N] giờ trước và được đăng ở đây làm ví dụ. Tín hiệu live vào VIP theo thời gian thực 👉 [bot link]\n\n#TínHiệu"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "pt-checklist-001",
+  "channel": "pt",
+  "rubric": "checklist",
+  "slot": null,
+  "lang": "pt",
+  "ready": true,
+  "cta": false,
+  "title": "Como checamos um sinal antes de postar",
+  "_note": "EVERGREEN v2 (#AntesDaEntrada). Variant B: data-check público pré-sinal. '[X]%' substituído por texto neutro (sem placeholder) → ready. Pure-value, sem CTA.",
+  "body": "✅ #AntesDaEntrada — como checamos um sinal antes de postar\n\nAntes de um #Sinal ir pro canal, ele passa por isso:\n\n☐ Funding do CoinGlass + liq-heatmap — o SL NÃO está num imã de liquidação?\n☐ Funding puxado direto da Bitunix (não de agregador)?\n☐ Confluência ≥2 fontes OU ≥2 confirmações de dados?\n☐ Zona de entrada e TP1/TP2/TP3 definidos antes da entrada?\n☐ Regra de sizing definida (risco dentro do limite fixo que você definiu pra si mesmo)?\n☐ Funding extremo? → multidão mal posicionada → consideramos o fade.\n☐ SL definido ANTES da entrada, não depois?\n\nRode o mesmo checklist nos seus próprios trades. Se não passar em tudo — o melhor trade às vezes é o que você pula.\n\n#AntesDaEntrada"
+}

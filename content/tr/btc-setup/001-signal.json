@@ -1,0 +1,12 @@
+{
+  "id": "tr-btc-setup-001",
+  "channel": "tr",
+  "rubric": "btc-setup",
+  "slot": "A",
+  "lang": "tr",
+  "ready": false,
+  "cta": true,
+  "title": "Sinyal (gecikmeli demo · tam standart)",
+  "_note": "DRAFT v2 (#Sinyal). Tam sinyal standardı, free'de gecikmeli demo. SL zorunlu. Tüm [..] gün içinde doldur, sonra ready=true. Sayı uydurma. [bot linki] editör tarafından çözülür.",
+  "body": "🔺 #Sinyal  ·  SİNYAL ID: LC-[####]\n\n[KOİN]/USDT  |  LONG\nLeverage: [50–100]x\nEntry zone: [alt giriş] – [üst giriş]\nTP1: [tp1]   TP2: [tp2]   TP3: [tp3]\nSL: [sl]   ← sert stop, girişten ÖNCE konulur\n\n📏 Pozisyon büyüklüğü: bu işlemde hesabın ≤ [X]%'ini riske at. Kaldıraç agresif — büyüklük değil. Oyunun tamamı bu.\n🧭 Dayanak: [≥2 onaylayan kaynak / veri — örn. funding + liq-heatmap + seviye örtüşmesi]. SL kasıtlı olarak likidite mıknatısından uzağa yerleştirildi.\n\n🕒 Demo sinyal — bu sinyal [N] saat önce VIP'e gönderildi, burada örnek olarak yayınlanıyor. Canlı sinyaller VIP'e gerçek zamanlı düşer 👉 [bot linki]\n\n#Sinyal"
+}

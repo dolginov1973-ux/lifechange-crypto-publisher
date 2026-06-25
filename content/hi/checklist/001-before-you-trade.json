@@ -6,7 +6,7 @@
   "lang": "hi",
   "ready": true,
   "cta": false,
-  "title": "ट्रेड से पहले — चेकलिस्ट",
-  "_note": "EVERGREEN pure-value. '[your risk %]' replaced with neutral wording (no invented number).",
-  "body": "✅ ट्रेड से पहले — चेकलिस्ट\n\nइसे हर बार चलाएँ। एक भी box अधूरा = कोई ट्रेड नहीं।\n\n☐ क्या मैंने अपनी thesis ट्रेड में घुसने से पहले लिखी — बाद में नहीं?\n☐ क्या मेरा invalidation level तय और साफ़ है?\n☐ क्या मेरा position size पहले से सेट है?\n☐ क्या मेरा risk-per-trade मेरे अपने तय किए हुए नियम के अंदर है?\n☐ क्या मैं एक plan पर रिएक्ट कर रहा हूँ — candle के पीछे नहीं भाग रहा?\n☐ क्या मैंने सिर्फ़ price नहीं, funding / context भी देखा?\n☐ क्या मैं शांत हूँ — FOMO या बदले में ट्रेड नहीं कर रहा?\n☐ अगर invalidation हिट हो जाए, तो क्या मैं पूरा नुकसान स्वीकार कर सकता हूँ?\n\nअगर आप सारे boxes टिक नहीं कर सकते, तो सबसे अच्छा ट्रेड है — कोई ट्रेड न करना।\n\n#BeforeYouTrade"
+  "title": "Signal पोस्ट करने से पहले हम क्या check करते हैं",
+  "_note": "EVERGREEN v2 (#BeforeYouTrade). Variant B retone: public pre-signal data-check. '[X]%' replaced with neutral wording (no placeholder) → ready. Pure-value, no CTA.",
+  "body": "✅ #BeforeYouTrade — signal पोस्ट करने से पहले हम क्या check करते हैं\n\nकोई भी #Signal channel में जाने से पहले यह पास करता है:\n\n☐ CoinGlass funding + liq heatmap — क्या SL liquidation magnet में नहीं है?\n☐ Bitunix से directly funding pull की (aggregator से नहीं)?\n☐ Confluence ≥2 sources या ≥2 data confirmations?\n☐ Entry से पहले entry zone और TP1/TP2/TP3 define हो गए?\n☐ Sizing rule set है — risk उस fixed limit के अंदर जो आपने खुद तय किया?\n☐ Extreme funding? → भीड़ crowded है → हम fade consider करते हैं।\n☐ SL entry से पहले set है, बाद में नहीं?\n\nअपने trades पर भी यही check चलाएं। हर box clear न हो — सबसे अच्छा trade वो है जिसे आप skip करें।\n\n#BeforeYouTrade"
 }

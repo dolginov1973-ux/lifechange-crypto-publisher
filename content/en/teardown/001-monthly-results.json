@@ -1,0 +1,12 @@
+{
+  "id": "en-teardown-001",
+  "channel": "en",
+  "rubric": "teardown",
+  "slot": "B",
+  "lang": "en",
+  "ready": false,
+  "cta": false,
+  "title": "Monthly Results (verified scoreboard template)",
+  "_note": "DRAFT v2 (#MonthlyResults). Monthly aggregate scoreboard — bare WIN/LOSS counts only, NEVER a fixed win-rate %. Template: fill every [..] from the public log on month-end, then set ready=true. Never invent numbers.",
+  "body": "📊 #MonthlyResults — [Month]\n\nSignals posted: [N]\nBy type:\n• Scalp → WINS [w] / LOSSES [l]\n• Swing → WINS [w] / LOSSES [l]\n• [type] → WINS [w] / LOSSES [l]\n\nBest: LC-[####] [+R]R   ·   Worst: LC-[####] [−R]R\n\nNet read: [honest qualitative line — NOT a fixed win-rate %]\n\nEvery trade above is in our public log with exchange screenshots. Check for yourself.\n\n#MonthlyResults"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "es-btc-setup-001",
+  "channel": "es",
+  "rubric": "btc-setup",
+  "slot": "A",
+  "lang": "es",
+  "ready": false,
+  "cta": true,
+  "title": "Señal (demo con retraso · estándar completo)",
+  "_note": "DRAFT v2 (#Señal). Estándar completo, demo con retraso en el free. SL obligatorio. Rellenar todos los [..] el día, luego ready=true. Nunca inventar números. [enlace al bot] lo resuelve el editor.",
+  "body": "🔺 #Señal  ·  SIGNAL ID: LC-[####]\n\n[MONEDA]/USDT  |  LONG\nLeverage: [50–100]x\nEntry zone: [precio bajo] – [precio alto]\nTP1: [tp1]   TP2: [tp2]   TP3: [tp3]\nSL: [sl]   ← hard stop, fijado ANTES de entrar\n\n📏 Sizing: riesgo ≤ [X]% de la cuenta en este trade. El leverage es agresivo — el tamaño, no. Así funciona esto.\n🧭 Base del setup: [≥2 fuentes o confirmaciones de datos — ej. funding + liq-heatmap + confluencia de niveles]. SL colocado lejos del imán de liquidaciones, a propósito.\n\n🕒 Señal demo — esta entró al VIP hace [N]h y se publica aquí como ejemplo. Las señales en vivo llegan al VIP en tiempo real 👉 [enlace al bot]\n\n#Señal"
+}

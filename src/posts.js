@@ -25,7 +25,7 @@
 import { readFileSync, readdirSync, existsSync } from 'node:fs';
 import { join, dirname, isAbsolute, normalize } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { RUBRICS } from './config.js';
+import { RUBRICS, CHANNELS } from './config.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 export const REPO_ROOT = join(__dirname, '..');
@@ -67,9 +67,9 @@ export function loadPostsForChannel(channelKey) {
   return out;
 }
 
-// Load ALL posts across both channels (for `lint:posts`).
+// Load ALL posts across every configured channel (for `lint:posts`).
 export function loadAllPosts() {
-  return ['en', 'hi'].flatMap((c) => loadPostsForChannel(c));
+  return Object.keys(CHANNELS).flatMap((c) => loadPostsForChannel(c));
 }
 
 // Pick the next eligible post for (channel, rubric, slot):

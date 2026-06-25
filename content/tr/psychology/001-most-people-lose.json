@@ -1,0 +1,12 @@
+{
+  "id": "tr-psychology-001",
+  "channel": "tr",
+  "rubric": "psychology",
+  "slot": null,
+  "lang": "tr",
+  "ready": true,
+  "cta": false,
+  "title": "Sorun 50-100x değil. Boyutsuz 50-100x.",
+  "_note": "EVERGREEN v2 (#ZihniniKontrolEt). Variant B: disiplin kaldıracı MÜMKÜN KILAR. Pure-value, CTA yok, placeholder yok → ready.",
+  "body": "🧠 Sorun 50-100x değil. Boyutsuz 50-100x.\n\nSahne:\nBir setup oluşuyor. 75x giriyorsun — ama \"iyi hissediyorsun,\" bu yüzden kuralını çok aşan büyüklükte pozisyon açıyorsun. Henüz SL yok, \"izlerim.\" Fiyat doksan saniye yanlış yönde bir wick yapıyor, pozisyon gidiyor. Suçu kaldıraca atıyorsun.\n\nGerçek hata:\nSorun hiçbir zaman kaldıraç değildi. Stop'suz ve sabit büyüklüksüz yüksek kaldıraç çalıştırmaktı. Hesabı yakan kaldıraç değildi — eksik SL ve aşırı büyük bet.\n\nİlke:\nYüksek kaldıraç bir araçtır, günah değil. Bir operatörü bir kumarbazdan ayıran iki sıkıcı alışkanlıktır:\n• Katı pozisyon büyüklüğü — işlem başına riskin girişten ÖNCE belirlenir, o anda \"his\" ile değiştirilmez.\n• Girişten önce SL — her seferinde, fikrin gerçekten yanlış olduğu yere (ve likidite mıknatısından uzağa) konulur.\n\nBu ikisini yap, 50-100x bir hassasiyet aleti haline gelir: işlem başına küçük ve kontrollü risk, haklı olduğunda büyük asimetri. Bunları atla, 5x bile seni gömer.\n\nYeniden çerçevele:\nAgresif kaldıraç kullanıyoruz — cesurca ve makbuzlarla. Disiplin daha az kaldıraç kullanmak değil. Doğru boyutlandırmak ve yanıldığında hızlıca çıkmak. Bu yüzden kayıplarımızı yayınlıyoruz: göreceğin her kırmızı işlemde SL görevini yaptı. Kontrollü kayıp, hesap sağlam, sıradaki setup.\n\n50-100x, dua ile değil stop ile.\n\n#ZihniniKontrolEt"
+}

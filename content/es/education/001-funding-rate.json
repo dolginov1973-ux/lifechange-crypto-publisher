@@ -1,0 +1,12 @@
+{
+  "id": "es-education-001",
+  "channel": "es",
+  "rubric": "education",
+  "slot": null,
+  "lang": "es",
+  "ready": true,
+  "cta": true,
+  "title": "Funding rate — por qué lo revisamos antes de cada señal",
+  "_note": "EVERGREEN v2 (#CryptoSchool). Adaptación Variant B. Ejemplo numérico reemplazado por texto neutro; CTA via {{COMMUNITY}}. Sin placeholders → ready.",
+  "body": "🎓 Funding rate — y por qué lo revisamos antes de cada señal\n\nQué es\nEn los futuros perpetuos, el funding es un pequeño pago periódico que se transfiere directamente entre longs y shorts. Es lo que mantiene el precio del perp anclado al spot.\n\nPor qué importa (y te debería importar)\nEl funding te dice qué lado está saturado. Muy positivo = los longs le pagan a los shorts — todos se inclinan long y tú estás pagando por quedarte ahí. Muy negativo = lo contrario. En los extremos, el lado saturado es exactamente el que se liquida primero.\n\nCómo lo usamos\nAntes de publicar cualquier señal, sacamos el funding directo de Bitunix (los agregadores no lo cubren bien) y lo cruzamos con el liq-heatmap. De ahí salen dos cosas:\n• Funding extremo → el mercado está posicionado de un solo lado → tendemos a ir en contra, no a seguirlo.\n• Colocamos el SL LEJOS del imán de liquidaciones, no encima — para que un wick de stop-hunt no nos saque antes de que la idea se desarrolle.\n\nEjemplo rápido\nCuando el funding es positivo y mantienes un long, pagas una pequeña cantidad a los shorts en cada intervalo de funding. Poco por intervalo — pero a 50-100x se acumula rápido, y la cifra exacta depende del funding rate en vivo y del tamaño de tu posición. Revísalo en la exchange y considéralo antes de entrar.\n\nEste es el tipo de análisis de datos que hay detrás de cada #Señal que publicamos. ¿Dudas sobre el funding? Pregunta en la comunidad — para eso está. 👉 {{COMMUNITY}}\n\n#CryptoSchool"
+}

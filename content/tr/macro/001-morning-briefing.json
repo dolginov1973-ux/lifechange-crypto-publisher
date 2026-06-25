@@ -1,0 +1,12 @@
+{
+  "id": "tr-macro-001",
+  "channel": "tr",
+  "rubric": "macro",
+  "slot": "A",
+  "lang": "tr",
+  "ready": false,
+  "cta": false,
+  "title": "Sabah Analizi (günlük anchor)",
+  "_note": "DRAFT v2 (#SabahAnalizi). Günlük sabah anchor. Tüm [..] gün içinde doldur, sonra ready=true. Fiyat uydurma.",
+  "body": "☀️ #SabahAnalizi — [tarih]\n\nBugün piyasanın durumu ve nereye baktığımız.\n\nTablo:\n• BTC [son hareket]in ardından yaklaşık [BTC fiyatı] seviyesinde — momentum [güçleniyor / soğuyor / nötr] görünüyor.\n• ETH BTC'yi [takip ediyor / öncülük ediyor / geri kalıyor]; [ETH/BTC okuma] rotasyonun nereye aktığını gösteriyor.\n• Funding ve pozisyonlanma: [funding okuma] — kalabalık [long/short] tarafta. Aşırı kalabalık noktaları kovalamıyoruz, fade ediyoruz.\n\nRadar:\n• BTC'de [destek seviyesi] ve [direnç seviyesi] — bugünkü hareketi belirleyen çizgiler.\n• [koin/olay yer tutucusu] — temiz setup bekliyoruz, zorlamıyoruz.\n• [makro/liq-heatmap notu] — stop'ların yığıldığı yer.\n\nBugün bir setup veri kontrolümüzü geçerse VIP'e sinyal olarak gönderilir — giriş öncesi SL konulur, Sinyal ID eklenir. Demo versiyonu gecikmeli burada yayınlanır.\n\nGünü tahmin etmiyoruz. Haritalıyoruz, veriyi kontrol ediyoruz ve ancak ≥2 şey örtüştüğünde tetik çekiyoruz.\n\n#SabahAnalizi"
+}

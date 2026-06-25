@@ -1,0 +1,12 @@
+{
+  "id": "id-teardown-001",
+  "channel": "id",
+  "rubric": "teardown",
+  "slot": "B",
+  "lang": "id",
+  "ready": false,
+  "cta": false,
+  "title": "Hasil Bulanan (papan skor verified · template)",
+  "_note": "DRAFT v2 (#HasilBulanan). Hanya hitungan WINS/LOSSES, TIDAK PERNAH win-rate tetap %. Isi [..] dari log akhir bulan, lalu ready=true. Jangan mengarang angka.",
+  "body": "📊 #HasilBulanan — [Month]\n\nSinyal diposting: [N]\nPer tipe:\n• Scalp → WINS [w] / LOSSES [l]\n• Swing → WINS [w] / LOSSES [l]\n• [type] → WINS [w] / LOSSES [l]\n\nTerbaik: LC-[####] [+R]R   ·   Terburuk: LC-[####] [−R]R\n\nBacaan net: [honest qualitative line — NOT a fixed win-rate %]\n\nTiap trade di atas ada di log publik kami dengan screenshot exchange. Cek sendiri.\n\n#HasilBulanan"
+}

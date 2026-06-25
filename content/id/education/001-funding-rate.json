@@ -1,0 +1,12 @@
+{
+  "id": "id-education-001",
+  "channel": "id",
+  "rubric": "education",
+  "slot": null,
+  "lang": "id",
+  "ready": true,
+  "cta": true,
+  "title": "Funding rate — kenapa kami membacanya sebelum tiap sinyal",
+  "_note": "EVERGREEN v2 (#SekolahCrypto). Adaptasi Variant B. Contoh numerik diganti kata netral (tanpa angka); CTA via {{COMMUNITY}}. Tanpa placeholder → ready.",
+  "body": "🎓 Funding rate — dan kenapa kami membacanya sebelum tiap sinyal\n\nApa itu\nDi perpetual futures, funding adalah pembayaran periodik kecil yang berpindah langsung antara longs dan shorts. Inilah yang menjaga harga perp tetap menempel ke spot.\n\nKenapa ini penting (dan harusnya penting buat kamu)\nFunding memberi tahu sisi mana yang ramai. Sangat positif = longs membayar shorts — semua orang condong long, dan kamu membayar untuk bertahan di situ. Sangat negatif = sebaliknya. Di titik ekstrem, sisi yang ramai justru sisi yang pertama kali kena liquidation.\n\nBagaimana kami memakainya\nSebelum sinyal apa pun dikirim, kami tarik funding langsung dari Bitunix (aggregator tidak menyediakannya) dan kami tumpangkan liquidation heatmap. Dua hal keluar dari situ:\n• Funding ekstrem → crowd salah posisi → kami condong fade, bukan ikut.\n• Kami menaruh SL MENJAUH dari liquidation magnet, bukan di atasnya — supaya wick stop-hunt tidak menendang kami keluar sebelum ide-nya berjalan.\n\nContoh singkat\nSaat funding positif dan kamu memegang long, kamu membayar sedikit ke shorts di tiap interval funding. Kecil per interval — tapi di 50-100x ia menumpuk cepat, dan angka pastinya tergantung funding rate live dan position size kamu. Cek di exchange dan perhitungkan sebelum kamu entry.\n\nInilah jenis cek data di balik tiap #Sinyal yang kami posting. Ada pertanyaan soal funding? Tanya di komunitas — memang untuk itu adanya. 👉 {{COMMUNITY}}\n\n#SekolahCrypto"
+}

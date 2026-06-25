@@ -1,0 +1,12 @@
+{
+  "id": "es-teardown-001",
+  "channel": "es",
+  "rubric": "teardown",
+  "slot": "B",
+  "lang": "es",
+  "ready": false,
+  "cta": false,
+  "title": "Balance Mensual (marcador verificado · plantilla)",
+  "_note": "DRAFT v2 (#BalanceMensual). Solo conteos GANANCIAS/PÉRDIDAS, NUNCA win-rate fijo %. Rellenar [..] del log a fin de mes, luego ready=true. Nunca inventar números.",
+  "body": "📊 #BalanceMensual — [Mes]\n\nSeñales publicadas: [N]\nPor tipo:\n• Scalp → GANANCIAS [g] / PÉRDIDAS [p]\n• Swing → GANANCIAS [g] / PÉRDIDAS [p]\n• [tipo] → GANANCIAS [g] / PÉRDIDAS [p]\n\nMejor resultado: LC-[####] [+R]R   ·   Peor resultado: LC-[####] [−R]R\n\nLectura neta: [línea cualitativa honesta — NO un porcentaje de éxito fijo]\n\nCada trade de arriba está en nuestro registro público con capturas del exchange. Compruébalo tú mismo.\n\n#BalanceMensual"
+}

@@ -5,8 +5,8 @@
   "slot": "A",
   "lang": "hi",
   "ready": false,
-  "cta": false,
-  "title": "BTC टेक्निकल ब्रेकडाउन",
-  "_note": "DRAFT — market-dependent. Fill every [..] on publish day, then set ready=true.",
-  "body": "🔍 BTC टेक्निकल ब्रेकडाउन\n\nये सिर्फ़ समझने के लिए scenarios हैं — कोई entry signal नहीं।\n\n1️⃣ Context\nBTC अभी [BTC price on publish day] के पास ट्रेड कर रहा है, एक [range / uptrend pullback] के अंदर। Structure फ़िलहाल [टिका हुआ/कमज़ोर पड़ता हुआ] है।\n\n2️⃣ Key levels\n• Support: [support level]\n• Resistance: [resistance level]\nयही वो zones हैं जहाँ अगली चाल तय होने की संभावना है।\n\n3️⃣ Scenario A — bullish रास्ता\nअगर price [resistance level] के ऊपर जाकर टिकता है, तो [higher level] की तरफ continuation पर नज़र रखें। पहला touch नहीं, confirmation मायने रखता है।\n\n4️⃣ Scenario B — bearish रास्ता\nअगर price [support level] खो देता है और उसके नीचे टिकता है, तो [lower level] को अगले अहम zone की तरह देखें।\n\n5️⃣ Invalidation + risk\nयह पूरा analysis invalid हो जाता है अगर [invalidation condition]। यहाँ कोई भी setup ट्रेड करने की सलाह नहीं है — यह सोचने का एक framework है। कोई भी position सोचने से पहले अपना खुद का invalidation तय करें।\n\n#BTCSetup"
+  "cta": true,
+  "title": "Signal (delayed demo standard)",
+  "_note": "DRAFT v2 (#Signal). Full signal standard, delayed demo. SL mandatory. Market-dependent: fill every [..] on publish day, then ready=true. Never invent numbers. [bot link] resolved to real VIP bot URL by editor.",
+  "body": "🔺 #Signal  ·  SIGNAL ID: LC-[####]\n\n[COIN]/USDT  |  LONG\nLeverage: [50–100]x\nEntry zone: [entry low] – [entry high]\nTP1: [tp1]   TP2: [tp2]   TP3: [tp3]\nSL: [sl]   ← hard stop, entry से पहले set\n\n📏 Sizing: इस trade पर account का ≤[X]% risk। Leverage aggressive है — size नहीं। यही पूरा खेल है।\n🧭 आधार: [≥2 confirming sources / data — जैसे funding + liq-heatmap + level confluence]। SL को जानबूझकर liquidation magnet से दूर रखा गया है।\n\n🕒 Demo signal — यह VIP में [N]h पहले गया था, यहाँ example के तौर पर पोस्ट हो रहा है। Live signals VIP में real time में आते हैं 👉 [bot link]\n\n#Signal"
 }

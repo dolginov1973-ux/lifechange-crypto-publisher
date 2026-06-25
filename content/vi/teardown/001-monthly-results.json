@@ -1,0 +1,12 @@
+{
+  "id": "vi-teardown-001",
+  "channel": "vi",
+  "rubric": "teardown",
+  "slot": "B",
+  "lang": "vi",
+  "ready": false,
+  "cta": false,
+  "title": "Tổng Kết Tháng (bảng điểm verified · template)",
+  "_note": "DRAFT v2 (#TổngKếtTháng). Chỉ đếm THẮNG/THUA, KHÔNG win-rate cố định %. Điền [..] từ log cuối tháng, rồi ready=true. Không bịa số.",
+  "body": "📊 #TổngKếtTháng — [Tháng]\n\nSố tín hiệu đã đăng: [N]\nPhân loại:\n• Scalp → THẮNG [w] / THUA [l]\n• Swing → THẮNG [w] / THUA [l]\n• [loại] → THẮNG [w] / THUA [l]\n\nTốt nhất: LC-[####] [+R]R   ·   Tệ nhất: LC-[####] [−R]R\n\nĐánh giá tổng quan: [nhận xét trung thực, định tính — KHÔNG phải tỷ lệ thắng cố định %]\n\nMọi lệnh trên đều có trong nhật ký công khai của chúng tôi kèm ảnh chụp từ sàn. Tự kiểm tra lại.\n\n#TổngKếtTháng"
+}

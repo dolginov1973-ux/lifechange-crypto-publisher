@@ -1,0 +1,12 @@
+{
+  "id": "tr-checklist-001",
+  "channel": "tr",
+  "rubric": "checklist",
+  "slot": null,
+  "lang": "tr",
+  "ready": true,
+  "cta": false,
+  "title": "Bir sinyali yayınlamadan önce nasıl kontrol ediyoruz",
+  "_note": "EVERGREEN v2 (#GiriştenÖnce). Variant B: kamuya açık pre-signal veri kontrolü. '[X]%' nötr metinle değiştirildi (placeholder yok) → ready. Pure-value, CTA yok.",
+  "body": "✅ #GiriştenÖnce — bir sinyali yayınlamadan önce nasıl kontrol ediyoruz\n\nBir #Sinyal kanala gitmeden önce şunları geçmek zorundadır:\n\n☐ CoinGlass funding + liq ısı haritası — SL likidite mıknatısında DEĞİL mi?\n☐ Bitunix funding direkt borsadan çekildi mi (aggregator'dan değil)?\n☐ ≥2 kaynaktan ya da ≥2 veri onayından confluence var mı?\n☐ Entry zone ve TP1/TP2/TP3 girişten önce tanımlandı mı?\n☐ Pozisyon büyüklüğü kuralı belirlendi mi (risk kendin için belirlediğin sabit limitin içinde mi)?\n☐ Aşırı funding? → kalabalık offside → fade etmeyi değerlendiriyoruz.\n☐ SL girişten ÖNCE, sonra değil mi?\n\nKendi işlemlerinde aynı kontrolü uygula. Her kutuyu dolduramazsan — o zaman en iyi işlem atladığın işlemdir.\n\n#GiriştenÖnce"
+}

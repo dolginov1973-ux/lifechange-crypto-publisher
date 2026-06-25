@@ -1,0 +1,12 @@
+{
+  "id": "id-checklist-001",
+  "channel": "id",
+  "rubric": "checklist",
+  "slot": null,
+  "lang": "id",
+  "ready": true,
+  "cta": false,
+  "title": "Sebelum Trading — cek data pre-signal kami",
+  "_note": "EVERGREEN v2 (#SebelumTrading). Variant B: cek data pre-signal publik. '[X]%' diganti kata netral (tanpa placeholder) → ready. Pure-value, tanpa CTA.",
+  "body": "✅ #SebelumTrading — bagaimana kami mengecek sebuah sinyal sebelum mempostingnya\n\nSebelum sebuah #Sinyal masuk ke channel, ia lolos cek ini:\n\n☐ CoinGlass funding + liq heatmap — apakah SL TIDAK berada di liquidation magnet?\n☐ Funding Bitunix ditarik langsung dari exchange (bukan dari aggregator)?\n☐ Confluence ≥2 sources ATAU ≥2 konfirmasi data?\n☐ Entry zone dan TP1/TP2/TP3 ditentukan sebelum entry?\n☐ Aturan sizing diset — risiko dalam batas tetap yang kamu tetapkan untuk dirimu sendiri?\n☐ Funding ekstrem? → crowd ramai → kami pertimbangkan fade.\n☐ SL diset SEBELUM entry, bukan sesudah?\n\nJalankan cek yang sama pada trade kamu sendiri. Tidak perlu mencentang semua kotak — trade terbaik adalah trade yang kamu lewati.\n\n#SebelumTrading"
+}

@@ -6,7 +6,7 @@
   "lang": "hi",
   "ready": false,
   "cta": false,
-  "title": "साप्ताहिक मार्केट ओवरव्यू",
-  "_note": "DRAFT — market-dependent. Fill every [..] on publish day, then set ready=true.",
-  "body": "📅 साप्ताहिक मार्केट ओवरव्यू\n\nइस हफ्ते मार्केट [dominant macro theme] पर रिएक्ट कर रहा है, और यही पूरे हफ्ते का माहौल तय कर रहा है।\n\nक्या हिला:\n• BTC [BTC price on publish day] के आसपास टिका रहा — momentum अभी [neutral/धीमा/बनता हुआ] है।\n• ETH ने BTC को करीब से फॉलो किया; [ETH/BTC ratio on publish day] बताता है कि rotation किस तरफ झुक रहा है।\n• Sentiment: [funding/positioning read] — भीड़ [long/short] की तरफ झुकी है। इसे नोट करना है, पीछे भागना नहीं।\n\nइस हफ्ते हम क्या देख रहे हैं:\n• BTC पर [support level] और [resistance level] — यही असली लाइनें हैं।\n• [macro event + date] — इसके आसपास volatility अक्सर बढ़ती है।\n• [BTC dominance / altseason signal] का ट्रेंड बना रहता है या नहीं।\n\nहम हफ्ते की भविष्यवाणी नहीं करते। हम उसका नक्शा बनाते हैं, फिर जो असल में होता है उस पर रिएक्ट करते हैं।\n\n#MacroBrief"
+  "title": "Morning Briefing (daily anchor)",
+  "_note": "DRAFT v2 (#MorningBriefing). Daily anchor. Market-dependent: fill every [..] on publish day, then set ready=true. Never invent prices.",
+  "body": "☀️ #MorningBriefing — [date]\n\nआज market कहाँ है और हम कहाँ देख रहे हैं।\n\nTape:\n• BTC [BTC price] के आसपास है [recent move] के बाद — momentum [बन रहा / ठंडा / neutral] लग रहा है।\n• ETH, BTC को [track / lead / lag] कर रहा है; [ETH/BTC read] बताता है rotation किधर जाएगी।\n• Funding और positioning: [funding read] — भीड़ [long/short] की तरफ झुकी है। Crowded extremes को हम fade करते हैं, follow नहीं।\n\nनज़र में:\n• BTC पर [support level] और [resistance level] — ये lines आज का move तय करेंगी।\n• [coin/event placeholder] — clean setup का इंतज़ार है, ज़बरदस्ती नहीं।\n• [macro/liq-heatmap note] — stops कहाँ stacked हैं।\n\nअगर आज कोई setup हमारा data-check पास करे, तो VIP में signal बनकर जाएगा — SL entry से पहले set, Signal ID attached। Demo version यहाँ delay से आएगा।\n\nहम दिन predict नहीं करते। Map करते हैं, data check करते हैं, और trigger तभी खींचते हैं जब ≥2 चीज़ें align हों।\n\n#MorningBriefing"
 }

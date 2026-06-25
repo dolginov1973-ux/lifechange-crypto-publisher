@@ -1,12 +1,25 @@
 # Lifechange Crypto — Publisher
 
 Lightweight, **zero-dependency** git-based scheduled publisher for the Lifechange Crypto
-Telegram channels (English + Hindi). No Supabase, no Vercel — just Node.js 20+ and a
+Telegram channels (7 locales). No Supabase, no Vercel — just Node.js 20+ and a
 GitHub Actions cron. Every send passes a **hard compliance gate** before it leaves.
 
 - **EN channel:** `@LifeChange_crypto` (tz reference `Asia/Manila` — India/Philippines evening overlap)
-- **Hindi channel:** `@LifeChange_crypto_hi` (tz `Asia/Kolkata`, IST)
-- Bot `@LifeChange_ResearchBot` must already be an admin (Post Messages) in both.
+- **Hindi:** `@LifeChange_crypto_hi` (tz `Asia/Kolkata`, IST)
+- **Portuguese:** `@LifeChange_crypto_pt` (tz `America/Sao_Paulo`, BRT)
+- **Vietnamese:** `@LifeChange_crypto_vi` (tz `Asia/Ho_Chi_Minh`, ICT)
+- **Spanish:** `@LifeChange_crypto_es` (tz `America/Mexico_City`, CST — LatAm reference)
+- **Turkish:** `@LifeChange_crypto_tr` (tz `Europe/Istanbul`, TRT)
+- **Indonesian:** `@LifeChange_crypto_id` (tz `Asia/Jakarta`, WIB)
+- Bot `@LifeChange_ResearchBot` must already be an admin (Post Messages) in every channel.
+
+> **Content v2 (Variant B).** Rubrics are the v2 set — #Signal, #MorningBriefing,
+> #CryptoSchool, #MindOverMarket, #BeforeYouTrade, #MonthlyResults — carried in the post
+> bodies. The folder/key layer is the original v1 registry (the displayed hashtag lives in
+> the body, the rubric key is just routing): macro=#MorningBriefing, btc-setup=#Signal,
+> education=#CryptoSchool, psychology=#MindOverMarket, checklist=#BeforeYouTrade,
+> teardown=#MonthlyResults, realresults/pnl=#RealResults (P&L photos, EN+HI only so far).
+> The 5 seed P&L (EN+HI) are unchanged; P&L for pt/vi/es/tr/id is a follow-up.
 
 ---
 
@@ -307,12 +320,13 @@ needs a fresh id.
   posts ready, plus macro/btc-setup drafts that need daily fills. Teardown (P7) has **no**
   seeded post yet. The 5 P&L cover the first week's drip (§3a); after that, P&L needs fresh
   screenshots. Empty rubrics/slots skip cleanly.
-- **Only EN + HI channels are configured.** `CHANNELS` in `src/config.js` defines `en`
-  (`@LifeChange_crypto`) and `hi` (`@LifeChange_crypto_hi`) **only**. The other four planned
-  locales (pt/vi/es/tr) are **not** in the publisher config and have **no** content folders —
-  the scheduler never iterates over them, so there is nothing to "skip" yet. When their
-  content is ready, add a `CHANNELS` entry + `content/<lang>/…` folders; until a rubric has a
-  `ready:true` post for a due slot, that slot skips cleanly (no error, no send).
+- **All 7 locales are configured** (`CHANNELS` in `src/config.js`: en/hi/pt/vi/es/tr/id),
+  each with `content/<lang>/…` folders and v2 starter posts. Per channel the 3 evergreen
+  rubrics (#CryptoSchool / #MindOverMarket / #BeforeYouTrade) are `ready:true`; the 3
+  market/template rubrics (#Signal / #MorningBriefing / #MonthlyResults) ship as drafts
+  (`ready:false`) until an editor fills the `[..]` and flips them. **P&L (#RealResults) is
+  EN+HI only** — the pt/vi/es/tr/id P&L localization is a follow-up. Banned-term lexicons
+  exist per locale (EN list always runs + the channel's own list).
 - **Photo posts need a committed screenshot.** A P&L / Teardown post with an `image` that
   isn't on disk is blocked at send. The screenshot is uploaded from the repo, so it lives
   in git history — **scrub balance / personal data before committing** (§5 privacy box).

@@ -6,7 +6,7 @@
   "lang": "en",
   "ready": true,
   "cta": false,
-  "title": "Before You Trade — the checklist",
-  "_note": "EVERGREEN pure-value. '[your risk %]' replaced with neutral wording (no invented number).",
-  "body": "✅ Before You Trade — the checklist\n\nRun this every single time. No box ticked = no trade.\n\n☐ Did I write my thesis BEFORE entering — not after?\n☐ Is my invalidation level defined and clear?\n☐ Is my position size set in advance?\n☐ Is my risk-per-trade within the fixed limit I set for myself?\n☐ Am I reacting to a plan — not chasing a candle?\n☐ Have I checked funding / context, not just the price?\n☐ Am I calm, not trading on FOMO or revenge?\n☐ Can I accept the full loss if invalidation hits?\n\nIf you can't check all boxes, the best trade is no trade.\n\n#BeforeYouTrade"
+  "title": "Before You Trade — our pre-signal data-check",
+  "_note": "EVERGREEN v2 (#BeforeYouTrade). Retoned to Variant B: our public pre-signal data-check. '[X]%' replaced with neutral wording (no placeholder) so it ships ready. Pure-value, no CTA.",
+  "body": "✅ #BeforeYouTrade — how we check a signal before posting it\n\nBefore a #Signal goes to the channel, it passes this:\n\n☐ CoinGlass funding + liq heatmap — is the SL NOT in a liquidation magnet?\n☐ Bitunix funding pulled straight off the exchange (not from an aggregator)?\n☐ Confluence ≥2 sources OR ≥2 data confirmations?\n☐ Entry zone and TP1/TP2/TP3 defined before entry?\n☐ Sizing rule set — risk within the fixed limit you set for yourself?\n☐ Extreme funding? → crowd is crowded → we consider a fade.\n☐ SL set BEFORE entry, not after?\n\nRun the same check on your own trades. Don't clear every box — the best trade is the one you skip.\n\n#BeforeYouTrade"
 }

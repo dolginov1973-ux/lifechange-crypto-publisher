@@ -1,0 +1,12 @@
+{
+  "id": "es-checklist-001",
+  "channel": "es",
+  "rubric": "checklist",
+  "slot": null,
+  "lang": "es",
+  "ready": true,
+  "cta": false,
+  "title": "Cómo verificamos una señal antes de publicarla",
+  "_note": "EVERGREEN v2 (#AntesDeOperar). Variant B: data-check público pre-señal. '[X]%' reemplazado por texto neutro (sin placeholder) → ready. Pure-value, sin CTA.",
+  "body": "✅ #AntesDeOperar — cómo verificamos una señal antes de publicarla\n\nAntes de que un #Señal llegue al canal, pasa por esto:\n\n☐ Funding de CoinGlass + liq-heatmap — ¿el SL NO está en un imán de liquidaciones?\n☐ ¿Funding sacado directamente de Bitunix (no de un agregador)?\n☐ ¿Confluencia de ≥2 fuentes O ≥2 confirmaciones de datos?\n☐ ¿Entry zone y TP1/TP2/TP3 definidos antes de entrar?\n☐ ¿Regla de sizing establecida (riesgo dentro del límite fijo que te marcaste a ti mismo)?\n☐ ¿Funding extremo? → el mercado está saturado → consideramos ir en contra.\n☐ ¿SL fijado ANTES de entrar, no después?\n\nAplica el mismo chequeo a tus propios trades. Si no pasas todas las casillas, el mejor trade puede ser el que no haces.\n\n#AntesDeOperar"
+}

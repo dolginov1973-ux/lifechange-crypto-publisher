@@ -1,0 +1,12 @@
+{
+  "id": "vi-checklist-001",
+  "channel": "vi",
+  "rubric": "checklist",
+  "slot": null,
+  "lang": "vi",
+  "ready": true,
+  "cta": false,
+  "title": "Cách chúng tôi kiểm tra tín hiệu trước khi đăng",
+  "_note": "EVERGREEN v2 (#TrướcKhiVàoLệnh). Variant B: data-check công khai pre-signal. '[X]%' thay bằng câu trung tính (không placeholder) → ready. Pure-value, không CTA.",
+  "body": "✅ #TrướcKhiVàoLệnh — cách chúng tôi kiểm tra tín hiệu trước khi đăng\n\nTrước khi một #TínHiệu lên kênh, nó phải qua bước kiểm tra này:\n\n☐ Funding CoinGlass + liq heatmap — SL có KHÔNG nằm trong vùng thanh lý không?\n☐ Funding Bitunix kéo thẳng từ sàn (không phải từ aggregator)?\n☐ Confluence ≥2 nguồn HOẶC ≥2 xác nhận dữ liệu?\n☐ Vùng entry và TP1/TP2/TP3 xác định trước khi vào lệnh?\n☐ Quy tắc sizing đã đặt (rủi ro nằm trong giới hạn cố định bạn tự đặt cho mình)?\n☐ Funding cực đoan? → đám đông đang lệch bên → cân nhắc fade thay vì theo đà.\n☐ SL đặt TRƯỚC khi vào lệnh, không phải sau?\n\nÁp dụng bước kiểm tra tương tự cho lệnh của bạn. Không qua được mọi ô — lệnh tốt nhất đôi khi là lệnh bạn bỏ qua.\n\n#TrướcKhiVàoLệnh"
+}

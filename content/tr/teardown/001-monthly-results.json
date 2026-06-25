@@ -1,0 +1,12 @@
+{
+  "id": "tr-teardown-001",
+  "channel": "tr",
+  "rubric": "teardown",
+  "slot": "B",
+  "lang": "tr",
+  "ready": false,
+  "cta": false,
+  "title": "Aylık Sonuçlar (doğrulanmış skor · şablon)",
+  "_note": "DRAFT v2 (#AylıkSonuçlar). Sadece KAZANÇ/KAYIP sayıları, ASLA sabit win-rate %. Ay sonu log'dan [..] doldur, sonra ready=true. Sayı uydurma.",
+  "body": "📊 #AylıkSonuçlar — [Ay]\n\nYayınlanan sinyal sayısı: [N]\nTüre göre:\n• Scalp → KAZANÇ [k] / KAYIP [l]\n• Swing → KAZANÇ [k] / KAYIP [l]\n• [tür] → KAZANÇ [k] / KAYIP [l]\n\nEn iyi: LC-[####] [+R]R   ·   En kötü: LC-[####] [−R]R\n\nGenel yorum: [dürüst kalitatif yorum — sabit kazanç oranı % VERİLMEZ]\n\nYukarıdaki her işlem borsadan ekran görüntüleriyle kamuya açık kaydımızda. Kendin kontrol et.\n\n#AylıkSonuçlar"
+}

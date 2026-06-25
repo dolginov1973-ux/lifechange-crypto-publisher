@@ -1,0 +1,12 @@
+{
+  "id": "pt-macro-001",
+  "channel": "pt",
+  "rubric": "macro",
+  "slot": "A",
+  "lang": "pt",
+  "ready": false,
+  "cta": false,
+  "title": "Abertura de Mercado (âncora diária)",
+  "_note": "DRAFT v2 (#AberturaDeMercado). Âncora matinal diária. Preencher todos os [..] no dia, depois ready=true. Nunca inventar preços.",
+  "body": "☀️ #AberturaDeMercado — [data]\n\nComo o mercado está e onde estamos caçando hoje.\n\nO tape:\n• BTC está em torno de [preço BTC] após [movimento recente] — momentum lendo [acelerando / esfriando / neutro].\n• ETH está [acompanhando / liderando / ficando para trás] o BTC; [leitura ETH/BTC] indica pra onde vai a rotação.\n• Funding e posicionamento: [leitura de funding] — a multidão está inclinada pra [long/short]. Extremos lotados são algo que a gente fada, não segue.\n\nNo radar:\n• [nível de suporte] e [nível de resistência] no BTC — as linhas que definem o movimento de hoje.\n• [coin/evento placeholder] — aguardando um setup limpo, sem forçar.\n• [nota macro/liq-heatmap] — onde os stops estão empilhados.\n\nSe um setup passar nosso checklist de dados hoje, ele vai pro VIP como sinal — SL definido antes da entrada, ID do sinal anexado. A versão demo chega aqui com delay.\n\nNão prevemos o dia. A gente mapeia, checa os dados e só aperta o gatilho quando ≥2 coisas se alinham.\n\n#AberturaDeMercado"
+}

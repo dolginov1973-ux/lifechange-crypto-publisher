@@ -1,0 +1,12 @@
+{
+  "id": "tr-education-001",
+  "channel": "tr",
+  "rubric": "education",
+  "slot": null,
+  "lang": "tr",
+  "ready": true,
+  "cta": true,
+  "title": "Funding rate — her sinyalden önce neden okuruz",
+  "_note": "EVERGREEN v2 (#KriptoOkulu). Variant B uyarlaması. Sayısal örnek nötr metinle değiştirildi; CTA via {{COMMUNITY}}. Placeholder yok → ready.",
+  "body": "🎓 Funding rate — ve biz neden her sinyalden önce okuruz\n\nNedir\nPerpetual futures'ta funding, longlar ile shortlar arasında düzenli aralıklarla aktarılan küçük bir ödeme. Perp fiyatının spot'a bağlı kalmasını sağlayan mekanizma budur.\n\nNeden önemseriz (ve sen de önemsemelisin)\nFunding sana hangi tarafın kalabalık olduğunu söyler. Güçlü pozitif = longlar shortlara ödüyor — herkes long tarafında, orada otururken ödeme yapıyorsun. Güçlü negatif = tam tersi. Aşırılarda kalabalık taraf, önce likit olan taraftır.\n\nNasıl kullanıyoruz\nHerhangi bir sinyal gönderilmeden önce Bitunix'ten funding'i direkt çekiyoruz (aggregator'lar bunu kapsamaz) ve likidite ısı haritasıyla örtüştürüyoruz. İki şey ortaya çıkıyor:\n• Aşırı funding → kalabalık offside → fade etmeye meyilliyiz, takip etmeye değil.\n• SL'yi likidite mıknatısının üstüne değil, UZAĞINA yerleştiriyoruz — stop-hunt bir wick bizi fikir gerçekleşmeden önce silmesin diye.\n\nKısa örnek\nFunding pozitifken bir long tutuyorsan, her funding aralığında shortlara küçük bir miktar ödersin. Aralık başına minik — ama 50-100x'te hızla birikir ve tam rakam canlı funding rate'e ve pozisyon büyüklüğüne bağlıdır. Borsada kontrol et ve girmeden önce hesaba kat.\n\nHer yayınladığımız #Sinyal'in arkasındaki veri kontrolü budur. Funding hakkında sorun mu var? Toplulukta sor — topluluk bunun için var. 👉 {{COMMUNITY}}\n\n#KriptoOkulu"
+}
