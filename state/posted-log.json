@@ -21,7 +21,18 @@
       "dateKey": "2026-06-26",
       "ts": "2026-06-26T10:49:39.113Z",
       "messageId": 70
+    },
+    {
+      "id": "pnl-20260625-b2-long-hi",
+      "channel": "hi",
+      "rubric": "pnl",
+      "slot": "B",
+      "cta": false,
+      "photo": true,
+      "dateKey": "2026-06-26",
+      "ts": "2026-06-26T13:10:28.643Z",
+      "messageId": 6
     }
   ],
-  "_updated": "2026-06-26T10:49:40.169Z"
+  "_updated": "2026-06-26T13:10:30.033Z"
 }
