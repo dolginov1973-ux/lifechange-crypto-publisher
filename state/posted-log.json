@@ -1,4 +1,16 @@
 {
-  "posts": [],
-  "_updated": null
+  "posts": [
+    {
+      "id": "hi-education-001",
+      "channel": "hi",
+      "rubric": "education",
+      "slot": "A",
+      "cta": true,
+      "photo": false,
+      "dateKey": "2026-06-26",
+      "ts": "2026-06-26T03:31:55.063Z",
+      "messageId": 5
+    }
+  ],
+  "_updated": "2026-06-26T03:31:56.205Z"
 }
