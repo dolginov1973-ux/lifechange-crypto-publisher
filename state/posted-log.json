@@ -32,7 +32,29 @@
       "dateKey": "2026-06-26",
       "ts": "2026-06-26T13:10:28.643Z",
       "messageId": 6
+    },
+    {
+      "id": "es-education-001",
+      "channel": "es",
+      "rubric": "education",
+      "slot": "A",
+      "cta": true,
+      "photo": false,
+      "dateKey": "2026-06-26",
+      "ts": "2026-06-26T15:38:22.640Z",
+      "messageId": 5
+    },
+    {
+      "id": "pnl-20260625-b2-long-tr",
+      "channel": "tr",
+      "rubric": "pnl",
+      "slot": "B",
+      "cta": false,
+      "photo": true,
+      "dateKey": "2026-06-26",
+      "ts": "2026-06-26T15:38:22.640Z",
+      "messageId": 5
     }
   ],
-  "_updated": "2026-06-26T13:10:30.033Z"
+  "_updated": "2026-06-26T15:38:23.863Z"
 }
