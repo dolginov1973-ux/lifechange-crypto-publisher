@@ -54,7 +54,18 @@
       "dateKey": "2026-06-26",
       "ts": "2026-06-26T15:38:22.640Z",
       "messageId": 5
+    },
+    {
+      "id": "pnl-20260625-b2-long-pt",
+      "channel": "pt",
+      "rubric": "pnl",
+      "slot": "B",
+      "cta": false,
+      "photo": true,
+      "dateKey": "2026-06-26",
+      "ts": "2026-06-26T21:16:44.977Z",
+      "messageId": 5
     }
   ],
-  "_updated": "2026-06-26T15:38:23.863Z"
+  "_updated": "2026-06-26T21:16:46.433Z"
 }
