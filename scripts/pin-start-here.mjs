@@ -12,8 +12,8 @@ import { join } from 'node:path';
 import { CHANNELS } from '../src/config.js';
 import { render } from '../src/render.js';
 import { checkText } from '../src/compliance.js';
-import { sendMessage } from '../src/telegram.js';
-import { REPO_ROOT } from '../src/posts.js';
+import { sendMessage, sendPhoto, validateCaptionLength } from '../src/telegram.js';
+import { resolveImagePath, REPO_ROOT } from '../src/posts.js';
 
 const DRY = process.env.DRY === '1';
 const token = process.env.TELEGRAM_BOT_TOKEN;
@@ -43,9 +43,23 @@ for (const ch of Object.values(CHANNELS)) {
     console.log(`${ch.key}: ⛔ BLOCKED ${gate.violations.map((v) => v.code + ':' + v.detail).join(' | ')}`);
     continue;
   }
-  if (DRY) { console.log(`${ch.key}: DRY ok (${text.length} chars)`); continue; }
+  // Photo header (optional): if the post carries an image, send it as a photo with the
+  // rendered text as the caption (hard 1024-char cap), else send a plain text message.
+  const isPhoto = typeof post.image === 'string' && post.image.trim() !== '';
+  let imageAbs = null;
+  if (isPhoto) {
+    const img = resolveImagePath(post.image);
+    if (!img.exists) { console.log(`${ch.key}: ⛔ image not found ("${post.image}")`); continue; }
+    imageAbs = img.abs;
+    const cap = validateCaptionLength(text);
+    if (!cap.ok) { console.log(`${ch.key}: ⛔ caption ${cap.length} > ${cap.max} chars`); continue; }
+  }
+
+  if (DRY) { console.log(`${ch.key}: DRY ok (${isPhoto ? 'photo, caption ' : 'text '}${text.length} chars)`); continue; }
   try {
-    const res = await sendMessage({ token, chatId: ch.chatId, text });
+    const res = isPhoto
+      ? await sendPhoto({ token, chatId: ch.chatId, absImagePath: imageAbs, caption: text })
+      : await sendMessage({ token, chatId: ch.chatId, text });
     const mid = res && res.message_id;
     const p = await pin(ch.chatId, mid);
     console.log(`${ch.key}: ✅ sent msg=${mid} pin=${p.ok ? 'ok' : 'FAIL ' + (p.description || '')}`);

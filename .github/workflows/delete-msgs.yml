@@ -1,0 +1,26 @@
+name: Delete messages
+
+# Admin helper: delete specific channel messages by (chat_id, message_id). Pass a JSON
+# array of [chat, message_id] pairs as the `messages` input. The publisher bot deletes its
+# own messages (<48h old).
+
+on:
+  workflow_dispatch:
+    inputs:
+      messages:
+        description: 'JSON array of [chat, message_id] pairs'
+        required: true
+
+jobs:
+  delete:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Delete
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          DELETE_LIST: ${{ inputs.messages }}
+        run: node scripts/delete-msgs.mjs
