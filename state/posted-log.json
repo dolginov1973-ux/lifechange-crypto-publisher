@@ -87,7 +87,95 @@
       "dateKey": "2026-06-27",
       "ts": "2026-06-27T11:53:38.765Z",
       "messageId": 74
+    },
+    {
+      "id": "en-psychology-001",
+      "channel": "en",
+      "rubric": "psychology",
+      "slot": "A",
+      "cta": false,
+      "photo": false,
+      "dateKey": "2026-06-27",
+      "ts": "2026-06-27T13:09:28.563Z",
+      "messageId": 75
+    },
+    {
+      "id": "hi-psychology-001",
+      "channel": "hi",
+      "rubric": "psychology",
+      "slot": "A",
+      "cta": false,
+      "photo": false,
+      "dateKey": "2026-06-27",
+      "ts": "2026-06-27T13:09:28.563Z",
+      "messageId": 10
+    },
+    {
+      "id": "pt-psychology-001",
+      "channel": "pt",
+      "rubric": "psychology",
+      "slot": "A",
+      "cta": false,
+      "photo": false,
+      "dateKey": "2026-06-27",
+      "ts": "2026-06-27T13:09:28.563Z",
+      "messageId": 9
+    },
+    {
+      "id": "pnl-20260625-b2-long-vi",
+      "channel": "vi",
+      "rubric": "pnl",
+      "slot": "S",
+      "cta": false,
+      "photo": true,
+      "dateKey": "2026-06-27",
+      "ts": "2026-06-27T13:09:28.563Z",
+      "messageId": 8
+    },
+    {
+      "id": "vi-psychology-001",
+      "channel": "vi",
+      "rubric": "psychology",
+      "slot": "A",
+      "cta": false,
+      "photo": false,
+      "dateKey": "2026-06-27",
+      "ts": "2026-06-27T13:09:28.563Z",
+      "messageId": 9
+    },
+    {
+      "id": "tr-psychology-001",
+      "channel": "tr",
+      "rubric": "psychology",
+      "slot": "A",
+      "cta": false,
+      "photo": false,
+      "dateKey": "2026-06-27",
+      "ts": "2026-06-27T13:09:28.563Z",
+      "messageId": 9
+    },
+    {
+      "id": "pnl-20260625-b2-long-id",
+      "channel": "id",
+      "rubric": "pnl",
+      "slot": "S",
+      "cta": false,
+      "photo": true,
+      "dateKey": "2026-06-27",
+      "ts": "2026-06-27T13:09:28.563Z",
+      "messageId": 6
+    },
+    {
+      "id": "id-psychology-001",
+      "channel": "id",
+      "rubric": "psychology",
+      "slot": "A",
+      "cta": false,
+      "photo": false,
+      "dateKey": "2026-06-27",
+      "ts": "2026-06-27T13:09:28.563Z",
+      "messageId": 7
     }
   ],
-  "_updated": "2026-06-27T11:53:40.279Z"
+  "_updated": "2026-06-27T13:09:33.259Z"
 }
