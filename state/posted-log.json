@@ -219,7 +219,18 @@
       "dateKey": "2026-06-27",
       "ts": "2026-06-27T16:37:46.282Z",
       "messageId": 18
+    },
+    {
+      "id": "pnl-20260625-ban-long-pt",
+      "channel": "pt",
+      "rubric": "pnl",
+      "slot": "S",
+      "cta": false,
+      "photo": true,
+      "dateKey": "2026-06-27",
+      "ts": "2026-06-27T22:35:30.578Z",
+      "messageId": 18
     }
   ],
-  "_updated": "2026-06-27T16:37:47.762Z"
+  "_updated": "2026-06-27T22:35:31.497Z"
 }
