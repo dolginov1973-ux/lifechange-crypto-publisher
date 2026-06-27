@@ -1,0 +1,37 @@
+name: Broadcast (one-off)
+
+# Manually send ONE photo+caption to all channels right now (bypasses the schedule,
+# keeps the compliance gate). Actions → Broadcast (one-off) → Run workflow → set
+# broadcast_id and dry_run. dry_run defaults to TRUE — flip to false to actually send.
+
+on:
+  workflow_dispatch:
+    inputs:
+      broadcast_id:
+        description: 'content/_broadcast/<id> folder to send'
+        required: true
+      dry_run:
+        description: 'Dry run (no send) — uncheck to go live'
+        type: boolean
+        default: true
+
+jobs:
+  broadcast:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Broadcast
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          COMMUNITY_LINK: ${{ secrets.COMMUNITY_LINK }}
+          LIVE: ${{ vars.LIVE }}
+          BROADCAST_ID: ${{ inputs.broadcast_id }}
+        run: |
+          if [ "${{ inputs.dry_run }}" = "true" ]; then
+            node src/broadcast.js --dry-run
+          else
+            node src/broadcast.js
+          fi
