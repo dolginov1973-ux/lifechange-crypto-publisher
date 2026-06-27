@@ -1,12 +1,12 @@
-// One-off: publish the "Start here" welcome to each PUBLIC channel and PIN it, so the
-// channel (now the TG-Ads destination) opens on a clear value prop + a bot CTA carrying
-// a per-channel attribution tag (?start=ch_<lang>). Same compliance gate + disclaimer
-// injection as every other post. VIP is skipped (members are already inside).
+// Publish the "Start here" welcome to each PUBLIC channel and PIN it, so the channel
+// (the TG-Ads destination) opens on a clear value prop + a bot CTA carrying a per-channel
+// attribution tag (?start=ch_<lang>). Same compliance gate + disclaimer injection as every
+// other post. VIP is skipped (members are already inside). Re-run any time to refresh the
+// pinned welcome (Telegram replaces the channel's single pinned message). Edit the source in
+// content/_broadcast/start-here-<id>/<lang>.json, then dispatch the workflow.
 //
 //   DRY=1 node scripts/pin-start-here.mjs   → gate-check + log only, no send/pin
 //   node scripts/pin-start-here.mjs         → send + pin for real (needs TELEGRAM_BOT_TOKEN)
-//
-// Remove this script + its workflow after the one run.
 import { readFileSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
 import { CHANNELS } from '../src/config.js';

@@ -1,7 +1,8 @@
-name: Pin Start-here (one-off)
+name: Pin Start-here
 
-# One-off: publish + pin the "Start here" welcome in every public channel (TG-Ads
-# destination). Run once, then this workflow + scripts/pin-start-here.mjs are removed.
+# Publish + pin the "Start here" welcome in every public channel (TG-Ads destination).
+# Re-runnable: edit content/_broadcast/start-here-<id>/<lang>.json then dispatch to refresh
+# the pinned message. dry_run defaults TRUE — flip to false to actually send + pin.
 
 on:
   workflow_dispatch:
