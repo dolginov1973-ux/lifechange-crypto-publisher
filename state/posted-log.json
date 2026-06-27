@@ -197,7 +197,18 @@
       "dateKey": "2026-06-27",
       "ts": "2026-06-27T15:03:12.364Z",
       "messageId": 11
+    },
+    {
+      "id": "ru-psychology-002",
+      "channel": "ru",
+      "rubric": "psychology",
+      "slot": "A",
+      "cta": false,
+      "photo": false,
+      "dateKey": "2026-06-27",
+      "ts": "2026-06-27T16:26:09.109Z",
+      "messageId": 5
     }
   ],
-  "_updated": "2026-06-27T15:03:13.620Z"
+  "_updated": "2026-06-27T16:26:09.609Z"
 }
