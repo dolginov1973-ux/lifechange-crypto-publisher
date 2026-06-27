@@ -60,6 +60,14 @@ export const CHANNELS = {
     riskDisclaimer:
       'Hanya untuk edukasi — bukan nasihat keuangan. Crypto futures membawa risiko kerugian total yang tinggi.',
   },
+  // --- RU / СНГ locale (added 2026-06-27). Home market — the project's roots (LC News).
+  ru: {
+    key: 'ru',
+    chatId: '@LifeChange_crypto_ru',
+    tz: 'Europe/Moscow', // MSK (СНГ reference)
+    riskDisclaimer:
+      'Только в образовательных целях — не является финансовой консультацией. Криптофьючерсы несут высокий риск полной потери средств.',
+  },
 };
 
 // VIP private room (the PAID signal channel). Registered ONLY when VIP_CHAT_ID is set in the
@@ -266,6 +274,32 @@ export const BANNED_TERMS = {
     'teregulasi', // regulated
     'diatur (pemerintah|regulator)', // government regulated
   ],
+  // --- RU / СНГ locale. Income-promise (group B) + licensed/regulated (group C). EN list
+  // always runs too. Conservative to avoid false positives on normal trading copy.
+  ru: [
+    'прибыл[ьи]', //          profit (прибыль / прибыли) — NOT "прибыл" (arrived) which has no suffix
+    'прибыльн', //            profitable (прибыльный)
+    'доходност', //           доходность (returns / yield)
+    'гарантирован', //        guaranteed
+    'гаранти[яюи]', //        гарантия / гарантию / гарантии
+    'гарантированн\\w{0,3} доход', // guaranteed income
+    'заработок', //           earnings
+    'зарабатыва', //          зарабатывай (earn)
+    'заработа[йт]', //        заработай / заработать (earn)
+    'удво[ий]', //            удвой / удвоить (double your money)
+    'разбогат', //            get rich (разбогатеть)
+    'без риска', //           risk-free
+    'безрисков',
+    'пассивн\\w{0,3} доход', // passive income
+    'л[её]гкие деньги', //    easy money
+    'быстрые деньги', //      quick money
+    'миллионер', //           millionaire
+    'памп', //                pump
+    '\\d{2,3}\\s?%\\s?(прибыл|доход|годовых)', //        NN% profit/income/annual
+    '\\d{2,3}\\s?%\\s?(точност|винрейт|побед|успех)', // NN% winrate/accuracy/success
+    'лицензирован', //        licensed (claim)
+    'регулиру[ею]м', //       regulated (claim)
+  ],
 };
 
 // Bitunix must never be called "licensed" / "regulated" (§1.5 item 3).
@@ -275,4 +309,7 @@ export const BITUNIX_FORBIDDEN = [
   '\\b(licen[cs]ed|regulated)\\b[^.\\n]{0,40}bitunix',
   // Hindi transliteration safety net
   'bitunix[^.\\n]{0,40}(रेगुलेटेड|लाइसेंस)',
+  // Russian safety net (лицензирован / регулируем near the brand)
+  'bitunix[^.\\n]{0,40}(лицензирован|регулиру)',
+  '(лицензирован|регулиру)\\w*[^.\\n]{0,40}bitunix',
 ];
