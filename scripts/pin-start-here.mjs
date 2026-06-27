@@ -37,6 +37,7 @@ async function pin(chatId, messageId) {
 
 for (const ch of Object.values(CHANNELS)) {
   if (ch.key === 'vip') { console.log('vip: skipped (members already inside)'); continue; }
+  if (only.length && !only.includes(ch.key)) { console.log(`${ch.key}: skipped (not in ONLY filter)`); continue; }
   const file = join(dir, `${ch.key}.json`);
   if (!existsSync(file)) { console.log(`${ch.key}: no file — skip`); continue; }
   const post = JSON.parse(readFileSync(file, 'utf8'));
