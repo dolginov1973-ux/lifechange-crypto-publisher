@@ -11,6 +11,10 @@ on:
         description: 'Dry run (gate-check only, no send/pin)'
         type: boolean
         default: true
+      only:
+        description: 'Limit to channel keys (comma list, e.g. ru). Empty = all.'
+        required: false
+        default: ''
 
 jobs:
   pin:
@@ -26,4 +30,5 @@ jobs:
           COMMUNITY_LINK: ${{ secrets.COMMUNITY_LINK }}
           VIP_CHAT_ID: ${{ secrets.VIP_CHAT_ID }}
           DRY: ${{ inputs.dry_run == true && '1' || '0' }}
+          ONLY: ${{ inputs.only }}
         run: node scripts/pin-start-here.mjs

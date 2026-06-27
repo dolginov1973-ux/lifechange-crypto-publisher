@@ -18,6 +18,9 @@ import { resolveImagePath, REPO_ROOT } from '../src/posts.js';
 const DRY = process.env.DRY === '1';
 const token = process.env.TELEGRAM_BOT_TOKEN;
 const communityLink = process.env.COMMUNITY_LINK || '';
+// Optional channel filter: ONLY=ru,en limits the run to those channel keys (e.g. to pin a
+// newly added channel without re-pinning the others). Empty = all public channels.
+const only = (process.env.ONLY || '').split(',').map((s) => s.trim()).filter(Boolean);
 const BID = 'start-here-20260627';
 const dir = join(REPO_ROOT, 'content', '_broadcast', BID);
 
