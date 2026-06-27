@@ -14,7 +14,7 @@ import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 import { CHANNELS, RULES, RUBRICS } from './config.js';
-import { now, localParts, inQuietHours, inSlotWindow } from './time.js';
+import { now, localParts, inQuietHours, isSlotDue } from './time.js';
 import { loadPostsForChannel, pickPost, resolveImagePath } from './posts.js';
 import { render } from './render.js';
 import { checkText } from './compliance.js';
@@ -87,14 +87,29 @@ async function main() {
 
   for (const channel of Object.values(CHANNELS)) {
     const lp = localParts(current, channel.tz);
-    // Grid entries due in their slot window right now...
+    // Is the first-week P&L seed drip active for THIS channel-local date? If so the
+    // daily cap is lifted by one so the seed P&L (an explicit "extra" post) is never
+    // starved by the two grid posts on days that carry three candidates (Mon/Tue).
+    const seedActiveToday =
+      schedule.seedPnl &&
+      schedule.seedPnl.enabled === true &&
+      Array.isArray(schedule.seedPnl.dates) &&
+      schedule.seedPnl.dates.includes(lp.dateKey);
+    const dailyCap =
+      RULES.maxPostsPerChannelPerDay + (seedActiveToday ? 1 : 0);
+
+    // Grid entries due now (catch-up: due from slot start until quiet hours)...
     let dueRubrics = (schedule.grid[lp.weekday] || []).filter((entry) =>
-      inSlotWindow(lp.minutesOfDay, RULES.slots[entry.slot]),
+      isSlotDue(lp.minutesOfDay, RULES.slots[entry.slot]),
     );
     // ...plus any first-week P&L seed slot for today (deduped vs the grid).
     dueRubrics = applySeedPnl(schedule, dueRubrics, lp.dateKey).filter((entry) =>
-      inSlotWindow(lp.minutesOfDay, RULES.slots[entry.slot]),
+      isSlotDue(lp.minutesOfDay, RULES.slots[entry.slot]),
     );
+    // Priority: the honest-P&L #RealResults post is the launch wedge — evaluate it
+    // FIRST so that when several slots are due in one run it claims a cap slot before
+    // grid fillers do.
+    dueRubrics.sort((a, b) => (b.rubric === 'pnl') - (a.rubric === 'pnl'));
 
     if (dueRubrics.length === 0) {
       log(`${channel.key}: nothing due (local ${lp.weekday} ${lp.hour}:${String(lp.minute).padStart(2, '0')} ${channel.tz}).`);
@@ -115,10 +130,10 @@ async function main() {
       const rubricMeta = RUBRICS[rubric];
       const tag = rubricMeta ? rubricMeta.tag : rubric;
 
-      // --- Daily cap (item 8) ---
+      // --- Daily cap (item 8); +1 during the seed-P&L week so the extra P&L always fits ---
       const todays = postsOnDay(state, channel.key, lp.dateKey);
-      if (todays.length >= RULES.maxPostsPerChannelPerDay) {
-        log(`${channel.key} ${rubric}: SKIP — daily cap reached (${todays.length}/${RULES.maxPostsPerChannelPerDay}).`);
+      if (todays.length >= dailyCap) {
+        log(`${channel.key} ${rubric}: SKIP — daily cap reached (${todays.length}/${dailyCap}).`);
         continue;
       }
 

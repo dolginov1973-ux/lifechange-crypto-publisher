@@ -54,6 +54,18 @@ export function inSlotWindow(minutesOfDay, slot) {
   return minutesOfDay >= start && minutesOfDay < end;
 }
 
+// Catch-up "due" test: a slot is due from its start time ONWARD (not only inside a
+// narrow [start,end) window). GitHub Actions cron is unreliable and can skip the one
+// or two ticks that fall inside a 60–90 min window — which silently dropped a whole
+// channel's daily post (e.g. vi+id missed the b2-long P&L on 2026-06-26). With this,
+// any cron tick after slot start fills the slot. It's safe because two other guards
+// already bound it: per-slot idempotency (a slot posts at most once per local day) and
+// quiet hours (no sends after 22:00 local). Net effect: missed ticks self-heal instead
+// of dropping the post; worst case a slot lands a bit later in the same local evening.
+export function isSlotDue(minutesOfDay, slot) {
+  return minutesOfDay >= hhmmToMinutes(slot.start);
+}
+
 // Resolve "now": NOW_OVERRIDE env (ISO UTC) for testing, else real time.
 export function now() {
   const override = process.env.NOW_OVERRIDE;
