@@ -1,0 +1,28 @@
+name: Pin Start-here (one-off)
+
+# One-off: publish + pin the "Start here" welcome in every public channel (TG-Ads
+# destination). Run once, then this workflow + scripts/pin-start-here.mjs are removed.
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Dry run (gate-check only, no send/pin)'
+        type: boolean
+        default: true
+
+jobs:
+  pin:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Publish + pin
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          COMMUNITY_LINK: ${{ secrets.COMMUNITY_LINK }}
+          VIP_CHAT_ID: ${{ secrets.VIP_CHAT_ID }}
+          DRY: ${{ inputs.dry_run == true && '1' || '0' }}
+        run: node scripts/pin-start-here.mjs
