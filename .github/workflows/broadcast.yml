@@ -32,6 +32,8 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           COMMUNITY_LINK: ${{ secrets.COMMUNITY_LINK }}
           LIVE: ${{ vars.LIVE }}
+          # VIP private room — set this secret to the VIP group's chat_id to enable vip.json targets.
+          VIP_CHAT_ID: ${{ secrets.VIP_CHAT_ID }}
           BROADCAST_ID: ${{ inputs.broadcast_id }}
         run: |
           DELAY="${{ inputs.delay_minutes }}"

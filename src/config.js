@@ -62,6 +62,22 @@ export const CHANNELS = {
   },
 };
 
+// VIP private room (the PAID signal channel). Registered ONLY when VIP_CHAT_ID is set in the
+// env (a publisher secret) — public-only runs are unaffected, and the scheduler never posts here
+// because there is no content/vip/ folder; it receives only what a broadcast explicitly targets
+// via a vip.json. Uses the default publisher bot token, so add the publisher bot
+// (@LifeChange_ResearchBot) as an admin with "Post Messages" in the VIP group. Same hard
+// compliance gate + injected risk disclaimer as every other channel.
+if (process.env.VIP_CHAT_ID) {
+  CHANNELS.vip = {
+    key: 'vip',
+    chatId: process.env.VIP_CHAT_ID,
+    tz: 'Asia/Manila',
+    riskDisclaimer:
+      'Educational only — not financial advice. Crypto futures carry high risk of loss.',
+  };
+}
+
 // ---------------------------------------------------------------------------
 // Cadence rules (§1.2).
 // ---------------------------------------------------------------------------
