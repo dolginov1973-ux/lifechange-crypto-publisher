@@ -14,6 +14,10 @@ on:
         description: 'Dry run (no send) — uncheck to go live'
         type: boolean
         default: true
+      delay_minutes:
+        description: 'Wait N minutes before sending (0 = now)'
+        required: false
+        default: '0'
 
 jobs:
   broadcast:
@@ -30,6 +34,11 @@ jobs:
           LIVE: ${{ vars.LIVE }}
           BROADCAST_ID: ${{ inputs.broadcast_id }}
         run: |
+          DELAY="${{ inputs.delay_minutes }}"
+          if [ -n "$DELAY" ] && [ "$DELAY" -gt 0 ] 2>/dev/null; then
+            echo "Waiting ${DELAY} min before broadcast (scheduled send)..."
+            sleep $((DELAY * 60))
+          fi
           if [ "${{ inputs.dry_run }}" = "true" ]; then
             node src/broadcast.js --dry-run
           else
