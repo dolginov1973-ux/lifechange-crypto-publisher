@@ -1,0 +1,12 @@
+{
+  "id": "vi-education-006",
+  "channel": "vi",
+  "rubric": "education",
+  "slot": null,
+  "lang": "vi",
+  "ready": true,
+  "cta": true,
+  "title": "Cách nhận diện một kênh signal giả",
+  "_note": "EVERGREEN (warm-up bank, vi localization)",
+  "body": "🚩 Cách nhận diện một kênh signal giả — trước khi nó khiến bạn trả giá\n\nĐa số kênh 'signal' sống nhờ một mánh: bạn chỉ bao giờ thấy các lệnh thắng. Đây là danh sách dấu hiệu nhận biết. Nếu bạn thấy những thứ này, hãy quay đi.\n\n☐ Xóa các call thua. Kênh đầy ảnh chụp xanh và không một cái đỏ nào. Không ai đúng thường xuyên đến vậy. Thiếu lệnh thua nghĩa là lệnh thua đã bị xóa.\n☐ Ảnh chụp chỉnh sửa. Số liệu không khớp, timestamp bị cắt, font không trùng với sàn. Một fill thật là một fill thật — nó không cần tô vẽ.\n☐ Không hiển thị SL. Entry có target nhưng không có stop. Đó là một cú tung đồng xu khoác áo kế hoạch. Nếu họ không cho bạn thấy chỗ họ sai, họ không trade ở chỗ họ sai.\n☐ Entry mơ hồ. 'Vùng mua' trải dài một khoảng khổng lồ không có invalidation rõ ràng. Đủ rộng thì LUÔN có CÁI GÌ ĐÓ 'chạm'. Đó là cách một cú trượt được bán cho bạn như một call.\n☐ Không có cách nào theo dõi họ. Không trade ID, không timeline, không lịch sử để bạn cuộn ngược lại và kiểm tra. Không gì để kiểm thì không gì để tin.\n\nChúng tôi KHÁC thế nào\n• Mỗi call được gửi kèm một Signal ID, một entry, các target xác định và một SL đặt trước entry.\n• Chúng tôi đăng các lệnh thua kèm bằng chứng. Mỗi lệnh đỏ đều có SL làm đúng việc của nó — đó là một khoản lỗ được kiểm soát, không phải một khoản bị giấu.\n• Không gì bị xóa. Lịch sử chính là bằng chứng. Bạn có thể cuộn ngược lại và kiểm tra chúng tôi.\n\nMột kênh không bao giờ hiển thị đỏ không phải giỏi hơn chúng tôi. Nó chỉ đang giấu đi nửa phần mà bạn cần thấy nhất.\n\nMuốn kiểm tra áp lực một kênh trước khi tin nó? Hỏi trong cộng đồng 👉 {{COMMUNITY}}\n\n#CryptoSchool"
+}

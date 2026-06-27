@@ -1,0 +1,12 @@
+{
+  "id": "vi-checklist-004",
+  "channel": "vi",
+  "rubric": "checklist",
+  "slot": null,
+  "lang": "vi",
+  "ready": true,
+  "cta": true,
+  "title": "Xác minh bất kỳ trader nào on-chain trước khi tin họ",
+  "_note": "EVERGREEN (warm-up bank, vi localization)",
+  "body": "✅ #BeforeYouTrade — xác minh bất kỳ trader nào on-chain trước khi tin họ\n\nAi cũng có thể đăng một ảnh chụp. Gần như không ai có thể giả một hồ sơ on-chain. Trước khi bạn tin một trader với sự chú ý của mình — hoặc size của mình — hãy đưa họ qua bài kiểm tra này. Đây chính là cùng một bài kiểm tra chúng tôi chạy trên mỗi trader chúng tôi theo dõi.\n\n☐ Vị thế on-chain, không phải ảnh chụp. Bạn có thấy được vị thế thật gắn với một ví xác minh được hay một tài khoản công khai — hay chỉ là ảnh bị cắt? Pixel thì chỉnh sửa được. Một dấu chân on-chain thì không.\n\n☐ Fill thật bạn có thể kiểm toán. Các entry và exit có khớp với lệnh khớp thực tế không, với timestamp ăn khớp nhau? Một entry được tuyên bố mà không bao giờ xuất hiện trong bất kỳ lịch sử fill thật nào chỉ là một câu chuyện.\n\n☐ Win-rate đo qua THỜI GIAN, không phải một cuộn highlight. Một nhúm call xanh chẳng chứng minh gì. Bạn muốn một track record đủ dài để bao gồm cả những đoạn tệ — vì ai cũng có chúng. Mẫu ngắn tâng bốc tất cả mọi người.\n\n☐ Lỗ được ghi lại. Nếu lịch sử chỉ cho thấy thắng, thì các khoản lỗ đã bị xóa. Một hồ sơ thật thở cả hai chiều. Không một chút đỏ nào là red flag to nhất tồn tại.\n\n☐ Tính nhất quán bạn có thể cuộn ngược lại. Trade ID, một timeline không gián đoạn, không gì bị nhét vào lỗ ký ức. Nếu bạn không thể tự kiểm toán lịch sử, bạn đang tin marketing, không phải một trader.\n\nĐây đúng là cách CHÚNG TÔI thẩm định các trader mình theo dõi — dấu chân on-chain, fill thật, một hồ sơ có cả màu đỏ. Chúng tôi giữ chính mình ở cùng một mức: bằng chứng, Signal ID, các lệnh thua được đăng, không gì bị xóa.\n\nĐừng tin lời chúng tôi — hãy xác minh. Muốn được giúp đọc lịch sử on-chain của một trader? Hỏi trong cộng đồng 👉 {{COMMUNITY}}\n\n#BeforeYouTrade"
+}

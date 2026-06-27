@@ -1,0 +1,12 @@
+{
+  "id": "hi-education-005",
+  "channel": "hi",
+  "rubric": "education",
+  "slot": null,
+  "lang": "hi",
+  "ready": true,
+  "cta": false,
+  "title": "On-chain 101: exchange inflows & outflows",
+  "_note": "EVERGREEN (warm-up bank, hi localization)",
+  "body": "⛓️ On-chain 101 — exchange inflows & outflows, और ये क्या hint देते हैं\n\nयह है क्या\nExchange wallet पर बैठा हर coin तुरंत बेचा जा सकता है। Private wallets में रखे coins नहीं। On-chain flow data (Glassnode-style) coins को exchanges की TO और OFF move होते track करता है — और वह movement intent का एक clue है।\n\nदो directions\n• Coins exchanges की TO move होना → supply वहाँ line-up हो रहा है जहाँ इसे बेचा जा सकता है। यह sell-pressure CONTEXT है। बड़े holders coins किसी exchange पर निहारने के लिए नहीं move करते।\n• Coins exchanges की OFF move होना → supply cold storage में जा रहा है, market से बाहर। यह accumulation CONTEXT है — coins parked हो रहे हैं, बेचने के लिए prep नहीं हो रहे।\n\nहम क्यों परवाह करते हैं\nFlows positioning का एक read हैं जिसे price अकेले छुपा देता है। जब coins चुपचाप exchanges से drain हो रहे हों उस दौरान एक rally उस rally से बहुत अलग दिखती है जब coins exchanges पर flood ON हो रहे हों। पहले के नीचे supply tighten हो रहा है; दूसरे में supply bid पर हमला करने का इंतज़ार कर रहा है।\n\nबड़ा caveat\nयह CONTEXT है, कभी standalone signal नहीं। Flows internal exchange shuffles, custody migrations, या wallet relabels हो सकते हैं जो dramatic दिखते हैं और जिनका कोई मतलब नहीं होता। एक single spike पर react करना ही वो तरीका है जिससे आप faked out होते हैं।\n\nहम इसे कैसे use करते हैं\n• हम flows को एक background lean मानते हैं, trigger नहीं।\n• हम हमेशा funding, OI और liquidation heatmap के खिलाफ cross-check करते हैं।\n• अगर on-chain एक direction whisper करे लेकिन हमारे बाकी reads असहमत हों, तो flow data हारता है — confluence जीतती है।\n\nयहाँ कोई single number आपको trade में नहीं डालता। On-chain कमरे में एक आवाज़ है। यह तभी मायने रखती है जब बाकियों से सहमत हो — वही ≥2-confirmation rule हर #Signal के पीछे है।\n\n#CryptoSchool"
+}

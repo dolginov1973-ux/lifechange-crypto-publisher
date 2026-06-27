@@ -1,0 +1,12 @@
+{
+  "id": "tr-education-006",
+  "channel": "tr",
+  "rubric": "education",
+  "slot": null,
+  "lang": "tr",
+  "ready": true,
+  "cta": true,
+  "title": "Sahte bir signal kanalını nasıl tanırsın",
+  "_note": "EVERGREEN (warm-up bank, tr localization)",
+  "body": "🚩 Sahte bir signal kanalını nasıl tanırsın — sana pahalıya mal olmadan önce\n\nÇoğu 'signal' kanalı tek bir numarayla ayakta kalır: sadece kazananları görürsün. İşte ele veren liste. Bunları görürsen, çek git.\n\n☐ Silinmiş kayıp call'lar. Kanal yeşil ekran görüntüleriyle dolu, sıfır kırmızı. Kimse o kadar sık haklı olmaz. Eksik kayıplar, kayıpların silindiği anlamına gelir.\n☐ Düzenlenmiş ekran görüntüleri. Tutmayan sayılar, kırpılmış zaman damgaları, borsayla eşleşmeyen fontlar. Gerçek bir fill gerçek bir fill'dir — rötuşa ihtiyacı yoktur.\n☐ SL gösterilmemiş. Hedefi olan ama stop'u olmayan entry'ler. Bu, plan kılığına girmiş bir yazı-tura. Sana nerede yanıldıklarını göstermiyorlarsa, yanıldıkları yerde işlem yapmıyorlardır.\n☐ Belirsiz entry'ler. Net invalidation olmadan kocaman bir aralığı kapsayan 'alım bölgesi'. Yeterince genişse HER ZAMAN bir şey 'tutar'. Bir ıskanın sana call diye satılma şekli budur.\n☐ Onları takip etmenin yolu yok. Trade ID yok, zaman çizelgesi yok, geri kaydırıp denetleyebileceğin geçmiş yok. Kontrol edecek hiçbir şey yok demek, güvenecek hiçbir şey yok demek.\n\nBİZ nasıl farklıyız\n• Her call bir Signal ID, bir entry, tanımlı hedefler ve entry'den önce konulmuş bir SL ile gönderilir.\n• Kayıplarımızı makbuzlarla yayınlıyoruz. Her kırmızı işlemde SL görevini yaptı — bu kontrollü bir kayıp, gizlenmiş bir kayıp değil.\n• Hiçbir şey silinmiyor. Geçmiş, kanıttır. Geri kaydırıp bizi kontrol edebilirsin.\n\nAsla kırmızı göstermeyen bir kanal bizden daha iyi değildir. Sadece en çok görmen gereken yarıyı gizliyordur.\n\nGüvenmeden önce bir kanalı baskı altında test etmek mi istiyorsun? Toplulukta sor 👉 {{COMMUNITY}}\n\n#CryptoSchool"
+}

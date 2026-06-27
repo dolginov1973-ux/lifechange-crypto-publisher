@@ -1,0 +1,12 @@
+{
+  "id": "hi-checklist-002",
+  "channel": "hi",
+  "rubric": "checklist",
+  "slot": null,
+  "lang": "hi",
+  "ready": true,
+  "cta": false,
+  "title": "Position sizing: buy click करने से पहले अपना risk decide करें",
+  "_note": "EVERGREEN (warm-up bank, hi localization)",
+  "body": "✅ #BeforeYouTrade — buy click करने से पहले अपना risk decide करें\n\nSizing वो एक फैसला है जो ठंडे दिमाग से, candle के आपको खींचने से पहले लेना होता है। इसे सही करें और एक loss एक paper cut है। गलत करें और एक trade असली नुकसान कर सकता है। यह रहा वो क्रम जिसमें हम काम करते हैं।\n\n☐ अपना risk-per-trade पहले Fix करें। इस एक position पर खोने को तैयार maximum किसी भी और चीज़ से पहले decide करें — अपने account के एक fixed slice के रूप में, हर बार वही slice। यह number तब set होता है जब आप शांत हों। यह इसलिए नहीं हिलता कि कोई setup 'strong feel' हो रहा है।\n\n☐ अपना SL chart से mark करें, उम्मीद से नहीं। Trade कहाँ बस गलत है? वो price आपकी invalidation है। यह structure से आती है — इससे नहीं कि आप कितना खोना 'prefer' करेंगे।\n\n☐ SL distance FROM size करें — कभी feel से नहीं। आपकी position size वो है जो entry और SL के बीच की distance को आपके fixed risk के बराबर बनाए। Tight stop → बड़ी size allowed. Wide stop → छोटी size. Math size set करती है। आप नहीं।\n\n☐ Leverage LAST चुनें। Leverage sizing का एक output है, starting point नहीं। पहले size pick करें; leverage बस वो बचा हुआ है जो उसे express करता है। और SL को अब भी आपकी liquidation price से पहले बैठना है — हमेशा।\n\n☐ एक position आपको डुबा नहीं सकती। अगर एक single trade अपने stop को hit करके account को इस तरह चोट दे कि आप उसे कई दिन महसूस करें, तो size गलत है। इसे तब तक काटें जब तक loss boring न हो जाए।\n\n'Feel' से sizing वो तरीका है जिससे अच्छे reads भी accounts उड़ा देते हैं। SL से sizing वो तरीका है जिससे हम जानबूझकर aggressive leverage चलाते हैं और red वालों को survive करते हैं। Loss को entry से पहले decide करें — हर बार।\n\n#BeforeYouTrade"
+}

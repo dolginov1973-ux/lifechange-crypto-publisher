@@ -1,0 +1,12 @@
+{
+  "id": "pt-education-004",
+  "channel": "pt",
+  "rubric": "education",
+  "slot": null,
+  "lang": "pt",
+  "ready": true,
+  "cta": false,
+  "title": "Liquidation price & leverage: a conta que te mantém no jogo",
+  "_note": "EVERGREEN (warm-up bank, pt localization)",
+  "body": "🧮 Liquidation price & leverage — a conta que te mantém no jogo\n\nA ideia central\nA leverage não decide se você está certo. Ela decide quanto espaço o preço tem pra respirar antes da exchange te fechar contra a sua vontade. Mais leverage = liquidation price fica mais perto do entry = menos espaço.\n\nApenas ilustrativo\nModelo mental aproximado: quanto mais leverage você empilha, mais apertada fica a faixa entre o seu entry e o seu liquidation price. Estique o suficiente e uma wick normal — do tipo que acontece toda sessão — pode alcançar a sua linha de liq. A distância exata depende do seu entry, do modo de margem e da margem de manutenção da exchange, então sempre leia ao vivo; isso é só o formato da conta, não um número fixo.\n\nA armadilha\nA maioria das contas que estouram não estoura por estar errada. Estoura por estar certa cedo demais — o preço dá uma wick até a linha de liquidation, fecha a posição à força, e então vai exatamente pra onde o trader esperava. A tese estava boa. A leverage não deixou espaço pro ruído.\n\nComo a gente usa\n• Definimos o tamanho primeiro, depois escolhemos a leverage — nunca o contrário.\n• Seu SL precisa ficar ANTES do seu liquidation price. Sempre. O stop é a sua decisão; a liquidation é a da exchange. Se a liq dispara primeiro, você entregou a saída pra outra pessoa.\n• Se um stop sensato ainda ficaria além da linha de liq, a leverage está alta demais pra esse setup. Abaixe ou pule.\n\nÉ por isso que a gente diz que a disciplina HABILITA a leverage. Sizing rígido + um SL colocado antes da liq é o que nos deixa rodar tamanho agressivo de propósito — uma perda controlada em vez de um fechamento à força. A conta é simples; respeitá-la é o trabalho inteiro.\n\n#CryptoSchool"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "en-education-002",
+  "channel": "en",
+  "rubric": "education",
+  "slot": null,
+  "lang": "en",
+  "ready": true,
+  "cta": false,
+  "title": "Liquidation heatmaps: reading where stops are stacked",
+  "_note": "EVERGREEN (warm-up bank for ad traffic). No invented numbers/prices/dates.",
+  "body": "🗺️ Liquidation heatmaps — reading where the stops are stacked\n\nWhat it is\nA liquidation heatmap (we use CoinGlass) shows where leveraged positions get force-closed if price reaches them. Bright zones = clusters of liquidations sitting at specific levels. Think of them as fuel: price tends to get pulled toward where the most leverage is parked.\n\nWhy we care\nThose bright clusters are magnets. A large cluster below price is a pool of long liquidations; a cluster above is short liquidations. Price often hunts these levels because closing them out creates a wave of market orders in one direction. If you don't know where the magnet is, you can park your stop right on top of it — and get tagged on the exact wick that was always coming.\n\nHow we use it\n• We pull the heatmap and mark the heaviest clusters around the setup.\n• We assume price can sweep the nearest magnet before doing what it 'should'.\n• We place the SL AWAY from the magnet, not inside it — so a routine sweep doesn't take us out of a thesis that's still valid.\n• If the only clean invalidation sits right behind a giant cluster, that's often a 'skip', not a forced trade.\n\nThe heatmap doesn't tell you direction on its own. It tells you where the pain is — and pain is where leverage goes to die. We cross-check it with funding and structure before anything ships as a #Signal.\n\n#CryptoSchool"
+}

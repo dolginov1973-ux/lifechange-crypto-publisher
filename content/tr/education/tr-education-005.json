@@ -1,0 +1,12 @@
+{
+  "id": "tr-education-005",
+  "channel": "tr",
+  "rubric": "education",
+  "slot": null,
+  "lang": "tr",
+  "ready": true,
+  "cta": false,
+  "title": "On-chain 101: exchange inflow & outflow",
+  "_note": "EVERGREEN (warm-up bank, tr localization)",
+  "body": "⛓️ On-chain 101 — exchange inflow & outflow ve neye işaret eder\n\nNedir\nBir exchange cüzdanında oturan her coin anında satılabilir. Özel cüzdanlarda tutulan coinler satılamaz. On-chain flow verisi (Glassnode tarzı) coinlerin exchange'lere ve exchange'lerden çıkışını izler — ve bu hareket, niyet hakkında bir ipucudur.\n\nİki yön\n• Coinler exchange'lere giriyor → arz, satılabileceği yere diziliyor. Bu satış baskısı KONTEKSTİDİR. Büyük tutucular coinleri seyretmek için bir exchange'e taşımaz.\n• Coinler exchange'lerden çıkıyor → arz soğuk depolamaya, piyasadan dışarı gidiyor. Bu birikim KONTEKSTİDİR — coinler park ediliyor, satışa hazırlanmıyor.\n\nNeden önemseriz\nFlow'lar, fiyatın tek başına gizlediği konumlanma okumasıdır. Coinler sessizce exchange'lerden boşalırken yaşanan bir ralli, coinler exchange'lere akın ederken yaşanan bir ralliden çok farklı görünür. İlkinin altında arz sıkışıyor; ikincisinde arz bid'e vurmayı bekliyor.\n\nBüyük uyarı\nBu KONTEKSTİR, asla tek başına bir sinyal değil. Flow'lar dramatik görünüp hiçbir şey ifade etmeyen iç exchange transferleri, saklama göçleri ya da cüzdan yeniden etiketlemeleri olabilir. Tek bir spike'a tepki vermek, kandırılmanın yoludur.\n\nNasıl kullanıyoruz\n• Flow'ları arka plan eğilimi olarak ele alıyoruz, tetik olarak değil.\n• Her zaman funding, OI ve liquidation heatmap ile çapraz kontrol ediyoruz.\n• On-chain bir yönü fısıldarken diğer okumalarımız aynı fikirde değilse, flow verisi kaybeder — confluence kazanır.\n\nBurada tek bir rakam seni bir işleme sokmaz. On-chain odadaki seslerden biridir. Yalnızca diğerleriyle aynı fikirde olduğunda önemlidir — her #Signal'in arkasındaki ≥2 onay kuralı budur.\n\n#CryptoSchool"
+}

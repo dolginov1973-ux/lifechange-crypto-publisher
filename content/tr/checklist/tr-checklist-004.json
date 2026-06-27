@@ -1,0 +1,12 @@
+{
+  "id": "tr-checklist-004",
+  "channel": "tr",
+  "rubric": "checklist",
+  "slot": null,
+  "lang": "tr",
+  "ready": true,
+  "cta": true,
+  "title": "Güvenmeden önce herhangi bir trader'ı on-chain doğrula",
+  "_note": "EVERGREEN (warm-up bank, tr localization)",
+  "body": "✅ #BeforeYouTrade — güvenmeden önce herhangi bir trader'ı on-chain doğrula\n\nHerkes bir ekran görüntüsü yayınlayabilir. Neredeyse kimse bir on-chain kaydı sahteleyemez. Bir trader'a dikkatini — ya da büyüklüğünü — emanet etmeden önce, onu bu testten geçir. İzlediğimiz her trader'a uyguladığımız aynı kontrol budur.\n\n☐ On-chain pozisyonlar, ekran görüntüleri değil. Doğrulanabilir bir cüzdana ya da herkese açık bir hesaba bağlı gerçek pozisyonlar görebiliyor musun — yoksa sadece kırpılmış görseller mi? Pikseller düzenlenebilir. Bir on-chain iz düzenlenemez.\n\n☐ Denetleyebileceğin gerçek fill'ler. Entry ve exit'ler, hizalanan zaman damgalarıyla, gerçek icralarla eşleşiyor mu? Hiçbir gerçek fill geçmişinde görünmeyen iddia edilmiş bir entry sadece bir hikâyedir.\n\n☐ Bir highlight reel değil, ZAMAN içinde ölçülmüş win-rate. Bir avuç yeşil call hiçbir şey kanıtlamaz. Kötü dönemleri de içerecek kadar uzun bir geçmiş istersin — çünkü herkesin kötü dönemleri vardır. Kısa örnekler herkesi olduğundan iyi gösterir.\n\n☐ Kayıtta kayıplar. Geçmiş yalnızca kazançları gösteriyorsa, kayıplar silinmiştir. Gerçek bir kayıt iki yönde de nefes alır. Hiç kırmızı olmaması var olan en yüksek sesli red flag'dir.\n\n☐ Geri kaydırabileceğin tutarlılık. Trade ID'ler, kesintisiz bir zaman çizelgesi, hafıza-deliğine atılmamış hiçbir şey. Geçmişi kendin denetleyemiyorsan, bir trader'a değil, pazarlamaya güveniyorsun.\n\nTakip ettiğimiz trader'ları tam olarak böyle eliyoruz — on-chain iz, gerçek fill'ler, kırmızıyı da içeren bir kayıt. Kendimizi de aynı çıtaya tutuyoruz: makbuzlar, Signal ID'ler, yayınlanmış kayıplar, hiçbir şey silinmedi.\n\nSözümüze güvenme — doğrula. Bir trader'ın on-chain geçmişini okumakta yardım mı istersin? Toplulukta sor 👉 {{COMMUNITY}}\n\n#BeforeYouTrade"
+}

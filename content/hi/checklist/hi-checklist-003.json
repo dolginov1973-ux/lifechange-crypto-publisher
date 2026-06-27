@@ -1,0 +1,12 @@
+{
+  "id": "hi-checklist-003",
+  "channel": "hi",
+  "rubric": "checklist",
+  "slot": null,
+  "lang": "hi",
+  "ready": true,
+  "cta": false,
+  "title": "Red flags: वे setups जिन्हें हम लेने से मना करते हैं",
+  "_note": "EVERGREEN (warm-up bank, hi localization)",
+  "body": "✅ #BeforeYouTrade — वे setups जिन्हें हम लेने से मना करते हैं\n\nक्या NOT trade करना है यह जानना आधा edge है। यह रही हमारी no-list। अगर एक setup इनमें से किसी एक को भी trip करे, तो वो ship नहीं होता — चाहे वो कितना भी अच्छा दिखे।\n\n☐ SL एक liquidation magnet के अंदर बैठेगा। अगर एकमात्र stop placement heatmap के एक heavy cluster पर ठीक land करती है, तो एक routine sweep हमें ऐसी thesis से बाहर निकाल देता है जो अभी valid थी। Bad stop = no trade।\n\n☐ ~10 मिनट के अंदर major news। एक scheduled print या event गिरने वाला हो तो price एक coin flip बन जाती है। हम एक known volatility spike में size hold नहीं करते। धूल बैठने का इंतज़ार करें, फिर असली move पढ़ें।\n\n☐ एक big move के बाद Chasing। Candle पहले ही दौड़ चुकी। अब enter करना मतलब सबसे खराब price पर भीड़ की exit खरीदना। वो move जिसे काश आपने पकड़ा होता, setup नहीं है — एक याद है। उसे जाने दें।\n\n☐ No clear invalidation। अगर हम एक single price की ओर इशारा नहीं कर सकते जहाँ idea बस गलत है, तो कोई stop नहीं, कोई sizing नहीं, कोई trade नहीं। 'इसे काम करना चाहिए' एक invalidation नहीं है।\n\n☐ Funding neutral + no confluence। कुछ extreme नहीं, कुछ lined up नहीं, 2 से कम confirmations सहमत। वो signal नहीं — वो noise है जो trade होने को कह रहा है। जवाब no है।\n\nइनमें से कोई यह मतलब नहीं रखता कि market 'आज unbeatable' है। इनका मतलब है कि यह setup हमारा नहीं है। हम इनमें से दस को flat बैठकर देखना पसंद करेंगे बजाय एक को force करने और भीड़ को अपनी liquidity सौंपने के।\n\nसबसे अच्छा trade वो है जिसे आप skip करें। ज़्यादातर दिन, वो उनमें से ज़्यादातर होते हैं।\n\n#BeforeYouTrade"
+}

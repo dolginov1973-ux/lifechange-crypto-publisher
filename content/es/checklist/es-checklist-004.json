@@ -1,0 +1,12 @@
+{
+  "id": "es-checklist-004",
+  "channel": "es",
+  "rubric": "checklist",
+  "slot": null,
+  "lang": "es",
+  "ready": true,
+  "cta": true,
+  "title": "Verifica a cualquier trader on-chain antes de confiar en él",
+  "_note": "EVERGREEN (warm-up bank, es localization)",
+  "body": "✅ #BeforeYouTrade — verifica a cualquier trader on-chain antes de confiar en él\n\nCualquiera puede publicar una captura. Casi nadie puede falsificar un registro on-chain. Antes de confiarle a un trader tu atención — o tu tamaño — pásalo por esto. Es el mismo chequeo que corremos sobre cada trader que seguimos.\n\n☐ Posiciones on-chain, no capturas. ¿Puedes ver posiciones reales atadas a una wallet verificable o a una cuenta pública — o solo imágenes recortadas? Los píxeles pueden editarse. Una huella on-chain no.\n\n☐ Fills reales que puedas auditar. ¿Coinciden los entries y exits con ejecuciones reales, con timestamps que cuadran? Un entry afirmado que nunca aparece en ningún historial de fills reales es solo un cuento.\n\n☐ Win-rate medido a lo largo del TIEMPO, no un montaje de lo mejor. Un puñado de calls en verde no prueba nada. Quieres un track record lo bastante largo para incluir las malas rachas — porque todos las tienen. Las muestras cortas favorecen a cualquiera.\n\n☐ Pérdidas en el registro. Si el historial muestra solo aciertos, las pérdidas fueron borradas. Un registro real respira en ambos sentidos. Nada de rojo es la red flag más ruidosa que existe.\n\n☐ Consistencia que puedas recorrer hacia atrás. Trade IDs, un timeline sin interrupciones, nada metido en el agujero de la memoria. Si no puedes auditar el historial tú mismo, estás confiando en marketing, no en un trader.\n\nAsí es exactamente como NOSOTROS evaluamos a los traders que seguimos — huella on-chain, fills reales, un registro que incluye el rojo. Nos exigimos la misma vara: comprobantes, Signal IDs, pérdidas publicadas, nada borrado.\n\nNo nos creas a nosotros — verifica. ¿Quieres ayuda para leer el historial on-chain de un trader? Pregunta en la comunidad 👉 {{COMMUNITY}}\n\n#BeforeYouTrade"
+}

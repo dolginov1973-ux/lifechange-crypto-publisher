@@ -1,0 +1,12 @@
+{
+  "id": "hi-education-006",
+  "channel": "hi",
+  "rubric": "education",
+  "slot": null,
+  "lang": "hi",
+  "ready": true,
+  "cta": true,
+  "title": "Fake signal channel को कैसे पहचानें",
+  "_note": "EVERGREEN (warm-up bank, hi localization)",
+  "body": "🚩 Fake signal channel को कैसे पहचानें — इससे पहले कि वो आपको भारी पड़े\n\nज़्यादातर 'signal' channels एक ही trick पर ज़िंदा हैं: आपको हमेशा सिर्फ wins दिखते हैं। यह रही tell-tale list। अगर ये दिखें, तो निकल जाएँ।\n\n☐ Deleted losing calls. Channel green screenshots से भरा है और zero red. कोई इतनी बार सही नहीं होता। Losses का गायब होना मतलब losses मिटा दिए गए।\n☐ Edited screenshots. ऐसे numbers जो match नहीं करते, cropped timestamps, ऐसे fonts जो exchange से मेल नहीं खाते। एक real fill एक real fill होती है — उसे touch-up की ज़रूरत नहीं।\n☐ No SL shown. Target के साथ entries पर कोई stop नहीं। वो plan के भेस में एक coin flip है। अगर वे आपको नहीं दिखाएँगे कि वे कहाँ गलत हैं, तो वे वहाँ trade नहीं करते जहाँ वे गलत हैं।\n☐ Vague entries. बिना clear invalidation के एक विशाल range फैलाता 'buy zone'. काफ़ी wide हो तो कुछ-न-कुछ हमेशा 'hit' हो जाता है। इसी तरह एक miss आपको एक call के रूप में बेचा जाता है।\n☐ No way to track them. कोई trade IDs नहीं, कोई timeline नहीं, कोई history नहीं जिसे आप scroll back करके audit कर सकें। Check करने को कुछ नहीं मतलब भरोसा करने को कुछ नहीं।\n\nहम कैसे अलग हैं\n• हर call एक Signal ID, एक entry, defined targets और entry से पहले रखे गए SL के साथ जाती है।\n• हम अपने losses receipts के साथ post करते हैं। हर red trade में उसके SL ने अपना काम किया — वो एक controlled loss है, छुपाया हुआ नहीं।\n• कुछ भी delete नहीं होता। History ही proof है। आप scroll back करके हमें check कर सकते हैं।\n\nवो channel जो कभी red नहीं दिखाता, हमसे बेहतर नहीं है। वो बस वही आधा हिस्सा छुपा रहा है जिसे आपको सबसे ज़्यादा देखने की ज़रूरत है।\n\nकिसी channel पर भरोसा करने से पहले उसे pressure-test करना चाहते हैं? Community में पूछें 👉 {{COMMUNITY}}\n\n#CryptoSchool"
+}

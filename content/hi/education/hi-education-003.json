@@ -1,0 +1,12 @@
+{
+  "id": "hi-education-003",
+  "channel": "hi",
+  "rubric": "education",
+  "slot": null,
+  "lang": "hi",
+  "ready": true,
+  "cta": false,
+  "title": "Open interest: rising vs falling OI आपको क्या बताता है",
+  "_note": "EVERGREEN (warm-up bank, hi localization)",
+  "body": "📊 Open interest — वो second opinion जो price नहीं देगा\n\nयह है क्या\nOpen interest (OI) इस समय खुले futures contracts की कुल संख्या है। Price बताता है कि market कहाँ है। OI बताता है कि fresh money आ रहा है या पुरानी positions निकल रही हैं। किसी भी move पर भरोसा करने से पहले हम इसे Coinalyze से पढ़ते हैं।\n\nचार combinations\n• Price up + OI up → नए longs entering। Move के पीछे fresh money। Cleaner trend।\n• Price up + OI down → shorts closing (short-covering)। एक move जो exits से चल रहा है, conviction से नहीं। अक्सर fuel खत्म हो जाता है।\n• Price down + OI up → नए shorts entering। Sellers size के साथ leaning in।\n• Price down + OI down → longs unwinding। Capitulation flush, जरूरी नहीं कि fresh selling pressure हो।\n\nहम क्यों परवाह करते हैं\nदो moves chart पर बिल्कुल एक जैसे दिख सकते हैं और उनका मतलब उल्टा हो सकता है। Rising OI पर एक breakout नई participation है। वही breakout falling OI पर सिर्फ भीड़ का squaring up है — वैसा move जो exits सूखते ही वापस fade हो जाता है। एक ही candle, अलग trade।\n\nहम इसे कैसे use करते हैं\n• Breakout confirm करना: हम चाहते हैं कि price और OI साथ में rising हों।\n• Exhaustion spot करना: dropping OI पर एक strong candle एक flag है, green light नहीं।\n• Squeezes पढ़ना: collapsing OI के साथ एक sharp move अक्सर crowded side का clean-out होता है, trend की शुरुआत नहीं।\n\nOI कभी standalone trigger नहीं है। यह एक confirmation layer है जो funding और heatmap के साथ बैठती है — ≥2 reads में से एक जो setup के #Signal बनने से पहले हम माँगते हैं।\n\n#CryptoSchool"
+}

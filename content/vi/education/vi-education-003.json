@@ -1,0 +1,12 @@
+{
+  "id": "vi-education-003",
+  "channel": "vi",
+  "rubric": "education",
+  "slot": null,
+  "lang": "vi",
+  "ready": true,
+  "cta": false,
+  "title": "Open interest: OI tăng và OI giảm nói lên điều gì",
+  "_note": "EVERGREEN (warm-up bank, vi localization)",
+  "body": "📊 Open interest — ý kiến thứ hai mà giá sẽ không cho bạn\n\nNó là gì\nOpen interest (OI) là tổng số hợp đồng futures đang mở. Giá cho bạn biết thị trường ĐANG Ở ĐÂU. OI cho biết tiền mới đang vào hay vị thế cũ đang rời đi. Chúng tôi đọc nó trên Coinalyze trước khi tin bất kỳ cú chạy nào.\n\nBốn tổ hợp\n• Giá lên + OI lên → long mới đang vào. Tiền mới chống lưng cho cú chạy. Xu hướng sạch hơn.\n• Giá lên + OI xuống → short đang đóng (short-covering). Một cú chạy được đẩy bởi việc thoát lệnh, không phải niềm tin. Thường hết nhiên liệu.\n• Giá xuống + OI lên → short mới đang vào. Bên bán đang nghiêng vào với size.\n• Giá xuống + OI xuống → long đang tháo lệnh. Một đợt xả capitulation, không hẳn là áp lực bán mới.\n\nVì sao chúng tôi quan tâm\nHai cú chạy có thể trông y hệt nhau trên chart mà mang ý nghĩa ngược nhau. Một cú breakout trên OI tăng là sự tham gia mới. Cũng cú breakout đó trên OI giảm chỉ là đám đông đang dẹp lệnh — kiểu cú chạy mờ dần ngay khi các lệnh thoát cạn. Cùng một cây nến, lệnh khác nhau.\n\nChúng tôi dùng nó thế nào\n• Xác nhận một breakout: chúng tôi muốn giá VÀ OI cùng tăng.\n• Phát hiện kiệt sức: một cây nến mạnh trên OI rớt là một cờ cảnh báo, không phải đèn xanh.\n• Đọc squeeze: một cú chạy sắc với OI sụp đổ thường là cú dọn sạch bên đông người, không phải khởi đầu một xu hướng.\n\nOI không bao giờ là trigger độc lập. Nó là một lớp xác nhận ngồi cạnh funding và heatmap — một trong ≥2 lần đọc chúng tôi đòi hỏi trước khi một setup thành #Signal.\n\n#CryptoSchool"
+}

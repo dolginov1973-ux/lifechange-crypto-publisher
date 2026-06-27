@@ -1,0 +1,12 @@
+{
+  "id": "id-education-005",
+  "channel": "id",
+  "rubric": "education",
+  "slot": null,
+  "lang": "id",
+  "ready": true,
+  "cta": false,
+  "title": "On-chain 101: inflow & outflow exchange",
+  "_note": "EVERGREEN (warm-up bank, id localization)",
+  "body": "⛓️ On-chain 101 — inflow & outflow exchange, dan apa petunjuknya\n\nApa ini\nSetiap koin yang ada di wallet exchange bisa dijual seketika. Koin yang disimpan di wallet pribadi tidak bisa. Data on-chain flow (gaya Glassnode) melacak koin yang bergerak KE dan KELUAR dari exchange — dan pergerakan itu adalah petunjuk soal niat.\n\nDua arah\n• Koin bergerak KE exchange → supply berbaris di tempat ia bisa dijual. Ini KONTEKS tekanan jual. Pemegang besar tidak memindahkan koin ke exchange untuk dikagumi.\n• Koin bergerak KELUAR exchange → supply masuk ke cold storage, lepas dari pasar. Ini KONTEKS akumulasi — koin diparkir, bukan disiapkan untuk dijual.\n\nKenapa ini penting\nFlow adalah pembacaan posisi yang disembunyikan harga sendirian. Reli sementara koin diam-diam mengalir keluar exchange terlihat sangat berbeda dari reli sementara koin membanjir MASUK. Yang pertama punya supply mengencang di bawahnya; yang kedua punya supply menunggu menghantam bid.\n\nCatatan besar\nIni KONTEKS, tidak pernah signal berdiri sendiri. Flow bisa jadi perpindahan internal exchange, migrasi custody, atau relabel wallet yang terlihat dramatis tapi tidak berarti apa-apa. Bereaksi pada satu lonjakan adalah cara kamu kena tipu.\n\nCara kami pakai\n• Kami perlakukan flow sebagai kecondongan latar, bukan trigger.\n• Kami selalu cross-check dengan funding, OI, dan liquidation heatmap.\n• Kalau on-chain berbisik satu arah tapi pembacaan kami yang lain tidak setuju, data flow kalah — konfluensi menang.\n\nTidak ada angka tunggal yang membawamu masuk ke trade di sini. On-chain adalah satu suara di ruangan. Ia hanya penting saat ia setuju dengan yang lain — itulah aturan ≥2-konfirmasi di balik setiap #Signal.\n\n#CryptoSchool"
+}

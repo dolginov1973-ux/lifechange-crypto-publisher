@@ -1,0 +1,12 @@
+{
+  "id": "en-education-003",
+  "channel": "en",
+  "rubric": "education",
+  "slot": null,
+  "lang": "en",
+  "ready": true,
+  "cta": false,
+  "title": "Open interest: what rising vs falling OI tells you",
+  "_note": "EVERGREEN (warm-up bank for ad traffic). No invented numbers/prices/dates.",
+  "body": "📊 Open interest — the second opinion price won't give you\n\nWhat it is\nOpen interest (OI) is the total number of futures contracts currently open. Price tells you WHERE the market is. OI tells you whether fresh money is arriving or old positions are leaving. We read it off Coinalyze before trusting any move.\n\nThe four combinations\n• Price up + OI up → new longs entering. Fresh money backing the move. Cleaner trend.\n• Price up + OI down → shorts closing (short-covering). A move powered by exits, not conviction. Often runs out of fuel.\n• Price down + OI up → new shorts entering. Sellers leaning in with size.\n• Price down + OI down → longs unwinding. Capitulation flush, not necessarily fresh selling pressure.\n\nWhy we care\nTwo moves can look identical on the chart and mean opposite things. A breakout on rising OI is new participation. The same breakout on falling OI is just the crowd squaring up — the kind of move that fades back the moment the exits dry out. Same candle, different trade.\n\nHow we use it\n• Confirm a breakout: we want price AND OI rising together.\n• Spot exhaustion: a strong candle on dropping OI is a flag, not a green light.\n• Read squeezes: a sharp move with collapsing OI is often a clean-out of the crowded side, not the start of a trend.\n\nOI is never a standalone trigger. It's a confirmation layer that sits next to funding and the heatmap — one of the ≥2 reads we demand before a setup becomes a #Signal.\n\n#CryptoSchool"
+}

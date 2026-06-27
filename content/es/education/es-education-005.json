@@ -1,0 +1,12 @@
+{
+  "id": "es-education-005",
+  "channel": "es",
+  "rubric": "education",
+  "slot": null,
+  "lang": "es",
+  "ready": true,
+  "cta": false,
+  "title": "On-chain 101: inflows y outflows de exchanges",
+  "_note": "EVERGREEN (warm-up bank, es localization)",
+  "body": "⛓️ On-chain 101 — inflows y outflows de exchanges, y qué insinúan\n\nQué es\nCada moneda que está en una wallet de un exchange puede venderse al instante. Las monedas guardadas en wallets privadas no. Los datos de flujo on-chain (estilo Glassnode) rastrean monedas moviéndose HACIA y DESDE los exchanges — y ese movimiento es una pista sobre la intención.\n\nLas dos direcciones\n• Monedas moviéndose HACIA exchanges → oferta colocándose donde puede venderse. Esto es CONTEXTO de presión vendedora. Los grandes holders no mueven monedas a un exchange para admirarlas.\n• Monedas moviéndose DESDE exchanges → oferta yendo a cold storage, fuera del mercado. Esto es CONTEXTO de acumulación — monedas que se aparcan, no que se preparan para vender.\n\nPor qué nos importa\nLos flujos son una lectura del posicionamiento que el precio por sí solo esconde. Un rally mientras las monedas drenan en silencio desde los exchanges se ve muy distinto de un rally mientras las monedas inundan HACIA dentro. El primero tiene la oferta apretándose por debajo; el segundo tiene oferta esperando para golpear el bid.\n\nLa gran advertencia\nEsto es CONTEXTO, nunca un signal por sí solo. Los flujos pueden ser reorganizaciones internas del exchange, migraciones de custodia o reetiquetados de wallets que se ven dramáticos y no significan nada. Reaccionar a un solo spike es como te dejas engañar.\n\nCómo lo usamos\n• Tratamos los flujos como una inclinación de fondo, no como un trigger.\n• Siempre cruzamos contra funding, OI y el heatmap de liquidación.\n• Si lo on-chain susurra una dirección pero nuestros otros reads no coinciden, los datos de flujo pierden — la confluencia gana.\n\nNingún número por sí solo te mete en un trade aquí. Lo on-chain es una voz más en la sala. Solo importa cuando coincide con las demás — esa es la regla de ≥2 confirmaciones detrás de cada #Signal.\n\n#CryptoSchool"
+}

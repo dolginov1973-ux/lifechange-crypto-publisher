@@ -1,0 +1,12 @@
+{
+  "id": "es-education-003",
+  "channel": "es",
+  "rubric": "education",
+  "slot": null,
+  "lang": "es",
+  "ready": true,
+  "cta": false,
+  "title": "Open interest: qué te dice un OI que sube vs uno que baja",
+  "_note": "EVERGREEN (warm-up bank, es localization)",
+  "body": "📊 Open interest — la segunda opinión que el precio no te dará\n\nQué es\nEl open interest (OI) es el número total de contratos de futuros abiertos en este momento. El precio te dice DÓNDE está el mercado. El OI te dice si está entrando dinero nuevo o si están saliendo posiciones viejas. Lo leemos en Coinalyze antes de confiar en cualquier movimiento.\n\nLas cuatro combinaciones\n• Precio sube + OI sube → entran longs nuevos. Dinero fresco respaldando el movimiento. Tendencia más limpia.\n• Precio sube + OI baja → shorts cerrando (short-covering). Un movimiento impulsado por salidas, no por convicción. Suele quedarse sin combustible.\n• Precio baja + OI sube → entran shorts nuevos. Vendedores apoyándose con tamaño.\n• Precio baja + OI baja → longs deshaciéndose. Una purga de capitulación, no necesariamente presión vendedora fresca.\n\nPor qué nos importa\nDos movimientos pueden verse idénticos en el gráfico y significar cosas opuestas. Un breakout con OI subiendo es participación nueva. El mismo breakout con OI bajando es solo la multitud cuadrando posiciones — el tipo de movimiento que se desvanece en cuanto se secan las salidas. Misma vela, distinto trade.\n\nCómo lo usamos\n• Confirmar un breakout: queremos precio Y OI subiendo juntos.\n• Detectar agotamiento: una vela fuerte con OI cayendo es una bandera, no una luz verde.\n• Leer squeezes: un movimiento brusco con OI colapsando suele ser una limpieza del lado saturado, no el inicio de una tendencia.\n\nEl OI nunca es un trigger por sí solo. Es una capa de confirmación que va junto al funding y al heatmap — uno de los ≥2 reads que exigimos antes de que un setup se convierta en #Signal.\n\n#CryptoSchool"
+}

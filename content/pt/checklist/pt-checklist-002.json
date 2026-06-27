@@ -1,0 +1,12 @@
+{
+  "id": "pt-checklist-002",
+  "channel": "pt",
+  "rubric": "checklist",
+  "slot": null,
+  "lang": "pt",
+  "ready": true,
+  "cta": false,
+  "title": "Position sizing: defina o seu risco ANTES de clicar comprar",
+  "_note": "EVERGREEN (warm-up bank, pt localization)",
+  "body": "✅ #BeforeYouTrade — defina o seu risco ANTES de clicar comprar\n\nO sizing é a única decisão que tem que ser tomada a frio, antes da vela te puxar pra dentro. Acerte e uma perda é um arranhão de papel. Erre e um trade só pode causar dano de verdade. Aqui está a ordem em que a gente trabalha.\n\n☐ Fixe o seu risco-por-trade PRIMEIRO. Decida o máximo que você está disposto a perder nesta única posição antes de qualquer outra coisa — como uma fatia fixa da sua conta, a mesma fatia toda vez. Esse número é definido quando você está calmo. Ele não muda porque um setup 'parece' forte.\n\n☐ Marque o seu SL pelo gráfico, não pela esperança. Onde o trade está simplesmente errado? Esse preço é a sua invalidation. Ele vem da estrutura — não de quanto você 'preferiria' perder.\n\n☐ Calcule o tamanho A PARTIR da distância do SL — nunca do feeling. O seu tamanho de posição é o que quer que faça a distância entre entry e SL igual ao seu risco fixo. Stop apertado → tamanho maior permitido. Stop largo → tamanho menor. A conta define o tamanho. Você não.\n\n☐ Escolha a leverage POR ÚLTIMO. A leverage é um resultado do sizing, não o ponto de partida. Escolha o tamanho primeiro; a leverage é só o que sobra pra expressá-lo. E o SL ainda tem que ficar antes do seu liquidation price — sempre.\n\n☐ Uma posição não pode te afundar. Se um único trade batendo o stop machucaria a conta de um jeito que você sentiria por dias, o tamanho está errado. Corte até a perda ficar entediante.\n\nFazer o sizing pelo 'feeling' é como boas leituras ainda estouram contas. Fazer o sizing pelo SL é como a gente roda leverage agressiva de propósito e sobrevive aos vermelhos. Decida a perda antes do entry — toda vez.\n\n#BeforeYouTrade"
+}

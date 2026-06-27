@@ -1,0 +1,12 @@
+{
+  "id": "es-education-002",
+  "channel": "es",
+  "rubric": "education",
+  "slot": null,
+  "lang": "es",
+  "ready": true,
+  "cta": false,
+  "title": "Heatmaps de liquidación: leer dónde se acumulan los stops",
+  "_note": "EVERGREEN (warm-up bank, es localization)",
+  "body": "🗺️ Heatmaps de liquidación — leer dónde se acumulan los stops\n\nQué es\nUn heatmap de liquidación (usamos CoinGlass) muestra dónde las posiciones con leverage se cierran de forma forzada si el precio llega hasta ellas. Las zonas brillantes = clústeres de liquidaciones ubicados en niveles concretos. Piénsalos como combustible: el precio tiende a ser atraído hacia donde está aparcado el mayor leverage.\n\nPor qué nos importa\nEsos clústeres brillantes son imanes. Un clúster grande por debajo del precio es una bolsa de liquidaciones de longs; un clúster por encima son liquidaciones de shorts. El precio suele cazar estos niveles porque cerrarlos genera una ola de órdenes a mercado en una sola dirección. Si no sabes dónde está el imán, puedes aparcar tu stop justo encima de él — y quedar barrido en la mecha exacta que siempre iba a llegar.\n\nCómo lo usamos\n• Sacamos el heatmap y marcamos los clústeres más pesados alrededor del setup.\n• Asumimos que el precio puede barrer el imán más cercano antes de hacer lo que 'debería'.\n• Colocamos el SL LEJOS del imán, no dentro de él — para que un barrido rutinario no nos saque de una tesis que sigue siendo válida.\n• Si la única invalidation limpia queda justo detrás de un clúster gigante, eso suele ser un 'skip', no un trade forzado.\n\nEl heatmap por sí solo no te dice la dirección. Te dice dónde está el dolor — y el dolor es donde el leverage va a morir. Lo cruzamos con funding y estructura antes de que algo salga como #Signal.\n\n#CryptoSchool"
+}

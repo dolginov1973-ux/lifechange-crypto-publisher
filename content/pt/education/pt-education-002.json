@@ -1,0 +1,12 @@
+{
+  "id": "pt-education-002",
+  "channel": "pt",
+  "rubric": "education",
+  "slot": null,
+  "lang": "pt",
+  "ready": true,
+  "cta": false,
+  "title": "Liquidation heatmaps: lendo onde os stops estão empilhados",
+  "_note": "EVERGREEN (warm-up bank, pt localization)",
+  "body": "🗺️ Liquidation heatmaps — lendo onde os stops estão empilhados\n\nO que é\nUm liquidation heatmap (a gente usa o CoinGlass) mostra onde posições alavancadas são fechadas à força se o preço chegar nelas. Zonas brilhantes = aglomerados de liquidations parados em níveis específicos. Pense neles como combustível: o preço tende a ser puxado para onde a maior parte da leverage está estacionada.\n\nPor que a gente liga pra isso\nEsses aglomerados brilhantes são imãs. Um aglomerado grande abaixo do preço é uma poça de liquidations de longs; um aglomerado acima é de liquidations de shorts. O preço costuma caçar esses níveis porque fechá-los gera uma onda de ordens a mercado numa única direção. Se você não sabe onde está o imã, pode estacionar seu stop bem em cima dele — e ser pego exatamente na wick que sempre estava vindo.\n\nComo a gente usa\n• Puxamos o heatmap e marcamos os aglomerados mais pesados em volta do setup.\n• Assumimos que o preço pode varrer o imã mais próximo antes de fazer o que 'deveria'.\n• Colocamos o SL LONGE do imã, não dentro dele — para que uma varredura de rotina não nos tire de uma tese que ainda é válida.\n• Se a única invalidation limpa fica logo atrás de um aglomerado gigante, isso normalmente é um 'pular', não um trade forçado.\n\nO heatmap sozinho não te diz a direção. Ele te diz onde está a dor — e a dor é onde a leverage vai morrer. A gente cruza isso com funding e estrutura antes de qualquer coisa virar um #Signal.\n\n#CryptoSchool"
+}

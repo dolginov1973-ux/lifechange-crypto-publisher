@@ -1,0 +1,12 @@
+{
+  "id": "pt-education-003",
+  "channel": "pt",
+  "rubric": "education",
+  "slot": null,
+  "lang": "pt",
+  "ready": true,
+  "cta": false,
+  "title": "Open interest: o que OI subindo vs caindo te diz",
+  "_note": "EVERGREEN (warm-up bank, pt localization)",
+  "body": "📊 Open interest — a segunda opinião que o preço não te dá\n\nO que é\nOpen interest (OI) é o número total de contratos de futuros abertos no momento. O preço te diz ONDE o mercado está. O OI te diz se dinheiro novo está chegando ou se posições antigas estão saindo. A gente lê isso no Coinalyze antes de confiar em qualquer movimento.\n\nAs quatro combinações\n• Preço subindo + OI subindo → novos longs entrando. Dinheiro novo sustentando o movimento. Tendência mais limpa.\n• Preço subindo + OI caindo → shorts fechando (short-covering). Um movimento movido por saídas, não por convicção. Costuma ficar sem combustível.\n• Preço caindo + OI subindo → novos shorts entrando. Vendedores se posicionando com tamanho.\n• Preço caindo + OI caindo → longs desmontando. Lavagem de capitulação, não necessariamente pressão de venda nova.\n\nPor que a gente liga pra isso\nDois movimentos podem parecer idênticos no gráfico e significar coisas opostas. Um rompimento com OI subindo é participação nova. O mesmo rompimento com OI caindo é só a multidão zerando — o tipo de movimento que desvanece no momento em que as saídas secam. Mesma vela, trade diferente.\n\nComo a gente usa\n• Confirmar um rompimento: queremos preço E OI subindo juntos.\n• Detectar exaustão: uma vela forte com OI caindo é um alerta, não um sinal verde.\n• Ler squeezes: um movimento brusco com OI desabando costuma ser uma limpeza do lado lotado, não o começo de uma tendência.\n\nOI nunca é gatilho sozinho. É uma camada de confirmação que fica ao lado do funding e do heatmap — uma das ≥2 leituras que exigimos antes de um setup virar um #Signal.\n\n#CryptoSchool"
+}

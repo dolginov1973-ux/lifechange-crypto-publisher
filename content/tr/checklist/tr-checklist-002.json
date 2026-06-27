@@ -1,0 +1,12 @@
+{
+  "id": "tr-checklist-002",
+  "channel": "tr",
+  "rubric": "checklist",
+  "slot": null,
+  "lang": "tr",
+  "ready": true,
+  "cta": false,
+  "title": "Position sizing: al'a tıklamadan ÖNCE riskine karar ver",
+  "_note": "EVERGREEN (warm-up bank, tr localization)",
+  "body": "✅ #BeforeYouTrade — al'a tıklamadan ÖNCE riskine karar ver\n\nSizing, mum seni içine çekmeden önce soğukkanlı verilmesi gereken tek karardır. Doğru yap, bir kayıp kâğıt kesiğine dönüşür. Yanlış yap, tek bir işlem gerçek hasar verebilir. İşte çalıştığımız sıra.\n\n☐ İşlem başına riskini ÖNCE sabitle. Bu tek pozisyonda kaybetmeye razı olduğun maksimumu her şeyden önce belirle — hesabının sabit bir dilimi olarak, her seferinde aynı dilim. Bu sayı sen sakinken belirlenir. Bir setup 'güçlü hissettiriyor' diye değişmez.\n\n☐ SL'ni umuttan değil, grafikten işaretle. İşlem nerede basitçe yanlış? O fiyat senin invalidation'ın. Yapıdan gelir — ne kadar kaybetmeyi 'tercih edeceğinden' değil.\n\n☐ SL mesafesinden boyutlandır — asla histen değil. Pozisyon büyüklüğün, entry ile SL arasındaki mesafeyi sabit riskine eşit kılan şeydir. Dar stop → daha büyük büyüklüğe izin var. Geniş stop → daha küçük. Büyüklüğü matematik belirler. Sen değil.\n\n☐ Leverage'ı EN SON seç. Leverage sizing'in bir çıktısıdır, başlangıç noktası değil. Önce büyüklüğü seç; leverage onu ifade etmek için geriye kalandır. Ve SL yine liquidation price'ından önce oturmalı — her zaman.\n\n☐ Tek bir pozisyon seni batıramamalı. Tek bir işlem stop'una vurduğunda hesabı günlerce hissedeceğin şekilde acıtacaksa, büyüklük yanlıştır. Kayıp sıkıcı olana kadar kıs.\n\n'His'ten boyutlandırmak, iyi okumaların bile hesapları silmesinin yoludur. SL'den boyutlandırmak, agresif leverage'ı bilerek çalıştırıp kırmızılardan sağ çıkmamızın yoludur. Kaybı girişten önce belirle — her seferinde.\n\n#BeforeYouTrade"
+}

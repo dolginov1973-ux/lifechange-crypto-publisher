@@ -1,0 +1,12 @@
+{
+  "id": "vi-education-005",
+  "channel": "vi",
+  "rubric": "education",
+  "slot": null,
+  "lang": "vi",
+  "ready": true,
+  "cta": false,
+  "title": "On-chain 101: dòng coin vào & ra sàn",
+  "_note": "EVERGREEN (warm-up bank, vi localization)",
+  "body": "⛓️ On-chain 101 — dòng coin vào & ra sàn, và chúng gợi ý điều gì\n\nNó là gì\nMọi coin nằm trên ví sàn đều có thể bị bán ngay lập tức. Coin giữ trong ví riêng thì không. Dữ liệu dòng on-chain (kiểu Glassnode) theo dõi coin di chuyển VÀO và RA khỏi sàn — và chuyển động đó là một manh mối về ý định.\n\nHai hướng\n• Coin chuyển VÀO sàn → nguồn cung đang xếp hàng ở nơi có thể bán. Đây là NGỮ CẢNH áp lực bán. Cá voi không chuyển coin lên sàn để ngắm chúng.\n• Coin chuyển RA khỏi sàn → nguồn cung đi vào cold storage, ra khỏi thị trường. Đây là NGỮ CẢNH tích lũy — coin được đem cất, không phải chuẩn bị bán.\n\nVì sao chúng tôi quan tâm\nDòng coin là cách đọc về vị thế mà chỉ riêng giá thì giấu đi. Một đợt tăng trong khi coin lặng lẽ rút khỏi sàn trông rất khác với một đợt tăng trong khi coin tràn VÀO. Cái đầu có nguồn cung thắt lại bên dưới; cái sau có nguồn cung chờ sẵn để giáng vào bid.\n\nLưu ý lớn\nĐây là NGỮ CẢNH, không bao giờ là tín hiệu độc lập. Dòng coin có thể là việc xáo nội bộ trong sàn, di chuyển custody, hay dán nhãn lại ví — trông kịch tính mà chẳng nghĩa lý gì. Phản ứng theo một cú spike đơn lẻ là cách bạn bị lừa.\n\nChúng tôi dùng nó thế nào\n• Chúng tôi coi dòng coin như một thiên hướng nền, không phải trigger.\n• Chúng tôi luôn đối chiếu với funding, OI và liquidation heatmap.\n• Nếu on-chain thì thầm một hướng nhưng các lần đọc khác của chúng tôi không đồng ý, dữ liệu dòng coin thua — confluence thắng.\n\nKhông con số đơn lẻ nào đưa bạn vào một lệnh ở đây. On-chain là một tiếng nói trong phòng. Nó chỉ quan trọng khi nó đồng tình với các tiếng nói khác — đó là quy tắc ≥2-xác-nhận đằng sau mỗi #Signal.\n\n#CryptoSchool"
+}

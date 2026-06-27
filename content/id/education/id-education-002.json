@@ -1,0 +1,12 @@
+{
+  "id": "id-education-002",
+  "channel": "id",
+  "rubric": "education",
+  "slot": null,
+  "lang": "id",
+  "ready": true,
+  "cta": false,
+  "title": "Liquidation heatmap: membaca di mana stop bertumpuk",
+  "_note": "EVERGREEN (warm-up bank, id localization)",
+  "body": "🗺️ Liquidation heatmap — membaca di mana stop bertumpuk\n\nApa ini\nLiquidation heatmap (kami pakai CoinGlass) menunjukkan di mana posisi leverage dipaksa tutup kalau harga menyentuhnya. Zona terang = kumpulan liquidation yang menumpuk di level tertentu. Anggap saja itu bahan bakar: harga cenderung tertarik ke tempat leverage paling banyak diparkir.\n\nKenapa ini penting\nKumpulan terang itu adalah magnet. Cluster besar di bawah harga adalah kolam liquidation long; cluster di atas adalah liquidation short. Harga sering memburu level ini karena menutupnya memicu gelombang market order ke satu arah. Kalau kamu tidak tahu di mana magnet-nya, kamu bisa memarkir SL tepat di atasnya — dan kena tepat di wick yang memang sudah pasti datang.\n\nCara kami pakai\n• Kami tarik heatmap dan tandai cluster paling berat di sekitar setup.\n• Kami asumsikan harga bisa menyapu magnet terdekat sebelum melakukan apa yang 'seharusnya'.\n• Kami taruh SL JAUH dari magnet, bukan di dalamnya — supaya sapuan rutin tidak mengeluarkan kami dari tesis yang masih valid.\n• Kalau satu-satunya invalidation yang bersih justru ada tepat di belakang cluster raksasa, itu biasanya 'skip', bukan trade yang dipaksakan.\n\nHeatmap sendirian tidak memberi tahu arah. Ia memberi tahu di mana rasa sakitnya — dan rasa sakit adalah tempat leverage mati. Kami cross-check dengan funding dan struktur sebelum apa pun dirilis sebagai #Signal.\n\n#CryptoSchool"
+}

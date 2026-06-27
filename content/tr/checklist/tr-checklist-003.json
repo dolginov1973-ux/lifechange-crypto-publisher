@@ -1,0 +1,12 @@
+{
+  "id": "tr-checklist-003",
+  "channel": "tr",
+  "rubric": "checklist",
+  "slot": null,
+  "lang": "tr",
+  "ready": true,
+  "cta": false,
+  "title": "Red flag'ler: almayı reddettiğimiz setup'lar",
+  "_note": "EVERGREEN (warm-up bank, tr localization)",
+  "body": "✅ #BeforeYouTrade — almayı reddettiğimiz setup'lar\n\nNEYİ trade etmeyeceğini bilmek avantajın yarısıdır. İşte hayır-listemiz. Bir setup bunlardan herhangi birine takılırsa, gönderilmez — ne kadar iyi görünürse görünsün.\n\n☐ SL bir liquidation magnet içine otururdu. Tek stop yerleşimi heatmap'teki yoğun bir kümenin tam üstüne düşüyorsa, rutin bir süpürme bizi hâlâ geçerli bir tezden çıkarır. Kötü stop = işlem yok.\n\n☐ ~10 dakika içinde önemli haber. Düşmek üzere olan planlı bir veri ya da olay, fiyatı yazı-turaya çevirir. Bilinen bir volatilite spike'ına büyüklükle girmeyiz. Toz dağılsın, sonra gerçek hareketi oku.\n\n☐ Büyük bir hareketin ardından peşine düşmek. Mum çoktan koştu. Şimdi girmek, kalabalığın çıkışını en kötü fiyatta satın almak demektir. Keşke yakalasaydım dediğin hareket bir setup değil — bir anıdır. Bırak gitsin.\n\n☐ Net invalidation yok. Fikrin basitçe yanlış olduğu tek bir fiyatı gösteremiyorsak, stop yok, sizing yok, işlem yok. 'Çalışması lazım' bir invalidation değildir.\n\n☐ Funding nötr + confluence yok. Aşırı hiçbir şey yok, hizalanmış hiçbir şey yok, 2'den az onay aynı fikirde. Bu bir sinyal değil — trade edilmek isteyen gürültü. Cevap hayır.\n\nBunların hiçbiri piyasanın 'bugün yenilmez' olduğu anlamına gelmez. BU setup'ın bizim olmadığı anlamına gelir. Bunlardan onunu düz oturarak geçmeyi, birini zorlayıp kalabalığa likiditemizi vermeye tercih ederiz.\n\nEn iyi işlem atladığın işlemdir. Çoğu gün, bunların çoğudur.\n\n#BeforeYouTrade"
+}

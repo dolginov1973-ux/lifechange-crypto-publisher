@@ -1,0 +1,12 @@
+{
+  "id": "pt-checklist-004",
+  "channel": "pt",
+  "rubric": "checklist",
+  "slot": null,
+  "lang": "pt",
+  "ready": true,
+  "cta": true,
+  "title": "Verifique qualquer trader on-chain antes de confiar nele",
+  "_note": "EVERGREEN (warm-up bank, pt localization)",
+  "body": "✅ #BeforeYouTrade — verifique qualquer trader on-chain antes de confiar nele\n\nQualquer um pode postar um print. Quase ninguém consegue forjar um registro on-chain. Antes de confiar a sua atenção — ou o seu tamanho — a um trader, passe ele por isto. É a mesma checagem que a gente roda em todo trader que acompanha.\n\n☐ Posições on-chain, não prints. Você consegue ver posições reais ligadas a uma carteira verificável ou a uma conta pública — ou só imagens cortadas? Pixels podem ser editados. Uma pegada on-chain não.\n\n☐ Fills reais que você pode auditar. Os entries e exits batem com execuções reais, com timestamps que se alinham? Um entry alegado que nunca aparece em nenhum histórico de fill real é só uma história.\n\n☐ Win-rate medido ao longo do TEMPO, não um compilado de melhores momentos. Um punhado de calls verdes não prova nada. Você quer um histórico longo o suficiente pra incluir os trechos ruins — porque todo mundo os tem. Amostras curtas favorecem todo mundo.\n\n☐ Perdas no registro. Se o histórico mostra só vitórias, as perdas foram apagadas. Um registro real respira nos dois sentidos. Nenhum vermelho é o red flag mais barulhento que existe.\n\n☐ Consistência que você pode rolar pra trás. Trade IDs, uma timeline ininterrupta, nada sumido da memória. Se você não consegue auditar o histórico você mesmo, está confiando em marketing, não num trader.\n\nÉ exatamente assim que NÓS avaliamos os traders que seguimos — pegada on-chain, fills reais, um registro que inclui o vermelho. A gente se cobra no mesmo nível: comprovantes, Signal IDs, perdas postadas, nada apagado.\n\nNão acredite só na nossa palavra — verifique. Quer ajuda pra ler o histórico on-chain de um trader? Pergunte na comunidade 👉 {{COMMUNITY}}\n\n#BeforeYouTrade"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "tr-education-002",
+  "channel": "tr",
+  "rubric": "education",
+  "slot": null,
+  "lang": "tr",
+  "ready": true,
+  "cta": false,
+  "title": "Liquidation heatmap: stopların nerede yığıldığını okumak",
+  "_note": "EVERGREEN (warm-up bank, tr localization)",
+  "body": "🗺️ Liquidation heatmap — stopların nerede yığıldığını okumak\n\nNedir\nBir liquidation heatmap (biz CoinGlass kullanıyoruz) kaldıraçlı pozisyonların fiyat oraya ulaşırsa nerede zorla kapanacağını gösterir. Parlak bölgeler = belirli seviyelerde oturan liquidation kümeleri. Onları yakıt gibi düşün: fiyat, en çok kaldıracın park ettiği yere doğru çekilme eğilimindedir.\n\nNeden önemseriz\nO parlak kümeler birer mıknatıs. Fiyatın altındaki büyük bir küme long liquidation havuzudur; üstündeki bir küme short liquidation'dır. Fiyat genellikle bu seviyeleri avlar çünkü onları kapatmak tek yönde bir market order dalgası yaratır. Mıknatısın nerede olduğunu bilmiyorsan, SL'ni tam onun üstüne koyabilirsin — ve hep gelmekte olan o wick'te tam isabetle silinirsin.\n\nNasıl kullanıyoruz\n• Heatmap'i çekiyoruz ve setup'ın etrafındaki en yoğun kümeleri işaretliyoruz.\n• Fiyatın 'yapması gerekeni' yapmadan önce en yakın mıknatısı süpürebileceğini varsayıyoruz.\n• SL'yi mıknatısın UZAĞINA koyuyoruz, içine değil — rutin bir süpürme bizi hâlâ geçerli bir tezden çıkarmasın diye.\n• Tek temiz invalidation kocaman bir kümenin tam arkasında oturuyorsa, bu genelde bir 'pas', zorlama bir işlem değil.\n\nHeatmap tek başına sana yön söylemez. Sana acının nerede olduğunu söyler — ve acı, kaldıracın ölmeye gittiği yerdir. Bir şey #Signal olarak gönderilmeden önce bunu funding ve yapıyla çapraz kontrol ediyoruz.\n\n#CryptoSchool"
+}

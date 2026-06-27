@@ -1,0 +1,12 @@
+{
+  "id": "id-checklist-003",
+  "channel": "id",
+  "rubric": "checklist",
+  "slot": null,
+  "lang": "id",
+  "ready": true,
+  "cta": false,
+  "title": "Red flag: setup yang kami tolak ambil",
+  "_note": "EVERGREEN (warm-up bank, id localization)",
+  "body": "✅ #BeforeYouTrade — setup yang kami tolak ambil\n\nMengetahui apa yang TIDAK boleh di-trade adalah separuh edge. Ini daftar 'tidak' kami. Kalau sebuah setup memicu salah satu dari ini, ia tidak dirilis — sebagus apa pun kelihatannya.\n\n☐ SL akan duduk di dalam liquidation magnet. Kalau satu-satunya penempatan stop mendarat tepat di cluster berat dari heatmap, sapuan rutin akan mengeluarkan kami dari tesis yang masih valid. Stop buruk = tidak ada trade.\n\n☐ Berita besar dalam ~10 menit. Rilis atau acara terjadwal yang hendak keluar mengubah harga jadi lempar koin. Kami tidak menahan size masuk ke lonjakan volatilitas yang sudah diketahui. Tunggu debunya reda, baru baca gerakan sebenarnya.\n\n☐ Mengejar setelah gerakan besar. Candle-nya sudah berlari. Masuk sekarang berarti membeli exit kerumunan pada harga terburuk. Gerakan yang kamu harap kamu tangkap bukan setup — itu kenangan. Lepaskan.\n\n☐ Tidak ada invalidation jelas. Kalau kami tidak bisa menunjuk satu harga di mana idenya cuma salah, tidak ada stop, tidak ada sizing, tidak ada trade. 'Seharusnya jalan' bukan invalidation.\n\n☐ Funding netral + tanpa konfluensi. Tidak ada yang ekstrem, tidak ada yang berbaris, kurang dari 2 konfirmasi setuju. Itu bukan signal — itu noise yang minta di-trade. Jawabannya tidak.\n\nTidak satu pun dari ini berarti pasar 'tak terkalahkan hari ini'. Mereka berarti setup INI bukan milik kami. Kami lebih suka duduk diam melewati sepuluh dari ini daripada memaksa satu dan menyerahkan liquidity kami ke kerumunan.\n\nTrade terbaik adalah yang kamu skip. Kebanyakan hari, itu kebanyakan dari mereka.\n\n#BeforeYouTrade"
+}

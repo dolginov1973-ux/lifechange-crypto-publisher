@@ -1,0 +1,12 @@
+{
+  "id": "es-checklist-002",
+  "channel": "es",
+  "rubric": "checklist",
+  "slot": null,
+  "lang": "es",
+  "ready": true,
+  "cta": false,
+  "title": "Position sizing: decide tu riesgo ANTES de hacer clic en comprar",
+  "_note": "EVERGREEN (warm-up bank, es localization)",
+  "body": "✅ #BeforeYouTrade — decide tu riesgo ANTES de hacer clic en comprar\n\nEl sizing es la única decisión que tiene que tomarse en frío, antes de que la vela te arrastre. Hazlo bien y una pérdida es un rasguño. Hazlo mal y un solo trade puede hacer daño real. Aquí va el orden en el que trabajamos.\n\n☐ Fija tu riesgo-por-trade PRIMERO. Decide el máximo que estás dispuesto a perder en esta única posición antes que nada — como una fracción fija de tu cuenta, la misma fracción cada vez. Este número se fija cuando estás en calma. No se mueve porque un setup 'se sienta' fuerte.\n\n☐ Marca tu SL desde el gráfico, no desde la esperanza. ¿Dónde está el trade simplemente equivocado? Ese precio es tu invalidation. Viene de la estructura — no de cuánto 'preferirías' perder.\n\n☐ Calcula el tamaño DESDE la distancia del SL — nunca desde la intuición. Tu position size es lo que sea que haga que la distancia entre el entry y el SL iguale tu riesgo fijo. Stop ajustado → se permite más tamaño. Stop amplio → menos tamaño. Las cuentas fijan el tamaño. Tú no.\n\n☐ Elige el leverage AL FINAL. El leverage es un resultado del sizing, no el punto de partida. Elige el tamaño primero; el leverage es solo lo que queda para expresarlo. Y el SL todavía tiene que quedar antes de tu liquidation price — siempre.\n\n☐ Una posición no puede hundirte. Si un solo trade tocando su stop dañara la cuenta de un modo que sentirías durante días, el tamaño está mal. Recórtalo hasta que la pérdida sea aburrida.\n\nHacer sizing desde la 'intuición' es como buenos reads igual revientan cuentas. Hacer sizing desde el SL es como corremos leverage agresivo a propósito y sobrevivimos a los rojos. Decide la pérdida antes del entry — cada vez.\n\n#BeforeYouTrade"
+}

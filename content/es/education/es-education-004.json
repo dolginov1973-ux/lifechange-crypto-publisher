@@ -1,0 +1,12 @@
+{
+  "id": "es-education-004",
+  "channel": "es",
+  "rubric": "education",
+  "slot": null,
+  "lang": "es",
+  "ready": true,
+  "cta": false,
+  "title": "Liquidation price y leverage: las cuentas que te mantienen dentro",
+  "_note": "EVERGREEN (warm-up bank, es localization)",
+  "body": "🧮 Liquidation price y leverage — las cuentas que te mantienen en el juego\n\nLa única idea\nEl leverage no decide si tienes razón. Decide cuánto margen tiene el precio para respirar antes de que el exchange te cierre contra tu voluntad. Más leverage = el liquidation price queda más cerca del entry = menos margen.\n\nSolo ilustrativo\nModelo mental aproximado: cuanto más leverage acumulas, más estrecha es la banda entre tu entry y tu liquidation price. Súbelo lo suficiente y una mecha normal — del tipo que pasa cada sesión — puede alcanzar tu línea de liq. La distancia exacta depende de tu entry, el modo de margen y el maintenance margin del exchange, así que léelo siempre en vivo; esto es solo la forma de las cuentas, no un número fijo.\n\nLa trampa\nLa mayoría de las cuentas reventadas no se revientan por estar equivocadas. Se revientan por tener razón demasiado pronto — el precio mecha hasta la línea de liquidation, cierra la posición de forma forzada, y luego va exactamente a donde el trader esperaba. La tesis estaba bien. El leverage no dejó margen para el ruido.\n\nCómo lo usamos\n• Primero calculamos el tamaño, luego elegimos el leverage — nunca al revés.\n• Tu SL debe quedar ANTES de tu liquidation price. Siempre. El stop es tu decisión; la liquidation es la del exchange. Si la liq se activa primero, le entregaste la salida a otro.\n• Si un stop razonable aun así quedara más allá de la línea de liq, el leverage es demasiado alto para ese setup. Bájalo o haz skip.\n\nPor esto decimos que la disciplina HABILITA el leverage. Sizing estricto + un SL colocado antes de la liq es lo que nos permite correr tamaño agresivo a propósito — una pérdida controlada en vez de un cierre forzado. Las cuentas son simples; respetarlas es todo el trabajo.\n\n#CryptoSchool"
+}

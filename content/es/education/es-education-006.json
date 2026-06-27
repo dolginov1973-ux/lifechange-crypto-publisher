@@ -1,0 +1,12 @@
+{
+  "id": "es-education-006",
+  "channel": "es",
+  "rubric": "education",
+  "slot": null,
+  "lang": "es",
+  "ready": true,
+  "cta": true,
+  "title": "Cómo detectar un canal de signals falso",
+  "_note": "EVERGREEN (warm-up bank, es localization)",
+  "body": "🚩 Cómo detectar un canal de signals falso — antes de que te cueste\n\nLa mayoría de los canales de 'signals' sobreviven con un solo truco: solo ves los aciertos. Aquí está la lista delatora. Si detectas esto, lárgate.\n\n☐ Calls perdedores borrados. El canal está lleno de capturas en verde y cero rojo. Nadie acierta tan seguido. Que falten las pérdidas significa que las pérdidas fueron borradas.\n☐ Capturas editadas. Números que no cuadran, timestamps recortados, fuentes que no coinciden con las del exchange. Un fill real es un fill real — no necesita retoques.\n☐ Sin SL a la vista. Entries con un objetivo pero sin stop. Eso es lanzar una moneda disfrazado de plan. Si no te muestran dónde se equivocan, no operan donde se equivocan.\n☐ Entries vagos. 'Zona de compra' abarcando un rango enorme sin invalidation clara. Lo bastante amplio y SIEMPRE 'pega' algo. Así te venden un fallo como si fuera un call.\n☐ Sin forma de rastrearlos. Sin trade IDs, sin timeline, sin historial que puedas recorrer hacia atrás y auditar. Si no hay nada que verificar, no hay nada en qué confiar.\n\nCómo nos diferenciamos NOSOTROS\n• Cada call sale con un Signal ID, un entry, objetivos definidos y un SL colocado antes del entry.\n• Publicamos nuestras pérdidas con comprobantes. Cada trade en rojo tuvo su SL haciendo su trabajo — eso es una pérdida controlada, no una escondida.\n• Nada se borra. El historial es la prueba. Puedes recorrerlo hacia atrás y revisarnos.\n\nUn canal que nunca muestra rojo no es mejor que nosotros. Solo está escondiendo la mitad que más necesitas ver.\n\n¿Quieres poner a prueba un canal antes de confiar en él? Pregunta en la comunidad 👉 {{COMMUNITY}}\n\n#CryptoSchool"
+}

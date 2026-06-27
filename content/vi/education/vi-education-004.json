@@ -1,0 +1,12 @@
+{
+  "id": "vi-education-004",
+  "channel": "vi",
+  "rubric": "education",
+  "slot": null,
+  "lang": "vi",
+  "ready": true,
+  "cta": false,
+  "title": "Liquidation price & leverage: phép toán giữ bạn ở lại cuộc chơi",
+  "_note": "EVERGREEN (warm-up bank, vi localization)",
+  "body": "🧮 Liquidation price & leverage — phép toán giữ bạn ở lại cuộc chơi\n\nMột ý duy nhất\nLeverage không quyết định bạn đúng hay sai. Nó quyết định giá có bao nhiêu khoảng trống để thở trước khi sàn đóng lệnh của bạn trái ý bạn. Leverage càng cao = liquidation price càng sát entry = càng ít khoảng trống.\n\nChỉ mang tính minh họa\nMô hình trong đầu một cách thô: bạn chồng càng nhiều leverage, dải giữa entry và liquidation price của bạn càng hẹp. Đẩy đủ cao thì một cây wick bình thường — kiểu xảy ra mỗi phiên — cũng có thể chạm tới đường liq của bạn. Khoảng cách chính xác tùy thuộc vào entry, chế độ margin và maintenance margin của sàn, nên luôn đọc live; đây chỉ là hình dạng của phép toán, không phải con số cố định.\n\nCái bẫy\nĐa số tài khoản cháy không phải vì sai. Chúng cháy vì đúng quá sớm — giá wick tới đường liquidation, force-close vị thế, rồi đi đúng nơi trader đã dự đoán. Luận điểm vốn ổn. Chỉ là leverage không chừa khoảng trống nào cho nhiễu.\n\nChúng tôi dùng nó thế nào\n• Chúng tôi tính size trước, rồi mới chọn leverage — không bao giờ ngược lại.\n• SL của bạn phải nằm TRƯỚC liquidation price. Luôn luôn. Stop là quyết định của bạn; liquidation là của sàn. Nếu liq kích hoạt trước, bạn đã trao cửa thoát cho người khác.\n• Nếu một stop hợp lý vẫn nằm quá đường liq, thì leverage quá cao cho setup đó. Hạ xuống hoặc bỏ qua.\n\nĐây là lý do chúng tôi nói kỷ luật CHO PHÉP leverage. Tính size nghiêm + một SL đặt trước liq là cái cho phép chúng tôi chạy size mạnh một cách có chủ đích — một khoản lỗ được kiểm soát thay vì một cú force-close. Phép toán đơn giản; tôn trọng nó mới là toàn bộ công việc.\n\n#CryptoSchool"
+}

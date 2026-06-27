@@ -1,0 +1,12 @@
+{
+  "id": "id-education-003",
+  "channel": "id",
+  "rubric": "education",
+  "slot": null,
+  "lang": "id",
+  "ready": true,
+  "cta": false,
+  "title": "Open interest: apa arti OI naik vs turun",
+  "_note": "EVERGREEN (warm-up bank, id localization)",
+  "body": "📊 Open interest — pendapat kedua yang tidak diberikan harga\n\nApa ini\nOpen interest (OI) adalah total kontrak futures yang sedang terbuka. Harga memberi tahu DI MANA pasar berada. OI memberi tahu apakah uang baru sedang masuk atau posisi lama sedang keluar. Kami baca lewat Coinalyze sebelum percaya pada gerakan apa pun.\n\nEmpat kombinasi\n• Harga naik + OI naik → long baru masuk. Uang segar menopang gerakan. Tren lebih bersih.\n• Harga naik + OI turun → short menutup (short-covering). Gerakan ditenagai oleh exit, bukan keyakinan. Sering kehabisan bahan bakar.\n• Harga turun + OI naik → short baru masuk. Penjual menekan dengan size.\n• Harga turun + OI turun → long unwinding. Pembersihan kapitulasi, belum tentu tekanan jual baru.\n\nKenapa ini penting\nDua gerakan bisa terlihat identik di chart tapi berarti hal yang berlawanan. Breakout di OI naik adalah partisipasi baru. Breakout yang sama di OI turun cuma kerumunan yang merapikan posisi — jenis gerakan yang memudar begitu exit mengering. Candle sama, trade beda.\n\nCara kami pakai\n• Konfirmasi breakout: kami mau harga DAN OI naik bersama.\n• Deteksi kelelahan: candle kuat di OI turun adalah bendera, bukan lampu hijau.\n• Baca squeeze: gerakan tajam dengan OI runtuh sering kali pembersihan sisi yang penuh sesak, bukan awal tren.\n\nOI tidak pernah jadi trigger berdiri sendiri. Ia lapisan konfirmasi yang duduk di samping funding dan heatmap — salah satu dari ≥2 pembacaan yang kami tuntut sebelum sebuah setup jadi #Signal.\n\n#CryptoSchool"
+}

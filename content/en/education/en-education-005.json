@@ -1,0 +1,12 @@
+{
+  "id": "en-education-005",
+  "channel": "en",
+  "rubric": "education",
+  "slot": null,
+  "lang": "en",
+  "ready": true,
+  "cta": false,
+  "title": "On-chain 101: exchange inflows & outflows",
+  "_note": "EVERGREEN (warm-up bank for ad traffic). No invented numbers/prices/dates.",
+  "body": "⛓️ On-chain 101 — exchange inflows & outflows, and what they hint\n\nWhat it is\nEvery coin sitting on an exchange wallet can be sold instantly. Coins held in private wallets can't. On-chain flow data (Glassnode-style) tracks coins moving TO and OFF exchanges — and that movement is a clue about intent.\n\nThe two directions\n• Coins moving TO exchanges → supply lining up where it can be sold. This is sell-pressure CONTEXT. Big holders don't move coins onto an exchange to admire them.\n• Coins moving OFF exchanges → supply going into cold storage, off the market. This is accumulation CONTEXT — coins being parked, not prepped for sale.\n\nWhy we care\nFlows are a read on positioning that price alone hides. A rally while coins quietly drain off exchanges looks very different from a rally while coins flood ON. The first has supply tightening underneath it; the second has supply waiting to hit the bid.\n\nThe big caveat\nThis is CONTEXT, never a standalone signal. Flows can be internal exchange shuffles, custody migrations, or wallet relabels that look dramatic and mean nothing. Reacting to a single spike is how you get faked out.\n\nHow we use it\n• We treat flows as a background lean, not a trigger.\n• We always cross-check against funding, OI and the liquidation heatmap.\n• If on-chain whispers one direction but our other reads disagree, the flow data loses — confluence wins.\n\nNo single number gets you into a trade here. On-chain is one voice in the room. It only matters when it agrees with the others — that's the ≥2-confirmation rule behind every #Signal.\n\n#CryptoSchool"
+}

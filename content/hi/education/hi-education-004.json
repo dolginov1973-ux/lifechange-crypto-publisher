@@ -1,0 +1,12 @@
+{
+  "id": "hi-education-004",
+  "channel": "hi",
+  "rubric": "education",
+  "slot": null,
+  "lang": "hi",
+  "ready": true,
+  "cta": false,
+  "title": "Liquidation price & leverage: वो math जो आपको game में रखती है",
+  "_note": "EVERGREEN (warm-up bank, hi localization)",
+  "body": "🧮 Liquidation price & leverage — वो math जो आपको game में बनाए रखती है\n\nएक idea\nLeverage यह तय नहीं करता कि आप सही हैं या नहीं। यह तय करता है कि exchange के आपको आपकी मर्ज़ी के खिलाफ close करने से पहले price के पास साँस लेने की कितनी जगह है। ज़्यादा leverage = liquidation price entry के करीब बैठती है = कम जगह।\n\nसिर्फ illustrative\nMota-moti mental model: जितना ज़्यादा leverage आप stack करते हैं, आपके entry और liquidation price के बीच band उतनी ही tight होती है। इसे काफ़ी ऊँचा crank करें और एक normal wick — जैसा हर session में होता है — आपकी liq line तक पहुँच सकता है। सटीक distance आपके entry, margin mode और exchange के maintenance margin पर निर्भर करता है, इसलिए हमेशा इसे live पढ़ें; यह सिर्फ math की shape है, कोई fixed number नहीं।\n\nThe trap\nज़्यादातर blown accounts गलत होने से नहीं उड़ते। वे बहुत जल्दी सही होने से उड़ते हैं — price liquidation line तक wick करती है, position force-close होती है, फिर ठीक वहीं जाती है जहाँ trader ने सोचा था। Thesis ठीक थी। Leverage ने noise के लिए कोई जगह नहीं छोड़ी।\n\nहम इसे कैसे use करते हैं\n• हम पहले size करते हैं, फिर leverage चुनते हैं — कभी उल्टा नहीं।\n• आपका SL आपकी liquidation price से पहले बैठना चाहिए। हमेशा। Stop आपका फैसला है; liquidation exchange का। अगर liq पहले trigger हुई, तो आपने exit किसी और को सौंप दी।\n• अगर एक sane stop अब भी liq line से आगे बैठेगा, तो उस setup के लिए leverage बहुत ज़्यादा है। इसे कम करें या skip करें।\n\nइसीलिए हम कहते हैं discipline leverage को ENABLE करता है। Strict sizing + liq से पहले रखा गया SL ही हमें जानबूझकर aggressive size चलाने देता है — force-close की जगह एक controlled loss। Math simple है; उसका सम्मान करना ही पूरा काम है।\n\n#CryptoSchool"
+}

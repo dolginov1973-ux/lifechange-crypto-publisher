@@ -1,0 +1,12 @@
+{
+  "id": "vi-checklist-002",
+  "channel": "vi",
+  "rubric": "checklist",
+  "slot": null,
+  "lang": "vi",
+  "ready": true,
+  "cta": false,
+  "title": "Position sizing: quyết rủi ro TRƯỚC khi bấm mua",
+  "_note": "EVERGREEN (warm-up bank, vi localization)",
+  "body": "✅ #BeforeYouTrade — quyết rủi ro TRƯỚC khi bấm mua\n\nTính size là quyết định duy nhất phải được đưa ra khi đầu lạnh, trước khi cây nến kéo bạn vào. Làm đúng thì một khoản lỗ chỉ là vết giấy cứa. Làm sai thì một lệnh có thể gây thiệt hại thật. Đây là thứ tự chúng tôi làm.\n\n☐ Cố định rủi ro mỗi lệnh TRƯỚC TIÊN. Quyết mức tối đa bạn sẵn lòng mất trên vị thế đơn này trước mọi thứ khác — như một lát cố định của tài khoản, cùng một lát mỗi lần. Con số này được đặt khi bạn bình tĩnh. Nó không xê dịch chỉ vì một setup 'cảm thấy' mạnh.\n\n☐ Đánh dấu SL từ chart, không phải từ hy vọng. Lệnh sai đơn giản ở đâu? Mức giá đó là invalidation của bạn. Nó đến từ cấu trúc — không phải từ việc bạn 'thích' mất bao nhiêu.\n\n☐ Tính size TỪ khoảng cách SL — không bao giờ từ cảm giác. Size vị thế của bạn là bất cứ thứ gì làm khoảng cách giữa entry và SL bằng đúng rủi ro cố định của bạn. Stop chặt → cho phép size lớn hơn. Stop rộng → size nhỏ hơn. Phép toán định ra size. Không phải bạn.\n\n☐ Chọn leverage CUỐI CÙNG. Leverage là đầu ra của việc tính size, không phải điểm khởi đầu. Chọn size trước; leverage chỉ là phần còn lại để biểu đạt nó. Và SL vẫn phải nằm trước liquidation price của bạn — luôn luôn.\n\n☐ Một vị thế không thể nhấn chìm bạn. Nếu một lệnh đơn chạm stop mà làm tổn thương tài khoản theo kiểu bạn cảm nhận suốt nhiều ngày, thì size sai rồi. Cắt nó xuống cho tới khi khoản lỗ trở nên nhàm chán.\n\nTính size từ 'cảm giác' là cách những lần đọc tốt vẫn làm cháy tài khoản. Tính size từ SL là cách chúng tôi chạy leverage mạnh một cách có chủ đích và sống sót qua các lệnh đỏ. Quyết khoản lỗ trước entry — mọi lần.\n\n#BeforeYouTrade"
+}

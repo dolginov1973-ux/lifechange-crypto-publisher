@@ -1,0 +1,12 @@
+{
+  "id": "vi-checklist-003",
+  "channel": "vi",
+  "rubric": "checklist",
+  "slot": null,
+  "lang": "vi",
+  "ready": true,
+  "cta": false,
+  "title": "Red flag: những setup chúng tôi từ chối nhận",
+  "_note": "EVERGREEN (warm-up bank, vi localization)",
+  "body": "✅ #BeforeYouTrade — những setup chúng tôi từ chối nhận\n\nBiết cái gì KHÔNG nên trade là một nửa lợi thế. Đây là danh sách 'không' của chúng tôi. Nếu một setup vướng bất kỳ điều nào trong số này, nó không được gửi đi — bất kể nó trông tốt đến đâu.\n\n☐ SL sẽ nằm bên trong một liquidation magnet. Nếu vị trí stop duy nhất rơi đúng trên một cụm nặng từ heatmap, một cú quét thường lệ hất chúng tôi ra khỏi một luận điểm vẫn còn đúng. Stop tệ = không trade.\n\n☐ Tin lớn trong khoảng ~10 phút. Một con số hay sự kiện theo lịch sắp công bố biến giá thành một cú tung đồng xu. Chúng tôi không giữ size vào một cú spike biến động đã biết. Chờ bụi lắng, rồi đọc cú chạy thật.\n\n☐ Đuổi theo sau một cú chạy lớn. Cây nến đã chạy rồi. Vào lúc này nghĩa là mua cửa thoát của đám đông ở mức giá tệ nhất. Cú chạy mà bạn ước mình đã bắt được không phải một setup — nó là một ký ức. Buông đi.\n\n☐ Không có invalidation rõ ràng. Nếu chúng tôi không thể chỉ ra một mức giá đơn nơi ý tưởng sai đơn giản, thì không có stop, không có tính size, không có lệnh. 'Nó nên chạy' không phải một invalidation.\n\n☐ Funding trung tính + không confluence. Không gì cực đoan, không gì xếp hàng, ít hơn 2 xác nhận đồng ý. Đó không phải một signal — đó là nhiễu đang xin được trade. Câu trả lời là không.\n\nKhông điều nào trong số này có nghĩa thị trường 'bất khả chiến bại hôm nay'. Chúng có nghĩa là setup NÀY không phải của chúng tôi. Chúng tôi thà ngồi yên qua mười cái như thế còn hơn ép một cái và trao thanh khoản của mình cho đám đông.\n\nLệnh tốt nhất là lệnh bạn bỏ qua. Hầu hết các ngày, đó là hầu hết chúng.\n\n#BeforeYouTrade"
+}

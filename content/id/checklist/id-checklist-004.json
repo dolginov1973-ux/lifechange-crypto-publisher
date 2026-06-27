@@ -1,0 +1,12 @@
+{
+  "id": "id-checklist-004",
+  "channel": "id",
+  "rubric": "checklist",
+  "slot": null,
+  "lang": "id",
+  "ready": true,
+  "cta": true,
+  "title": "Verifikasi trader mana pun secara on-chain sebelum memercayainya",
+  "_note": "EVERGREEN (warm-up bank, id localization)",
+  "body": "✅ #BeforeYouTrade — verifikasi trader mana pun secara on-chain sebelum memercayainya\n\nSiapa pun bisa posting screenshot. Hampir tidak ada yang bisa memalsukan catatan on-chain. Sebelum kamu memercayai seorang trader dengan perhatianmu — atau size-mu — jalankan mereka lewat ini. Ini cek yang sama yang kami jalankan pada setiap trader yang kami lacak.\n\n☐ Posisi on-chain, bukan screenshot. Bisakah kamu lihat posisi nyata yang terikat ke wallet terverifikasi atau akun publik — atau cuma gambar terpotong? Pixel bisa diedit. Jejak on-chain tidak bisa.\n\n☐ Fill nyata yang bisa kamu audit. Apakah entry dan exit cocok dengan eksekusi sungguhan, dengan timestamp yang nyambung? Entry yang diklaim tapi tak pernah muncul di riwayat fill nyata mana pun cuma cerita.\n\n☐ Win-rate diukur sepanjang WAKTU, bukan kompilasi sorotan. Segenggam call hijau tidak membuktikan apa-apa. Kamu mau track record cukup panjang untuk memuat masa-masa buruk — karena semua orang punya. Sampel pendek membuat semua orang terlihat bagus.\n\n☐ Kerugian tercatat. Kalau riwayat cuma menunjukkan kemenangan, kerugiannya dihapus. Catatan nyata bernapas ke dua arah. Tidak ada merah sama sekali adalah red flag paling lantang yang ada.\n\n☐ Konsistensi yang bisa kamu gulir balik. Trade ID, timeline tak terputus, tidak ada yang dikubur memori. Kalau kamu tidak bisa mengaudit riwayatnya sendiri, kamu memercayai marketing, bukan seorang trader.\n\nIni persis bagaimana KAMI memeriksa trader yang kami ikuti — jejak on-chain, fill nyata, catatan yang memuat merah. Kami memegang standar yang sama untuk diri sendiri: bukti, Signal ID, kerugian yang diposting, tidak ada yang dihapus.\n\nJangan percaya kata kami — verifikasi. Mau bantuan membaca riwayat on-chain seorang trader? Tanya di komunitas 👉 {{COMMUNITY}}\n\n#BeforeYouTrade"
+}

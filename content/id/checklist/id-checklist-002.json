@@ -1,0 +1,12 @@
+{
+  "id": "id-checklist-002",
+  "channel": "id",
+  "rubric": "checklist",
+  "slot": null,
+  "lang": "id",
+  "ready": true,
+  "cta": false,
+  "title": "Position sizing: tentukan risikomu SEBELUM klik buy",
+  "_note": "EVERGREEN (warm-up bank, id localization)",
+  "body": "✅ #BeforeYouTrade — tentukan risikomu SEBELUM klik buy\n\nSizing adalah satu keputusan yang harus diambil dingin, sebelum candle menarikmu masuk. Lakukan dengan benar dan rugi cuma luka kertas. Lakukan salah dan satu trade bisa bikin kerusakan nyata. Ini urutan kerja kami.\n\n☐ Tetapkan risiko-per-trade DULU. Tentukan maksimum yang rela kamu rugikan pada satu posisi ini sebelum hal lain — sebagai irisan tetap dari akunmu, irisan yang sama setiap kali. Angka ini ditetapkan saat kamu tenang. Ia tidak bergerak karena sebuah setup 'terasa' kuat.\n\n☐ Tandai SL dari chart, bukan dari harapan. Di mana trade ini cuma salah? Harga itu adalah invalidation-mu. Ia datang dari struktur — bukan dari berapa banyak yang kamu 'lebih suka' rugikan.\n\n☐ Size DARI jarak SL — jangan dari perasaan. Position size-mu adalah apa pun yang membuat jarak antara entry dan SL sama dengan risiko tetapmu. Stop sempit → size lebih besar diizinkan. Stop lebar → size lebih kecil. Matematika yang menentukan size. Bukan kamu.\n\n☐ Pilih leverage TERAKHIR. Leverage adalah output dari sizing, bukan titik mulai. Pilih size dulu; leverage cuma sisa untuk mengekspresikannya. Dan SL tetap harus duduk sebelum liquidation price-mu — selalu.\n\n☐ Satu posisi tidak boleh menenggelamkanmu. Kalau satu trade kena stop akan melukai akun dengan cara yang kamu rasakan berhari-hari, size-nya salah. Pangkas sampai ruginya membosankan.\n\nSizing dari 'perasaan' adalah cara pembacaan bagus tetap menghabiskan akun. Sizing dari SL adalah cara kami jalankan leverage agresif dengan sengaja dan selamat dari yang merah. Tentukan ruginya sebelum entry — setiap kali.\n\n#BeforeYouTrade"
+}

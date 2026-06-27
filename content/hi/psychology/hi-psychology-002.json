@@ -1,0 +1,12 @@
+{
+  "id": "hi-psychology-002",
+  "channel": "hi",
+  "rubric": "psychology",
+  "slot": null,
+  "lang": "hi",
+  "ready": true,
+  "cta": false,
+  "title": "FOMO: green candle के पीछे भागने की असली कीमत",
+  "_note": "EVERGREEN (warm-up bank, hi localization)",
+  "body": "🧠 FOMO — एक green candle के पीछे भागने की असली कीमत\n\nThe scene\nएक candle rip करती है। आपका chat जगमगा उठता है। सब 'in' हैं। आपकी उँगली मँडरा रही है। डर पैसे खोने का नहीं है — डर वो अकेले होने का है जो इसे जाते देखता रहा। तो आप move के top पर click करते हैं, ठीक जब वो वापस साँस लेने वाली है।\n\nअसल में हुआ क्या\nजब आप एक vertical candle के पीछे भागते हैं, तो आप move नहीं पकड़ रहे। आप उस भीड़ की exit liquidity खरीद रहे हैं जो जल्दी in हो गई। उस spike में किसी को बेचना पड़ता है ताकि वो exist कर सके — और late chaser वही है जिसे वे बेच रहे हैं। आप वो bid बन गए जो early money को साफ़-सुथरा निकल जाने देता है।\n\nजो हिस्सा चुभता है\nवही exact extended setup — वो जो चिल्ला रहा है 'easy, सब in हैं' — अक्सर वही होता है जिसे हमने fade किया। Crowded, stretched, funding एक तरफ ज़ोर से झुका हुआ: यह हमारे लिए green light नहीं, एक flag है। Crowded side पहले liquidate होती है। Candle के पीछे भागना आपको सबसे खराब price पर crowded side पर डाल देता है।\n\nThe fix\n• FOMO एक emotion है, signal नहीं। उसे नाम दें और वो आधी पकड़ खो देता है।\n• अगर आपकी entry की वजह 'यह पहले से move कर रहा है' है, तो आपके पास कोई वजह नहीं है। चल रहा move कोई setup नहीं है।\n• एक missed trade आपको कुछ नहीं costs करता। एक chased trade आपको wick का खर्च देता है। हमेशा एक और candle होती है।\n• अपना entry zone पहले से decide करें। अगर price उसे छोड़ चुकी है, तो trade उसके साथ चली गई। उसे जाने दें।\n\nMarket धैर्यवान को बेसब्र की कीमत पर pay करता है। FOMO बस वो toll है जो बेसब्र pay करते हैं — उन लोगों को जिन्होंने इंतज़ार किया।\n\n#MindOverMarket"
+}

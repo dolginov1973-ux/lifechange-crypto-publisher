@@ -1,0 +1,12 @@
+{
+  "id": "id-education-004",
+  "channel": "id",
+  "rubric": "education",
+  "slot": null,
+  "lang": "id",
+  "ready": true,
+  "cta": false,
+  "title": "Liquidation price & leverage: matematika yang menjaga kamu tetap di posisi",
+  "_note": "EVERGREEN (warm-up bank, id localization)",
+  "body": "🧮 Liquidation price & leverage — matematika yang menjaga kamu tetap di permainan\n\nSatu ide\nLeverage tidak menentukan apakah kamu benar. Ia menentukan seberapa banyak ruang yang dimiliki harga untuk bernapas sebelum exchange menutup kamu di luar kehendakmu. Leverage lebih tinggi = liquidation price lebih dekat ke entry = ruang lebih sempit.\n\nIlustrasi saja\nModel mental kasar: makin banyak leverage yang kamu tumpuk, makin sempit pita antara entry dan liquidation price. Naikkan cukup tinggi dan wick normal — yang terjadi setiap sesi — bisa menyentuh garis liq kamu. Jarak persisnya tergantung entry, mode margin, dan maintenance margin exchange, jadi selalu baca secara live; ini cuma bentuk matematikanya, bukan angka tetap.\n\nJebakannya\nKebanyakan akun yang habis bukan karena salah. Mereka habis karena benar terlalu dini — harga wick ke garis liquidation, paksa tutup posisi, lalu pergi tepat ke arah yang ditebak trader. Tesisnya tidak masalah. Leverage-nya tidak menyisakan ruang untuk noise.\n\nCara kami pakai\n• Kami tentukan size dulu, baru pilih leverage — tidak pernah sebaliknya.\n• SL kamu harus duduk SEBELUM liquidation price. Selalu. Stop adalah keputusanmu; liquidation adalah keputusan exchange. Kalau liq trigger duluan, kamu menyerahkan exit ke orang lain.\n• Kalau stop yang masuk akal pun masih duduk melewati garis liq, leverage-nya terlalu tinggi untuk setup itu. Turunkan atau skip.\n\nIni alasan kami bilang disiplin MEMUNGKINKAN leverage. Sizing ketat + SL ditaruh sebelum liq adalah yang membuat kami bisa jalankan size agresif dengan sengaja — rugi terkendali, bukan paksa tutup. Matematikanya sederhana; menghormatinya adalah seluruh pekerjaannya.\n\n#CryptoSchool"
+}

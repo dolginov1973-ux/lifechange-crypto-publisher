@@ -1,0 +1,12 @@
+{
+  "id": "en-education-004",
+  "channel": "en",
+  "rubric": "education",
+  "slot": null,
+  "lang": "en",
+  "ready": true,
+  "cta": false,
+  "title": "Liquidation price & leverage: the math that keeps you in",
+  "_note": "EVERGREEN (warm-up bank for ad traffic). No invented numbers/prices/dates.",
+  "body": "🧮 Liquidation price & leverage — the math that keeps you in the game\n\nThe one idea\nLeverage doesn't decide whether you're right. It decides how much room price has to breathe before the exchange closes you against your will. Higher leverage = liquidation price sits closer to entry = less room.\n\nIllustrative only\nRough mental model: the more leverage you stack, the tighter the band between your entry and your liquidation price. Crank it high enough and a normal wick — the kind that happens every session — can reach your liq line. The exact distance depends on your entry, margin mode and the exchange's maintenance margin, so always read it live; this is just the shape of the math, not a fixed number.\n\nThe trap\nMost blown accounts aren't blown by being wrong. They're blown by being right too early — price wicks to the liquidation line, force-closes the position, then goes exactly where the trader expected. The thesis was fine. The leverage left no room for noise.\n\nHow we use it\n• We size first, then choose leverage — never the reverse.\n• Your SL must sit BEFORE your liquidation price. Always. The stop is your decision; liquidation is the exchange's. If liq triggers first, you handed the exit to someone else.\n• If a sane stop would still sit beyond the liq line, the leverage is too high for that setup. Lower it or skip.\n\nThis is why we say discipline ENABLES leverage. Strict sizing + an SL placed before liq is what lets us run aggressive size on purpose — a controlled loss instead of a force-close. The math is simple; respecting it is the whole job.\n\n#CryptoSchool"
+}

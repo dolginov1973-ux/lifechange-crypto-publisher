@@ -1,0 +1,12 @@
+{
+  "id": "tr-education-004",
+  "channel": "tr",
+  "rubric": "education",
+  "slot": null,
+  "lang": "tr",
+  "ready": true,
+  "cta": false,
+  "title": "Liquidation price & leverage: seni oyunda tutan matematik",
+  "_note": "EVERGREEN (warm-up bank, tr localization)",
+  "body": "🧮 Liquidation price & leverage — seni oyunda tutan matematik\n\nTek fikir\nLeverage, haklı olup olmadığına karar vermez. Borsa seni iradene karşı kapatmadan önce fiyatın nefes alacak ne kadar alanı olduğuna karar verir. Daha yüksek leverage = liquidation price entry'ye daha yakın oturur = daha az alan.\n\nSadece örnekleme amaçlı\nKaba zihinsel model: ne kadar çok leverage yığarsan, entry'n ile liquidation price'ın arasındaki bant o kadar dar olur. Yeterince yükselt, normal bir wick — her seansta olan türden — liq çizgine ulaşabilir. Tam mesafe; entry'ne, margin moduna ve borsanın maintenance margin'ine bağlıdır, bu yüzden her zaman canlı oku; bu sadece matematiğin şekli, sabit bir rakam değil.\n\nTuzak\nÇoğu silinen hesap yanıldığı için silinmez. Çok erken haklı olduğu için silinir — fiyat liquidation çizgisine wick yapar, pozisyonu zorla kapatır, sonra tam da trader'ın beklediği yere gider. Tez gayet iyiydi. Leverage gürültüye yer bırakmadı.\n\nNasıl kullanıyoruz\n• Önce boyutlandırıyoruz, sonra leverage'ı seçiyoruz — asla tersi değil.\n• SL'n liquidation price'ından ÖNCE oturmalı. Her zaman. Stop senin kararın; liquidation borsanınki. Liq önce tetiklenirse, çıkışı başkasına teslim etmişsindir.\n• Makul bir stop yine de liq çizgisinin ötesinde otururdu ise, leverage o setup için fazla yüksektir. Düşür ya da pas geç.\n\nİşte bu yüzden disiplin leverage'ı MÜMKÜN KILAR diyoruz. Katı boyutlandırma + liq'ten önce konulmuş bir SL, agresif büyüklüğü bilerek çalıştırmamızı sağlayan şeydir — zorla kapanma yerine kontrollü bir kayıp. Matematik basit; ona saygı duymak işin tamamı.\n\n#CryptoSchool"
+}

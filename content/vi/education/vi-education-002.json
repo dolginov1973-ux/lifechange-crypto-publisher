@@ -1,0 +1,12 @@
+{
+  "id": "vi-education-002",
+  "channel": "vi",
+  "rubric": "education",
+  "slot": null,
+  "lang": "vi",
+  "ready": true,
+  "cta": false,
+  "title": "Liquidation heatmap: đọc nơi các stop đang chất đống",
+  "_note": "EVERGREEN (warm-up bank, vi localization)",
+  "body": "🗺️ Liquidation heatmap — đọc nơi các stop đang chất đống\n\nNó là gì\nMột liquidation heatmap (chúng tôi dùng CoinGlass) cho thấy nơi các vị thế dùng leverage bị force-close nếu giá chạm tới. Vùng sáng = cụm liquidation nằm ở những mức giá cụ thể. Hãy coi chúng như nhiên liệu: giá thường bị kéo về nơi có nhiều leverage đang đậu nhất.\n\nVì sao chúng tôi quan tâm\nNhững cụm sáng đó là nam châm. Một cụm lớn nằm dưới giá là một bể long liquidation; một cụm nằm trên là short liquidation. Giá thường đi săn các mức này vì việc đóng chúng tạo ra một làn sóng lệnh market theo một hướng. Nếu bạn không biết nam châm ở đâu, bạn có thể đặt stop ngay trên đầu nó — và bị quét đúng cái wick mà sớm muộn cũng tới.\n\nChúng tôi dùng nó thế nào\n• Chúng tôi kéo heatmap và đánh dấu các cụm nặng nhất quanh setup.\n• Chúng tôi giả định giá có thể quét nam châm gần nhất trước khi làm điều nó 'nên' làm.\n• Chúng tôi đặt SL TRÁNH XA nam châm, không phải bên trong nó — để một cú quét thường lệ không hất chúng tôi ra khỏi một luận điểm vẫn còn đúng.\n• Nếu invalidation sạch duy nhất lại nằm ngay sau một cụm khổng lồ, thì đó thường là 'bỏ qua', không phải lệnh bị ép vào.\n\nHeatmap tự nó không cho bạn biết hướng. Nó cho biết nơi có nỗi đau — và nỗi đau là nơi leverage đi tới để chết. Chúng tôi đối chiếu nó với funding và cấu trúc trước khi bất cứ thứ gì được gửi đi dưới dạng #Signal.\n\n#CryptoSchool"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "tr-education-003",
+  "channel": "tr",
+  "rubric": "education",
+  "slot": null,
+  "lang": "tr",
+  "ready": true,
+  "cta": false,
+  "title": "Open interest: artan vs düşen OI sana ne söyler",
+  "_note": "EVERGREEN (warm-up bank, tr localization)",
+  "body": "📊 Open interest — fiyatın sana vermeyeceği ikinci görüş\n\nNedir\nOpen interest (OI), şu anda açık olan toplam futures kontrat sayısıdır. Fiyat sana piyasanın NEREDE olduğunu söyler. OI ise taze paranın gelip gelmediğini ya da eski pozisyonların çıkıp çıkmadığını söyler. Herhangi bir harekete güvenmeden önce bunu Coinalyze'den okuyoruz.\n\nDört kombinasyon\n• Fiyat yukarı + OI yukarı → yeni longlar giriyor. Hareketi destekleyen taze para. Daha temiz trend.\n• Fiyat yukarı + OI aşağı → shortlar kapanıyor (short-covering). Kanaatten değil, çıkışlardan güç alan bir hareket. Çoğu zaman yakıtı biter.\n• Fiyat aşağı + OI yukarı → yeni shortlar giriyor. Satıcılar büyüklükle yükleniyor.\n• Fiyat aşağı + OI aşağı → longlar çözülüyor. Teslimiyet boşalması, illa taze satış baskısı değil.\n\nNeden önemseriz\nİki hareket grafikte birebir aynı görünüp tam zıt anlama gelebilir. Artan OI üzerindeki bir breakout yeni katılımdır. Aynı breakout düşen OI üzerinde ise sadece kalabalığın hesabını kapatmasıdır — çıkışlar kuruyunca anında geri sönen türden bir hareket. Aynı mum, farklı işlem.\n\nNasıl kullanıyoruz\n• Bir breakout'u doğrula: fiyat VE OI'nin birlikte yükselmesini istiyoruz.\n• Tükenmeyi yakala: düşen OI üzerindeki güçlü bir mum bir bayraktır, yeşil ışık değil.\n• Squeeze'leri oku: çöken OI'li keskin bir hareket çoğu zaman kalabalık tarafın temizlenmesidir, trend başlangıcı değil.\n\nOI asla tek başına bir tetik değildir. Funding ve heatmap'in yanında oturan bir doğrulama katmanıdır — bir setup #Signal olmadan önce talep ettiğimiz ≥2 okumadan biri.\n\n#CryptoSchool"
+}

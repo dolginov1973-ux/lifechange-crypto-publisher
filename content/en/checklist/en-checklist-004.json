@@ -1,0 +1,12 @@
+{
+  "id": "en-checklist-004",
+  "channel": "en",
+  "rubric": "checklist",
+  "slot": null,
+  "lang": "en",
+  "ready": true,
+  "cta": true,
+  "title": "Verify any trader on-chain before you trust them",
+  "_note": "EVERGREEN (warm-up bank for ad traffic). No invented numbers/prices/dates.",
+  "body": "✅ #BeforeYouTrade — verify any trader on-chain before you trust them\n\nAnyone can post a screenshot. Almost nobody can fake an on-chain record. Before you trust a trader with your attention — or your size — run them through this. It's the same check we run on every trader we track.\n\n☐ On-chain positions, not screenshots. Can you see real positions tied to a verifiable wallet or a public account — or just cropped images? Pixels can be edited. An on-chain footprint can't.\n\n☐ Real fills you can audit. Do the entries and exits match actual executions, with timestamps that line up? A claimed entry that never appears in any real fill history is just a story.\n\n☐ Win-rate measured over TIME, not a highlight reel. A handful of green calls proves nothing. You want a track record long enough to include the bad stretches — because everyone has them. Short samples flatter everyone.\n\n☐ Losses on the record. If the history shows only wins, the losses were deleted. A real record breathes both ways. No red at all is the loudest red flag there is.\n\n☐ Consistency you can scroll back through. Trade IDs, an unbroken timeline, nothing memory-holed. If you can't audit the history yourself, you're trusting marketing, not a trader.\n\nThis is exactly how WE vet the traders we follow — on-chain footprint, real fills, a record that includes the red. We hold ourselves to the same bar: receipts, Signal IDs, posted losses, nothing deleted.\n\nDon't take our word for it — verify. Want help reading a trader's on-chain history? Ask in the community 👉 {{COMMUNITY}}\n\n#BeforeYouTrade"
+}

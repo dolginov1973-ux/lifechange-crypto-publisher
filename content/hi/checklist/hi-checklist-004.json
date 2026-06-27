@@ -1,0 +1,12 @@
+{
+  "id": "hi-checklist-004",
+  "channel": "hi",
+  "rubric": "checklist",
+  "slot": null,
+  "lang": "hi",
+  "ready": true,
+  "cta": true,
+  "title": "भरोसा करने से पहले किसी भी trader को on-chain verify करें",
+  "_note": "EVERGREEN (warm-up bank, hi localization)",
+  "body": "✅ #BeforeYouTrade — भरोसा करने से पहले किसी भी trader को on-chain verify करें\n\nकोई भी एक screenshot post कर सकता है। लगभग कोई एक on-chain record fake नहीं कर सकता। किसी trader को अपने ध्यान — या अपनी size — पर भरोसा करने से पहले, उसे इससे गुज़ारें। यह वही check है जो हम हर उस trader पर चलाते हैं जिसे हम track करते हैं।\n\n☐ On-chain positions, screenshots नहीं। क्या आप एक verifiable wallet या public account से जुड़ी real positions देख सकते हैं — या सिर्फ cropped images? Pixels edit हो सकते हैं। एक on-chain footprint नहीं हो सकता।\n\n☐ Real fills जिन्हें आप audit कर सकें। क्या entries और exits असली executions से match करती हैं, ऐसे timestamps के साथ जो line up हों? एक claimed entry जो किसी real fill history में कभी नहीं आती, बस एक कहानी है।\n\n☐ Win-rate TIME पर मापी गई, highlight reel नहीं। मुट्ठी भर green calls कुछ साबित नहीं करतीं। आप एक track record चाहते हैं जो इतना लंबा हो कि उसमें बुरे दौर भी शामिल हों — क्योंकि सबके होते हैं। छोटे samples सबको अच्छा दिखाते हैं।\n\n☐ Losses record पर। अगर history सिर्फ wins दिखाती है, तो losses delete हो गए। एक real record दोनों तरफ साँस लेता है। बिल्कुल भी red न होना सबसे ज़ोरदार red flag है।\n\n☐ Consistency जिसे आप scroll back कर सकें। Trade IDs, एक unbroken timeline, कुछ भी memory-holed नहीं। अगर आप खुद history audit नहीं कर सकते, तो आप एक trader पर नहीं, marketing पर भरोसा कर रहे हैं।\n\nयह बिल्कुल वैसे ही है जैसे हम उन traders को vet करते हैं जिन्हें हम follow करते हैं — on-chain footprint, real fills, एक record जिसमें red शामिल है। हम खुद को उसी bar पर रखते हैं: receipts, Signal IDs, posted losses, कुछ भी deleted नहीं।\n\nहमारी बात पर भरोसा मत करें — verify करें। किसी trader की on-chain history पढ़ने में मदद चाहिए? Community में पूछें 👉 {{COMMUNITY}}\n\n#BeforeYouTrade"
+}

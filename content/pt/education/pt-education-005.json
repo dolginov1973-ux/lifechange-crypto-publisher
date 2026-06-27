@@ -1,0 +1,12 @@
+{
+  "id": "pt-education-005",
+  "channel": "pt",
+  "rubric": "education",
+  "slot": null,
+  "lang": "pt",
+  "ready": true,
+  "cta": false,
+  "title": "On-chain 101: inflows & outflows de exchange",
+  "_note": "EVERGREEN (warm-up bank, pt localization)",
+  "body": "⛓️ On-chain 101 — inflows & outflows de exchange, e o que eles sugerem\n\nO que é\nToda moeda parada numa carteira de exchange pode ser vendida na hora. Moedas guardadas em carteiras privadas não. Os dados de fluxo on-chain (estilo Glassnode) rastreiam moedas se movendo PARA e PARA FORA das exchanges — e esse movimento é uma pista sobre intenção.\n\nAs duas direções\n• Moedas indo PARA exchanges → oferta se alinhando onde pode ser vendida. Isso é CONTEXTO de pressão vendedora. Holders grandes não movem moedas pra uma exchange pra admirá-las.\n• Moedas saindo das exchanges → oferta indo pra cold storage, pra fora do mercado. Isso é CONTEXTO de acumulação — moedas sendo estacionadas, não preparadas pra venda.\n\nPor que a gente liga pra isso\nFluxos são uma leitura de posicionamento que o preço sozinho esconde. Uma alta enquanto moedas drenam silenciosamente das exchanges parece muito diferente de uma alta enquanto moedas inundam PARA dentro. A primeira tem oferta apertando por baixo; a segunda tem oferta esperando pra bater no bid.\n\nA grande ressalva\nIsso é CONTEXTO, nunca um sinal sozinho. Fluxos podem ser remanejamentos internos da exchange, migrações de custódia, ou reetiquetagens de carteira que parecem dramáticas e não significam nada. Reagir a um único spike é como você toma um fakeout.\n\nComo a gente usa\n• Tratamos os fluxos como uma inclinação de fundo, não um gatilho.\n• Sempre cruzamos com funding, OI e o liquidation heatmap.\n• Se o on-chain sussurra uma direção mas nossas outras leituras discordam, o dado de fluxo perde — a confluência ganha.\n\nNenhum número sozinho te coloca num trade aqui. O on-chain é uma voz na sala. Só importa quando concorda com as outras — é a regra de ≥2 confirmações por trás de todo #Signal.\n\n#CryptoSchool"
+}

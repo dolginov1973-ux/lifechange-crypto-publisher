@@ -1,0 +1,12 @@
+{
+  "id": "es-checklist-003",
+  "channel": "es",
+  "rubric": "checklist",
+  "slot": null,
+  "lang": "es",
+  "ready": true,
+  "cta": false,
+  "title": "Red flags: los setups que nos negamos a tomar",
+  "_note": "EVERGREEN (warm-up bank, es localization)",
+  "body": "✅ #BeforeYouTrade — los setups que nos negamos a tomar\n\nSaber qué NO operar es la mitad de la ventaja. Aquí va nuestra lista de 'no'. Si un setup activa cualquiera de estos, no sale — por bien que se vea.\n\n☐ El SL quedaría dentro de un liquidation magnet. Si la única ubicación del stop cae justo sobre un clúster pesado del heatmap, un barrido rutinario nos saca de una tesis que seguía siendo válida. Mal stop = sin trade.\n\n☐ Noticia importante en ~10 minutos. Un dato o evento programado a punto de salir convierte el precio en lanzar una moneda. No mantenemos tamaño hacia un spike de volatilidad conocido. Espera a que se asiente el polvo, luego lee el movimiento real.\n\n☐ Perseguir después de un movimiento grande. La vela ya corrió. Entrar ahora significa comprar la salida de la multitud al peor precio. El movimiento que desearías haber atrapado no es un setup — es un recuerdo. Déjalo ir.\n\n☐ Sin invalidation clara. Si no podemos señalar un único precio donde la idea está simplemente equivocada, no hay stop, no hay sizing, no hay trade. 'Debería funcionar' no es una invalidation.\n\n☐ Funding neutral + sin confluencia. Nada extremo, nada alineado, menos de 2 confirmaciones coincidiendo. Eso no es un signal — es ruido pidiendo que lo operen. La respuesta es no.\n\nNinguno de estos significa que el mercado sea 'invencible hoy'. Significan que ESTE setup no es nuestro. Preferimos estar flat a través de diez de estos antes que forzar uno y entregarle nuestra liquidez a la multitud.\n\nEl mejor trade es el que salteas. La mayoría de los días, eso son casi todos.\n\n#BeforeYouTrade"
+}
