@@ -241,7 +241,40 @@
       "dateKey": "2026-06-28",
       "ts": "2026-06-28T12:15:41.363Z",
       "messageId": 87
+    },
+    {
+      "id": "pnl-20260625-ban-short-hi",
+      "channel": "hi",
+      "rubric": "pnl",
+      "slot": "S",
+      "cta": false,
+      "photo": true,
+      "dateKey": "2026-06-28",
+      "ts": "2026-06-28T14:22:05.129Z",
+      "messageId": 23
+    },
+    {
+      "id": "pnl-20260625-ban-long-vi",
+      "channel": "vi",
+      "rubric": "pnl",
+      "slot": "S",
+      "cta": false,
+      "photo": true,
+      "dateKey": "2026-06-28",
+      "ts": "2026-06-28T14:22:05.129Z",
+      "messageId": 21
+    },
+    {
+      "id": "pnl-20260625-ban-long-id",
+      "channel": "id",
+      "rubric": "pnl",
+      "slot": "S",
+      "cta": false,
+      "photo": true,
+      "dateKey": "2026-06-28",
+      "ts": "2026-06-28T14:22:05.129Z",
+      "messageId": 19
     }
   ],
-  "_updated": "2026-06-28T12:15:42.674Z"
+  "_updated": "2026-06-28T14:22:07.198Z"
 }
