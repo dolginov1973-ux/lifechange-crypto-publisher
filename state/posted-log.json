@@ -230,7 +230,18 @@
       "dateKey": "2026-06-27",
       "ts": "2026-06-27T22:35:30.578Z",
       "messageId": 18
+    },
+    {
+      "id": "pnl-20260625-ban-short-en",
+      "channel": "en",
+      "rubric": "pnl",
+      "slot": "S",
+      "cta": false,
+      "photo": true,
+      "dateKey": "2026-06-28",
+      "ts": "2026-06-28T12:15:41.363Z",
+      "messageId": 87
     }
   ],
-  "_updated": "2026-06-27T22:35:31.497Z"
+  "_updated": "2026-06-28T12:15:42.674Z"
 }
