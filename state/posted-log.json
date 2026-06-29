@@ -307,7 +307,51 @@
       "dateKey": "2026-06-28",
       "ts": "2026-06-29T01:36:01.434Z",
       "messageId": 22
+    },
+    {
+      "id": "pnl-20260625-eth-long-en",
+      "channel": "en",
+      "rubric": "pnl",
+      "slot": "S",
+      "cta": false,
+      "photo": true,
+      "dateKey": "2026-06-29",
+      "ts": "2026-06-29T11:57:58.870Z",
+      "messageId": 88
+    },
+    {
+      "id": "en-psychology-002",
+      "channel": "en",
+      "rubric": "psychology",
+      "slot": "B",
+      "cta": false,
+      "photo": false,
+      "dateKey": "2026-06-29",
+      "ts": "2026-06-29T11:57:58.870Z",
+      "messageId": 89
+    },
+    {
+      "id": "vi-psychology-002",
+      "channel": "vi",
+      "rubric": "psychology",
+      "slot": "B",
+      "cta": false,
+      "photo": false,
+      "dateKey": "2026-06-29",
+      "ts": "2026-06-29T11:57:58.870Z",
+      "messageId": 22
+    },
+    {
+      "id": "id-psychology-002",
+      "channel": "id",
+      "rubric": "psychology",
+      "slot": "B",
+      "cta": false,
+      "photo": false,
+      "dateKey": "2026-06-29",
+      "ts": "2026-06-29T11:57:58.870Z",
+      "messageId": 20
     }
   ],
-  "_updated": "2026-06-29T01:36:02.336Z"
+  "_updated": "2026-06-29T11:58:00.754Z"
 }
