@@ -395,7 +395,18 @@
       "dateKey": "2026-06-29",
       "ts": "2026-06-29T15:56:43.312Z",
       "messageId": 9
+    },
+    {
+      "id": "pnl-20260625-eth-long-tr",
+      "channel": "tr",
+      "rubric": "pnl",
+      "slot": "S",
+      "cta": false,
+      "photo": true,
+      "dateKey": "2026-06-29",
+      "ts": "2026-06-29T18:12:47.437Z",
+      "messageId": 24
     }
   ],
-  "_updated": "2026-06-29T15:56:44.914Z"
+  "_updated": "2026-06-29T18:12:48.770Z"
 }
