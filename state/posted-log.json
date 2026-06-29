@@ -351,7 +351,51 @@
       "dateKey": "2026-06-29",
       "ts": "2026-06-29T11:57:58.870Z",
       "messageId": 20
+    },
+    {
+      "id": "pnl-20260625-eth-long-hi",
+      "channel": "hi",
+      "rubric": "pnl",
+      "slot": "S",
+      "cta": false,
+      "photo": true,
+      "dateKey": "2026-06-29",
+      "ts": "2026-06-29T15:56:43.312Z",
+      "messageId": 24
+    },
+    {
+      "id": "hi-psychology-002",
+      "channel": "hi",
+      "rubric": "psychology",
+      "slot": "B",
+      "cta": false,
+      "photo": false,
+      "dateKey": "2026-06-29",
+      "ts": "2026-06-29T15:56:43.312Z",
+      "messageId": 25
+    },
+    {
+      "id": "tr-psychology-002",
+      "channel": "tr",
+      "rubric": "psychology",
+      "slot": "B",
+      "cta": false,
+      "photo": false,
+      "dateKey": "2026-06-29",
+      "ts": "2026-06-29T15:56:43.312Z",
+      "messageId": 23
+    },
+    {
+      "id": "ru-psychology-003",
+      "channel": "ru",
+      "rubric": "psychology",
+      "slot": "B",
+      "cta": false,
+      "photo": false,
+      "dateKey": "2026-06-29",
+      "ts": "2026-06-29T15:56:43.312Z",
+      "messageId": 9
     }
   ],
-  "_updated": "2026-06-29T11:58:00.754Z"
+  "_updated": "2026-06-29T15:56:44.914Z"
 }
