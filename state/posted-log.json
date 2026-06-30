@@ -516,7 +516,40 @@
       "dateKey": "2026-06-30",
       "ts": "2026-06-30T13:25:15.868Z",
       "messageId": 22
+    },
+    {
+      "id": "pnl-20260625-skr-short-hi",
+      "channel": "hi",
+      "rubric": "pnl",
+      "slot": "S",
+      "cta": false,
+      "photo": true,
+      "dateKey": "2026-06-30",
+      "ts": "2026-06-30T16:03:52.755Z",
+      "messageId": 27
+    },
+    {
+      "id": "tr-education-001",
+      "channel": "tr",
+      "rubric": "education",
+      "slot": "B",
+      "cta": true,
+      "photo": false,
+      "dateKey": "2026-06-30",
+      "ts": "2026-06-30T16:03:52.755Z",
+      "messageId": 25
+    },
+    {
+      "id": "ru-education-002",
+      "channel": "ru",
+      "rubric": "education",
+      "slot": "B",
+      "cta": false,
+      "photo": false,
+      "dateKey": "2026-06-30",
+      "ts": "2026-06-30T16:03:52.755Z",
+      "messageId": 10
     }
   ],
-  "_updated": "2026-06-30T13:25:31.712Z"
+  "_updated": "2026-06-30T16:03:54.234Z"
 }
