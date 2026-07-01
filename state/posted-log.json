@@ -670,7 +670,18 @@
       "dateKey": "2026-07-01",
       "ts": "2026-07-01T06:25:21.952Z",
       "messageId": 11
+    },
+    {
+      "id": "pt-checklist-001",
+      "channel": "pt",
+      "rubric": "checklist",
+      "slot": "A",
+      "cta": false,
+      "photo": false,
+      "dateKey": "2026-07-01",
+      "ts": "2026-07-01T13:19:05.204Z",
+      "messageId": 27
     }
   ],
-  "_updated": "2026-07-01T06:25:23.504Z"
+  "_updated": "2026-07-01T13:19:05.763Z"
 }
