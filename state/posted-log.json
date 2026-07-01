@@ -582,7 +582,40 @@
       "dateKey": "2026-06-30",
       "ts": "2026-06-30T23:20:28.890Z",
       "messageId": 26
+    },
+    {
+      "id": "en-checklist-001",
+      "channel": "en",
+      "rubric": "checklist",
+      "slot": "A",
+      "cta": false,
+      "photo": false,
+      "dateKey": "2026-07-01",
+      "ts": "2026-07-01T01:39:34.475Z",
+      "messageId": 92
+    },
+    {
+      "id": "pnl-20260625-ban-short-es",
+      "channel": "es",
+      "rubric": "pnl",
+      "slot": "S",
+      "cta": false,
+      "photo": true,
+      "dateKey": "2026-06-30",
+      "ts": "2026-07-01T01:39:34.475Z",
+      "messageId": 24
+    },
+    {
+      "id": "es-education-002",
+      "channel": "es",
+      "rubric": "education",
+      "slot": "B",
+      "cta": false,
+      "photo": false,
+      "dateKey": "2026-06-30",
+      "ts": "2026-07-01T01:39:34.475Z",
+      "messageId": 25
     }
   ],
-  "_updated": "2026-06-30T23:20:30.150Z"
+  "_updated": "2026-07-01T01:39:36.429Z"
 }
