@@ -615,7 +615,62 @@
       "dateKey": "2026-06-30",
       "ts": "2026-07-01T01:39:34.475Z",
       "messageId": 25
+    },
+    {
+      "id": "hi-checklist-001",
+      "channel": "hi",
+      "rubric": "checklist",
+      "slot": "A",
+      "cta": false,
+      "photo": false,
+      "dateKey": "2026-07-01",
+      "ts": "2026-07-01T06:25:21.952Z",
+      "messageId": 28
+    },
+    {
+      "id": "vi-checklist-001",
+      "channel": "vi",
+      "rubric": "checklist",
+      "slot": "A",
+      "cta": false,
+      "photo": false,
+      "dateKey": "2026-07-01",
+      "ts": "2026-07-01T06:25:21.952Z",
+      "messageId": 25
+    },
+    {
+      "id": "tr-checklist-001",
+      "channel": "tr",
+      "rubric": "checklist",
+      "slot": "A",
+      "cta": false,
+      "photo": false,
+      "dateKey": "2026-07-01",
+      "ts": "2026-07-01T06:25:21.952Z",
+      "messageId": 27
+    },
+    {
+      "id": "id-checklist-001",
+      "channel": "id",
+      "rubric": "checklist",
+      "slot": "A",
+      "cta": false,
+      "photo": false,
+      "dateKey": "2026-07-01",
+      "ts": "2026-07-01T06:25:21.952Z",
+      "messageId": 23
+    },
+    {
+      "id": "ru-checklist-002",
+      "channel": "ru",
+      "rubric": "checklist",
+      "slot": "A",
+      "cta": false,
+      "photo": false,
+      "dateKey": "2026-07-01",
+      "ts": "2026-07-01T06:25:21.952Z",
+      "messageId": 11
     }
   ],
-  "_updated": "2026-07-01T01:39:36.429Z"
+  "_updated": "2026-07-01T06:25:23.504Z"
 }
