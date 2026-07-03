@@ -758,7 +758,29 @@
       "dateKey": "2026-07-03",
       "ts": "2026-07-03T08:34:17.442Z",
       "messageId": 12
+    },
+    {
+      "id": "pnl-20260625-eth-long-vi",
+      "channel": "vi",
+      "rubric": "pnl",
+      "slot": "B",
+      "cta": false,
+      "photo": true,
+      "dateKey": "2026-07-03",
+      "ts": "2026-07-03T11:30:56.533Z",
+      "messageId": 27
+    },
+    {
+      "id": "pnl-20260625-eth-long-id",
+      "channel": "id",
+      "rubric": "pnl",
+      "slot": "B",
+      "cta": false,
+      "photo": true,
+      "dateKey": "2026-07-03",
+      "ts": "2026-07-03T11:30:56.533Z",
+      "messageId": 25
     }
   ],
-  "_updated": "2026-07-03T08:34:18.539Z"
+  "_updated": "2026-07-03T11:30:59.161Z"
 }
