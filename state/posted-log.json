@@ -780,7 +780,18 @@
       "dateKey": "2026-07-03",
       "ts": "2026-07-03T11:30:56.533Z",
       "messageId": 25
+    },
+    {
+      "id": "pt-education-002",
+      "channel": "pt",
+      "rubric": "education",
+      "slot": "A",
+      "cta": false,
+      "photo": false,
+      "dateKey": "2026-07-03",
+      "ts": "2026-07-03T13:59:16.986Z",
+      "messageId": 28
     }
   ],
-  "_updated": "2026-07-03T11:30:59.161Z"
+  "_updated": "2026-07-03T13:59:17.669Z"
 }
