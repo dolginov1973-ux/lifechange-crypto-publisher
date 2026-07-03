@@ -736,7 +736,29 @@
       "dateKey": "2026-07-03",
       "ts": "2026-07-03T05:13:34.784Z",
       "messageId": 24
+    },
+    {
+      "id": "tr-education-002",
+      "channel": "tr",
+      "rubric": "education",
+      "slot": "A",
+      "cta": false,
+      "photo": false,
+      "dateKey": "2026-07-03",
+      "ts": "2026-07-03T08:34:17.442Z",
+      "messageId": 28
+    },
+    {
+      "id": "ru-education-003",
+      "channel": "ru",
+      "rubric": "education",
+      "slot": "A",
+      "cta": false,
+      "photo": false,
+      "dateKey": "2026-07-03",
+      "ts": "2026-07-03T08:34:17.442Z",
+      "messageId": 12
     }
   ],
-  "_updated": "2026-07-03T05:13:36.434Z"
+  "_updated": "2026-07-03T08:34:18.539Z"
 }
