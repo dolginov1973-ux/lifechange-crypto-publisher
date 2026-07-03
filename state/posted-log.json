@@ -791,7 +791,18 @@
       "dateKey": "2026-07-03",
       "ts": "2026-07-03T13:59:16.986Z",
       "messageId": 28
+    },
+    {
+      "id": "es-education-003",
+      "channel": "es",
+      "rubric": "education",
+      "slot": "A",
+      "cta": false,
+      "photo": false,
+      "dateKey": "2026-07-03",
+      "ts": "2026-07-03T15:56:13.385Z",
+      "messageId": 27
     }
   ],
-  "_updated": "2026-07-03T13:59:17.669Z"
+  "_updated": "2026-07-03T15:56:14.057Z"
 }
