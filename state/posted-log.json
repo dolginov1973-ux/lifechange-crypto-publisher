@@ -857,7 +857,29 @@
       "dateKey": "2026-07-04",
       "ts": "2026-07-04T05:07:55.033Z",
       "messageId": 26
+    },
+    {
+      "id": "tr-psychology-003",
+      "channel": "tr",
+      "rubric": "psychology",
+      "slot": "A",
+      "cta": false,
+      "photo": false,
+      "dateKey": "2026-07-04",
+      "ts": "2026-07-04T08:09:49.042Z",
+      "messageId": 29
+    },
+    {
+      "id": "ru-psychology-004",
+      "channel": "ru",
+      "rubric": "psychology",
+      "slot": "A",
+      "cta": false,
+      "photo": false,
+      "dateKey": "2026-07-04",
+      "ts": "2026-07-04T08:09:49.042Z",
+      "messageId": 13
     }
   ],
-  "_updated": "2026-07-04T05:07:56.598Z"
+  "_updated": "2026-07-04T08:09:49.929Z"
 }
