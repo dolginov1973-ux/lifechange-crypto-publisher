@@ -912,7 +912,40 @@
       "dateKey": "2026-07-06",
       "ts": "2026-07-06T10:15:58.235Z",
       "messageId": 95
+    },
+    {
+      "id": "hi-psychology-004",
+      "channel": "hi",
+      "rubric": "psychology",
+      "slot": "B",
+      "cta": false,
+      "photo": false,
+      "dateKey": "2026-07-06",
+      "ts": "2026-07-06T14:06:10.189Z",
+      "messageId": 31
+    },
+    {
+      "id": "vi-psychology-004",
+      "channel": "vi",
+      "rubric": "psychology",
+      "slot": "B",
+      "cta": false,
+      "photo": false,
+      "dateKey": "2026-07-06",
+      "ts": "2026-07-06T14:06:10.189Z",
+      "messageId": 29
+    },
+    {
+      "id": "id-psychology-004",
+      "channel": "id",
+      "rubric": "psychology",
+      "slot": "B",
+      "cta": false,
+      "photo": false,
+      "dateKey": "2026-07-06",
+      "ts": "2026-07-06T14:06:10.189Z",
+      "messageId": 27
     }
   ],
-  "_updated": "2026-07-06T10:15:58.752Z"
+  "_updated": "2026-07-06T14:06:11.611Z"
 }
