@@ -967,7 +967,18 @@
       "dateKey": "2026-07-06",
       "ts": "2026-07-06T17:20:28.410Z",
       "messageId": 14
+    },
+    {
+      "id": "pt-psychology-004",
+      "channel": "pt",
+      "rubric": "psychology",
+      "slot": "B",
+      "cta": false,
+      "photo": false,
+      "dateKey": "2026-07-06",
+      "ts": "2026-07-06T21:10:11.285Z",
+      "messageId": 30
     }
   ],
-  "_updated": "2026-07-06T17:20:29.299Z"
+  "_updated": "2026-07-06T21:10:11.760Z"
 }
