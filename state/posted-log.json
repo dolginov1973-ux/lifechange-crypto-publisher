@@ -1033,7 +1033,29 @@
       "dateKey": "2026-07-07",
       "ts": "2026-07-07T13:33:05.199Z",
       "messageId": 32
+    },
+    {
+      "id": "tr-education-003",
+      "channel": "tr",
+      "rubric": "education",
+      "slot": "B",
+      "cta": false,
+      "photo": false,
+      "dateKey": "2026-07-07",
+      "ts": "2026-07-07T16:28:28.828Z",
+      "messageId": 31
+    },
+    {
+      "id": "ru-education-004",
+      "channel": "ru",
+      "rubric": "education",
+      "slot": "B",
+      "cta": false,
+      "photo": false,
+      "dateKey": "2026-07-07",
+      "ts": "2026-07-07T16:28:28.828Z",
+      "messageId": 15
     }
   ],
-  "_updated": "2026-07-07T13:33:06.014Z"
+  "_updated": "2026-07-07T16:28:29.838Z"
 }
