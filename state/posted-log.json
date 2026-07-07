@@ -989,7 +989,40 @@
       "dateKey": "2026-07-06",
       "ts": "2026-07-07T00:06:41.451Z",
       "messageId": 30
+    },
+    {
+      "id": "en-education-003",
+      "channel": "en",
+      "rubric": "education",
+      "slot": "B",
+      "cta": false,
+      "photo": false,
+      "dateKey": "2026-07-07",
+      "ts": "2026-07-07T11:24:16.079Z",
+      "messageId": 96
+    },
+    {
+      "id": "vi-education-003",
+      "channel": "vi",
+      "rubric": "education",
+      "slot": "B",
+      "cta": false,
+      "photo": false,
+      "dateKey": "2026-07-07",
+      "ts": "2026-07-07T11:24:16.079Z",
+      "messageId": 30
+    },
+    {
+      "id": "id-education-003",
+      "channel": "id",
+      "rubric": "education",
+      "slot": "B",
+      "cta": false,
+      "photo": false,
+      "dateKey": "2026-07-07",
+      "ts": "2026-07-07T11:24:16.079Z",
+      "messageId": 28
     }
   ],
-  "_updated": "2026-07-07T00:06:41.875Z"
+  "_updated": "2026-07-07T11:24:17.211Z"
 }
