@@ -1088,7 +1088,40 @@
       "dateKey": "2026-07-07",
       "ts": "2026-07-08T01:03:16.337Z",
       "messageId": 31
+    },
+    {
+      "id": "hi-checklist-002",
+      "channel": "hi",
+      "rubric": "checklist",
+      "slot": "A",
+      "cta": false,
+      "photo": false,
+      "dateKey": "2026-07-08",
+      "ts": "2026-07-08T04:44:33.989Z",
+      "messageId": 33
+    },
+    {
+      "id": "vi-checklist-002",
+      "channel": "vi",
+      "rubric": "checklist",
+      "slot": "A",
+      "cta": false,
+      "photo": false,
+      "dateKey": "2026-07-08",
+      "ts": "2026-07-08T04:44:33.989Z",
+      "messageId": 31
+    },
+    {
+      "id": "id-checklist-002",
+      "channel": "id",
+      "rubric": "checklist",
+      "slot": "A",
+      "cta": false,
+      "photo": false,
+      "dateKey": "2026-07-08",
+      "ts": "2026-07-08T04:44:33.989Z",
+      "messageId": 29
     }
   ],
-  "_updated": "2026-07-08T01:03:17.360Z"
+  "_updated": "2026-07-08T04:44:35.191Z"
 }
