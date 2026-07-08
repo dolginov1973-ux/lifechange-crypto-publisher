@@ -1154,7 +1154,18 @@
       "dateKey": "2026-07-08",
       "ts": "2026-07-08T14:00:00.090Z",
       "messageId": 32
+    },
+    {
+      "id": "es-checklist-002",
+      "channel": "es",
+      "rubric": "checklist",
+      "slot": "A",
+      "cta": false,
+      "photo": false,
+      "dateKey": "2026-07-08",
+      "ts": "2026-07-08T16:05:44.689Z",
+      "messageId": 32
     }
   ],
-  "_updated": "2026-07-08T14:00:00.770Z"
+  "_updated": "2026-07-08T16:05:45.338Z"
 }
