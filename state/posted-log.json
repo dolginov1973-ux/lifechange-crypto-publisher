@@ -1121,7 +1121,29 @@
       "dateKey": "2026-07-08",
       "ts": "2026-07-08T04:44:33.989Z",
       "messageId": 29
+    },
+    {
+      "id": "tr-checklist-002",
+      "channel": "tr",
+      "rubric": "checklist",
+      "slot": "A",
+      "cta": false,
+      "photo": false,
+      "dateKey": "2026-07-08",
+      "ts": "2026-07-08T07:27:16.730Z",
+      "messageId": 32
+    },
+    {
+      "id": "ru-checklist-003",
+      "channel": "ru",
+      "rubric": "checklist",
+      "slot": "A",
+      "cta": false,
+      "photo": false,
+      "dateKey": "2026-07-08",
+      "ts": "2026-07-08T07:27:16.730Z",
+      "messageId": 16
     }
   ],
-  "_updated": "2026-07-08T04:44:35.191Z"
+  "_updated": "2026-07-08T07:27:17.515Z"
 }
