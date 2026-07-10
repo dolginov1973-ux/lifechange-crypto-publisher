@@ -1231,7 +1231,29 @@
       "dateKey": "2026-07-10",
       "ts": "2026-07-10T08:20:42.726Z",
       "messageId": 18
+    },
+    {
+      "id": "pnl-20260625-skr-short-vi",
+      "channel": "vi",
+      "rubric": "pnl",
+      "slot": "B",
+      "cta": false,
+      "photo": true,
+      "dateKey": "2026-07-10",
+      "ts": "2026-07-10T11:24:38.035Z",
+      "messageId": 34
+    },
+    {
+      "id": "pnl-20260625-skr-short-id",
+      "channel": "id",
+      "rubric": "pnl",
+      "slot": "B",
+      "cta": false,
+      "photo": true,
+      "dateKey": "2026-07-10",
+      "ts": "2026-07-10T11:24:38.035Z",
+      "messageId": 32
     }
   ],
-  "_updated": "2026-07-10T08:20:43.836Z"
+  "_updated": "2026-07-10T11:24:40.190Z"
 }
