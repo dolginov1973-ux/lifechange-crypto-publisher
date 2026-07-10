@@ -1209,7 +1209,29 @@
       "dateKey": "2026-07-10",
       "ts": "2026-07-10T04:32:52.092Z",
       "messageId": 31
+    },
+    {
+      "id": "tr-education-004",
+      "channel": "tr",
+      "rubric": "education",
+      "slot": "A",
+      "cta": false,
+      "photo": false,
+      "dateKey": "2026-07-10",
+      "ts": "2026-07-10T08:20:42.726Z",
+      "messageId": 34
+    },
+    {
+      "id": "ru-education-005",
+      "channel": "ru",
+      "rubric": "education",
+      "slot": "A",
+      "cta": false,
+      "photo": false,
+      "dateKey": "2026-07-10",
+      "ts": "2026-07-10T08:20:42.726Z",
+      "messageId": 18
     }
   ],
-  "_updated": "2026-07-10T04:32:53.506Z"
+  "_updated": "2026-07-10T08:20:43.836Z"
 }
