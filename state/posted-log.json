@@ -1275,7 +1275,18 @@
       "dateKey": "2026-07-10",
       "ts": "2026-07-10T15:55:14.500Z",
       "messageId": 34
+    },
+    {
+      "id": "pnl-20260625-skr-short-es",
+      "channel": "es",
+      "rubric": "pnl",
+      "slot": "B",
+      "cta": false,
+      "photo": true,
+      "dateKey": "2026-07-10",
+      "ts": "2026-07-11T00:56:20.238Z",
+      "messageId": 35
     }
   ],
-  "_updated": "2026-07-10T15:55:15.105Z"
+  "_updated": "2026-07-11T00:56:21.160Z"
 }
