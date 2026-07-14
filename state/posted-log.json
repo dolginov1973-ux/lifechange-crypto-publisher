@@ -1396,7 +1396,18 @@
       "dateKey": "2026-07-14",
       "ts": "2026-07-14T12:09:57.058Z",
       "messageId": 34
+    },
+    {
+      "id": "hi-education-006",
+      "channel": "hi",
+      "rubric": "education",
+      "slot": "B",
+      "cta": true,
+      "photo": false,
+      "dateKey": "2026-07-14",
+      "ts": "2026-07-14T14:23:40.841Z",
+      "messageId": 37
     }
   ],
-  "_updated": "2026-07-14T12:09:57.936Z"
+  "_updated": "2026-07-14T14:23:41.439Z"
 }
