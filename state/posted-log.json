@@ -1429,7 +1429,18 @@
       "dateKey": "2026-07-14",
       "ts": "2026-07-14T15:56:29.271Z",
       "messageId": 19
+    },
+    {
+      "id": "pt-education-005",
+      "channel": "pt",
+      "rubric": "education",
+      "slot": "B",
+      "cta": false,
+      "photo": false,
+      "dateKey": "2026-07-14",
+      "ts": "2026-07-14T21:30:25.095Z",
+      "messageId": 36
     }
   ],
-  "_updated": "2026-07-14T15:56:30.593Z"
+  "_updated": "2026-07-14T21:30:25.749Z"
 }
