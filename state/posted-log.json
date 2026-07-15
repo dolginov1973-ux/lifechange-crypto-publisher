@@ -1440,7 +1440,51 @@
       "dateKey": "2026-07-14",
       "ts": "2026-07-14T21:30:25.095Z",
       "messageId": 36
+    },
+    {
+      "id": "en-checklist-003",
+      "channel": "en",
+      "rubric": "checklist",
+      "slot": "A",
+      "cta": false,
+      "photo": false,
+      "dateKey": "2026-07-15",
+      "ts": "2026-07-15T02:12:43.327Z",
+      "messageId": 102
+    },
+    {
+      "id": "vi-checklist-003",
+      "channel": "vi",
+      "rubric": "checklist",
+      "slot": "A",
+      "cta": false,
+      "photo": false,
+      "dateKey": "2026-07-15",
+      "ts": "2026-07-15T02:12:43.327Z",
+      "messageId": 37
+    },
+    {
+      "id": "es-education-006",
+      "channel": "es",
+      "rubric": "education",
+      "slot": "B",
+      "cta": true,
+      "photo": false,
+      "dateKey": "2026-07-14",
+      "ts": "2026-07-15T02:12:43.327Z",
+      "messageId": 37
+    },
+    {
+      "id": "id-checklist-003",
+      "channel": "id",
+      "rubric": "checklist",
+      "slot": "A",
+      "cta": false,
+      "photo": false,
+      "dateKey": "2026-07-15",
+      "ts": "2026-07-15T02:12:43.327Z",
+      "messageId": 35
     }
   ],
-  "_updated": "2026-07-14T21:30:25.749Z"
+  "_updated": "2026-07-15T02:12:44.480Z"
 }
