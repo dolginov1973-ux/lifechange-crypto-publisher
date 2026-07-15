@@ -1495,7 +1495,18 @@
       "dateKey": "2026-07-15",
       "ts": "2026-07-15T05:14:04.471Z",
       "messageId": 38
+    },
+    {
+      "id": "tr-checklist-003",
+      "channel": "tr",
+      "rubric": "checklist",
+      "slot": "A",
+      "cta": false,
+      "photo": false,
+      "dateKey": "2026-07-15",
+      "ts": "2026-07-15T07:28:25.135Z",
+      "messageId": 37
     }
   ],
-  "_updated": "2026-07-15T05:14:05.047Z"
+  "_updated": "2026-07-15T07:28:25.832Z"
 }
