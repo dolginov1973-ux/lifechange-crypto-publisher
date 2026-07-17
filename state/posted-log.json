@@ -1561,7 +1561,18 @@
       "dateKey": "2026-07-17",
       "ts": "2026-07-17T04:15:05.555Z",
       "messageId": 36
+    },
+    {
+      "id": "tr-education-006",
+      "channel": "tr",
+      "rubric": "education",
+      "slot": "A",
+      "cta": true,
+      "photo": false,
+      "dateKey": "2026-07-17",
+      "ts": "2026-07-17T06:37:05.707Z",
+      "messageId": 38
     }
   ],
-  "_updated": "2026-07-17T04:15:06.609Z"
+  "_updated": "2026-07-17T06:37:06.626Z"
 }
